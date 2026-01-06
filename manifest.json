@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "建国及び戦争ができるアドオン",
+        "name": "CountryWars v.1.0.0",
+        "uuid": "d23a70f8-df54-4aa5-9b7e-166e5d17e6d2",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            60
+        ]
+    },
+    "modules": [
+        {
+            "description": "data",
+            "type": "resources",
+            "uuid": "d059deab-8e0c-4558-970c-8f979d76959a",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "2d60ab3d-c725-4719-bfa1-dcd123de34a4",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
