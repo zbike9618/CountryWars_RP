@@ -2,3 +2,6 @@
 cw.initialSpawn=Thank you for joining
 //建国フォーム
 cw.mcform.title=Create Country
+cw.mcform.WriteCountryNameLabel=Country Name
+cw.mcform.WriteCountryNamePlaceholder=Enter country name
+cw.mcform.toggle=Is Peace

@@ -2,3 +2,6 @@
 cw.initialSpawn=参加ありがとうございます
 //建国フォーム
 cw.mcform.title=建国
+cw.mcform.WriteCountryNameLabel=国名
+cw.mcform.WriteCountryNamePlaceholder=国名を入力してください
+cw.mcform.toggle=平和主義か
