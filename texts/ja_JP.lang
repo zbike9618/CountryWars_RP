@@ -5,3 +5,7 @@ cw.mcform.title=建国
 cw.mcform.WriteCountryNameLabel=国名
 cw.mcform.WriteCountryNamePlaceholder=国名を入力してください
 cw.mcform.toggle=平和主義か
+//tpaフォーム
+cw.tpaform.title=tp申請
+cw.tpaform.accept=tp申請する
+cw.tpaform.recieve=tp申請を受ける

@@ -5,3 +5,7 @@ cw.mcform.title=Create Country
 cw.mcform.WriteCountryNameLabel=Country Name
 cw.mcform.WriteCountryNamePlaceholder=Enter country name
 cw.mcform.toggle=Is Peace
+//tpaフォーム
+cw.tpaform.title=tpTo
+cw.tpaform.accept=tp accept
+cw.tpaform.recieve=tp recieve
