@@ -3,6 +3,7 @@ cw.initialSpawn=参加ありがとうございます
 //フォームの基本
 cw.form.yes=はい
 cw.form.no=いいえ
+cw.form.redo=戻る
 cw.form.cancel=キャンセル
 cw.form.accept=許可
 cw.form.deny=拒否
@@ -17,6 +18,7 @@ cw.tpaform.title=tp申請
 cw.tpaform.accept=tp申請する
 cw.tpaform.recieve=tp申請を受ける(%s)
 cw.tpaformR.body=tp申請を許可しますか？\n%s => %s
+cw.tpaformR.nobodyAccept=tp申請がだれからも来ていません
 cw.tpaformS.body=tp申請をしていいですか？\n%s => %s
 cw.tpa.send=tp申請を%sに送りました
 cw.tpa.send=%sからtp申請を受けました\n/tpaで受けれます
