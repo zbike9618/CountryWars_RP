@@ -1,11 +1,43 @@
 //英語
-cw.initialSpawn=Thank you for joining
+cw.initialSpawn=§a§lThank you for installing CountryWars!§r\n§7Create your own country and enjoy alliances, wars, and development.\n§6Open the country creation form to get started!
+
+//フォームの基本
+cw.form.yes=§aYes
+cw.form.no=§cNo
+cw.form.redo=§6Back
+cw.form.cancel=§7Cancel
+cw.form.accept=§a§lAccept
+cw.form.deny=§c§lDeny
+
 //建国フォーム
-cw.mcform.title=Create Country
-cw.mcform.WriteCountryNameLabel=Country Name
-cw.mcform.WriteCountryNamePlaceholder=Enter country name
-cw.mcform.toggle=Is Peace
-//tpaフォーム
-cw.tpaform.title=tpTo
-cw.tpaform.accept=tp accept
-cw.tpaform.recieve=tp recieve
+cw.mcform.title=§6§lCreate Country
+cw.mcform.WriteCountryNameLabel=§bCountry Name
+cw.mcform.WriteCountryNamePlaceholder=§7Enter country name
+cw.mcform.toggle=§dSelect National Policy\n§7(Peaceful / Non-Peaceful)
+
+//tpa
+cw.tpaform.title=§9§lTeleport
+cw.tpaform.accept=§aTeleport Request
+cw.tpaform.request=§bTeleport Ask
+cw.tpaform.recieve=§6Received List (§f%s§6)
+
+cw.tpaformS.nobodyAccept=§7No available players to teleport to
+cw.tpaformS.body=§7Send a teleport request from §f%s§7 to §f%s§7?
+
+cw.tpaformR.nobodyAccept=§7No teleport requests
+cw.tpaformR.body=§f%s§6 has sent you a teleport request.\n§aAccept§7 it?
+
+cw.tpaformReq.body=§7Send a teleport ask to §f%s§7?
+cw.tpaformReq.recieve=§f%s§6 has sent you a teleport ask.\n§aAccept§7 it?
+
+cw.tpa.send=§7Teleport request sent to §a%s
+cw.tpa.notice=§6%s§7 has sent you a teleport request
+
+cw.tpa.secondsend=§7You have already sent a teleport request to §c%s
+cw.tpa.secondnotice=§6%s§7 has sent you another teleport request
+
+cw.tpa.request=§7Teleport ask sent to §b%s
+cw.tpa.requestnotice=§6%s§7 has sent you a teleport ask\n§7Use §a/tpa§7 to accept
+
+cw.tpa.secondrequest=§7You have already sent a teleport ask to §c%s
+cw.tpa.secondrequestnotice=§6%s§7 has sent you another teleport ask\n§7Use §a/tpa§7 to accept
