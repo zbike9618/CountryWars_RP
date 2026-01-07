@@ -19,6 +19,9 @@ cw.tpaform.accept=tp申請する
 cw.tpaform.recieve=tp申請を受ける(%s)
 cw.tpaformR.body=tp申請を許可しますか？\n%s => %s
 cw.tpaformR.nobodyAccept=tp申請がだれからも来ていません
+cw.tpaformS.nobodyAccept=tp申請できる人が誰もいません
 cw.tpaformS.body=tp申請をしていいですか？\n%s => %s
-cw.tpa.send=tp申請を%sに送りました
+cw.tpa.notice=tp申請を%sに送りました
 cw.tpa.send=%sからtp申請を受けました\n/tpaで受けれます
+cw.tpa.secondnotice=tp申請をすでに%sに送っています。
+cw.tpa.secondsend=%sからtp申請を再度受けました\n/tpaで受けれます
