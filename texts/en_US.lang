@@ -1,5 +1,5 @@
 //英語
-cw.initialSpawn=§a§lThank you for installing CountryWars!§r\n§7Create your own country and enjoy alliances, wars, and development.\n§6Open the country creation form to get started!
+cw.initialSpawn=§a§lThank you for installing CountryWars!§r\n§7Create your own country and enjoy alliances, wars, and development.\n§6Open the country creation form to get started!\n§8Note: Translations may not be perfect.
 
 //フォームの基本
 cw.form.yes=§aYes
