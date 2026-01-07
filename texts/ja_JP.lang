@@ -13,6 +13,7 @@ cw.mcform.title=§6§l建国フォーム
 cw.mcform.WriteCountryNameLabel=§b国名
 cw.mcform.WriteCountryNamePlaceholder=§7国名を入力してください
 cw.mcform.toggle=§d国家方針の選択\n§7（平和主義 / 非平和主義）
+
 //tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
