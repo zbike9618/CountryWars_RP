@@ -14,14 +14,21 @@ cw.mcform.WriteCountryNameLabel=国名
 cw.mcform.WriteCountryNamePlaceholder=国名を入力してください
 cw.mcform.toggle=平和主義か
 //tpa
-cw.tpaform.title=tp申請
-cw.tpaform.accept=tp申請する
-cw.tpaform.recieve=tp申請を受ける(%s)
-cw.tpaformR.body=tp申請を許可しますか？\n%s => %s
-cw.tpaformR.nobodyAccept=tp申請がだれからも来ていません
-cw.tpaformS.nobodyAccept=tp申請できる人が誰もいません
-cw.tpaformS.body=tp申請をしていいですか？\n%s => %s
-cw.tpa.notice=tp申請を%sに送りました
-cw.tpa.send=%sからtp申請を受けました\n/tpaで受けれます
-cw.tpa.secondnotice=tp申請をすでに%sに送っています。
-cw.tpa.secondsend=%sからtp申請を再度受けました\n/tpaで受けれます
+cw.tpaform.title=テレポート
+cw.tpaform.accept=テレポート申請
+cw.tpaform.request=テレポート要請
+cw.tpaform.recieve=受信リスト (%s)
+cw.tpaformS.nobodyAccept=テレポート可能なプレイヤーがいません
+cw.tpaformS.body=%sが%sにテレポート申請を送信しますか？
+cw.tpaformR.nobodyAccept=テレポート申請がありません
+cw.tpaformR.body=%sからのテレポート申請があります。承認しますか？
+cw.tpaformReq.body=%sにテレポート要請を送信しますか？
+cw.tpaformReq.recieve=%sからのテレポート要請があります。承認しますか？
+cw.tpa.send=%sにテレポート申請を送信しました
+cw.tpa.notice=%sからテレポート申請が届きました
+cw.tpa.secondsend=%sには既にテレポート申請を送信済みです
+cw.tpa.secondnotice=%sから再度テレポート申請が届きました
+cw.tpa.request=%sにテレポート要請を送信しました
+cw.tpa.requestnotice=%sからテレポート要請が届きました\n/tpaで承認できます
+cw.tpa.secondrequest=%sには既にテレポート要請を送信済みです
+cw.tpa.secondrequestnotice=%sから再度テレポート要請が届きました\n/tpaで承認できます
