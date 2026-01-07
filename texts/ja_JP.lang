@@ -8,11 +8,17 @@ cw.form.cancel=キャンセル
 cw.form.accept=許可
 cw.form.deny=拒否
 
-//建国フォーム
+//建国
 cw.mcform.title=建国
 cw.mcform.WriteCountryNameLabel=国名
 cw.mcform.WriteCountryNamePlaceholder=国名を入力してください
 cw.mcform.toggle=平和主義か
+cw.mcform.toggleTooltip=平和主義を選択すると、戦争をすることができません
+
+
+cw.mc.createMessage=§a[CountryWars] §6%s §rが建国されました
+
+//cw.scform.
 //tpa
 cw.tpaform.title=テレポート
 cw.tpaform.accept=テレポート申請
