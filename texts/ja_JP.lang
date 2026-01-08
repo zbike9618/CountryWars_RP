@@ -8,6 +8,8 @@ cw.form.cancel=キャンセル
 cw.form.accept=§a§l許可
 cw.form.deny=§c§l拒否
 
+cw.form.playerchoiseInCountry=プレイヤーの選択
+
 //建国フォーム
 cw.mcform.title=§6§l建国フォーム
 cw.mcform.WriteCountryNameLabel=§b国名
@@ -23,6 +25,18 @@ cw.scform.information=基本情報
 cw.scform.informations="国の名前 : %s\n国の説明 : %s"
 cw.scform.setting=設定する
 cw.scform.unjoincountry=あなたは国に所属していません
+
+cw.scform.permission=権限
+cw.scform.permission.set=権限を渡す
+cw.scform.permission.make=権限を作成する
+cw.scform.permission.make.name=権限の名前
+cw.scform.permission.edit=権限を編集する
+cw.scform.permission.edit.delete=権限を削除する
+cw.scform.permission.edit.delete.tooltip=オンにして送信するとこの権限は削除されます
+cw.scform.permission.choice=権限を選択する
+//権限
+cw.scform.permissions.information=国の情報を変更できるか
+cw.scform.permissions.permission=権限を決めれるか
 //tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
