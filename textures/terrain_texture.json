@@ -1,0 +1,20 @@
+{
+    "num_mip_levels" : 4,
+    "padding" : 8,
+    "resource_pack_name" : "player_trophy",
+    "texture_data" : {
+      "zsan" : {
+      "textures" : "textures/blocks/zsan"
+       },"fsan" : {
+         "textures" : "textures/blocks/fsan"
+       },"bsan" : {
+         "textures" : "textures/blocks/bsan"
+       },"csan" : {
+         "textures" : "textures/blocks/csan"
+       },"tsan" : {
+         "textures" : "textures/blocks/tsan"
+       }
+    },
+    "texture_name" : "atlas.terrain"
+}
+ 
