@@ -4,7 +4,7 @@ cw.initialSpawn=§a§lCountryWarsを導入していただきありがとうご�
 cw.form.yes=§aはい
 cw.form.no=§cいいえ
 cw.form.redo=§6戻る
-cw.form.cancel=§7キャンセル
+cw.form.cancel=キャンセル
 cw.form.accept=§a§l許可
 cw.form.deny=§c§l拒否
 
@@ -12,7 +12,7 @@ cw.form.deny=§c§l拒否
 cw.mcform.title=§6§l建国フォーム
 cw.mcform.WriteCountryNameLabel=§b国名
 cw.mcform.WriteCountryNamePlaceholder=§7国名を入力してください
-cw.mcform.toggle=§d国家方針の選択\n§7（平和主義 / 非平和主義）
+cw.mcform.toggle=§d国家方針の選択\n§7（非平和主義 / 平和主義）
 cw.mcform.toggleTooltip=平和主義を選択すると、戦争をすることができません
 
 
@@ -22,6 +22,7 @@ cw.scform.title=国の設定
 cw.scform.information=基本情報
 cw.scform.informations="国の名前 : %s\n国の説明 : %s"
 cw.scform.setting=設定する
+cw.scform.unjoincountry=あなたは国に所属していません
 //tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
