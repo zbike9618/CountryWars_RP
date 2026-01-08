@@ -18,8 +18,10 @@ cw.mcform.toggleTooltip=平和主義を選択すると、戦争をすること�
 
 cw.mc.createMessage=§a[CountryWars] §6%s §rが建国されました
 
-//cw.scform.
-
+cw.scform.title=国の設定
+cw.scform.information=基本情報
+cw.scform.informations="国の名前 : %s\n国の説明 : %s"
+cw.scform.setting=設定する
 //tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
