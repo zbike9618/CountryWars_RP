@@ -13,8 +13,11 @@
          "textures" : "textures/blocks/csan"
        },"tsan" : {
          "textures" : "textures/blocks/tsan"
+       },"Z" : {
+         "textures" : "textures/blocks/Z"
        }
     },
     "texture_name" : "atlas.terrain"
 }
+
  
