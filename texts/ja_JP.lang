@@ -25,7 +25,7 @@ cw.mcform.createMessage=§a[CountryWars] §6%s §rが建国されました
 
 cw.scform.title=国の設定
 cw.scform.information=基本情報
-cw.scform.informations=国の名前 : %s\n国の説明 : %s\n国王 : %s\nメンバー : %s\n国庫 : %s円
+cw.scform.informations=国の名前 : %s\n国の説明 : %s\n国王 : %s\nメンバー : %s\n国庫 : %s円\n消費税 : %s％  所得税 : %s％\n国民税 : %s％  関税 : %s％
 cw.scform.information.description=国の説明
 cw.scform.information.name=国の名前
 
@@ -50,6 +50,12 @@ cw.scform.money.withdraw.countrynomoney=国庫にそこまでのお金があり�
 cw.scform.money.deposit.success=国庫に%s円預けました
 cw.scform.money.withdraw.success=%s円引き出しました
 
+cw.scform.tax=税金
+cw.scform.tax.consumption=消費税[％]
+cw.scform.tax.income=所得税[％]
+cw.scform.tax.country=国民税[％]
+cw.scform.tax.customs=関税[％]
+
 
 
 cw.scform.delete=国を解体する
@@ -73,7 +79,7 @@ cw.scform.permission.nopermission=権限がありません
 cw.scform.permissions.information=国の情報を変更できるか
 cw.scform.permissions.permission=権限を決めれるか
 cw.scform.permissions.member_invite=メンバーを招待できるか
-cw.scform.permissions.member_kick=メンバーを追放
+cw.scform.permissions.member_kick=メンバーを追放できるか
 cw.scform.permissions.money_deposit=国庫に預けられるか
 cw.scform.permissions.money_withdraw=国庫から引き出せるか
 //tpa
