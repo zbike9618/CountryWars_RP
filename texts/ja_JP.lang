@@ -7,7 +7,8 @@ cw.form.redo=§l§6戻る
 cw.form.cancel=§lキャンセル
 cw.form.accept=§l§a許可
 cw.form.deny=§l§c拒否
-
+cw.form.buy=§l§a購入する
+cw.form.sell=§l§c売却する
 cw.form.playerchoise=プレイヤーの選択
 cw.form.noplayers=プレイヤーがいません
 
@@ -25,7 +26,7 @@ cw.mcform.createMessage=§a[CountryWars] §6%s §rが建国されました
 
 cw.scform.title=国の設定
 cw.scform.information=基本情報
-cw.scform.informations=国の名前 : %s\n国の説明 : %s\n国王 : %s\nメンバー : %s\n国庫 : %s円\n消費税 : %s％  所得税 : %s％\n国民税 : %s％  関税 : %s％
+cw.scform.informations=国の名前 : %s\n国の説明 : %s\n国王 : %s\nメンバー : %s\n国庫 : ¥%s\n消費税 : %s％  所得税 : %s％\n国民税 : %s％  関税 : %s％
 cw.scform.information.description=国の説明
 cw.scform.information.name=国の名前
 
@@ -44,11 +45,11 @@ cw.scform.member.invited=%s から招待が送られました\n/mbで受け取�
 cw.scform.money=国庫
 cw.scform.money.deposit=預ける
 cw.scform.money.withdraw=引き出す
-cw.scform.money.title=現在のお金 : %s 円\n国庫 : %s 円
+cw.scform.money.title=現在のお金 : ¥%s\n国庫 : ¥%s
 cw.scform.money.deposit.noenough=お金が足りません
 cw.scform.money.withdraw.countrynomoney=国庫にそこまでのお金がありません
-cw.scform.money.deposit.success=国庫に%s円預けました
-cw.scform.money.withdraw.success=%s円引き出しました
+cw.scform.money.deposit.success=国庫に¥%s預けました
+cw.scform.money.withdraw.success=¥%s引き出しました
 
 cw.scform.tax=税金
 cw.scform.tax.consumption=消費税[％]
@@ -125,3 +126,14 @@ cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
 cw.messagebox.send.success=%s にメッセージを送りました
 cw.messagebox.send.recieve=%s からのメッセージが届いています
+
+//チャンク
+cw.chunk.buy.title=チャンクを購入
+cw.chunk.buy.body=現在いるチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(現在のお金 : ¥%s)
+cw.chunk.buy.success=現在いるチャンクを購入しました
+cw.chunk.buy.nomoney=お金が足りないため購入できません
+cw.chunk.buy.already=このチャンクは%s の領土です
+cw.chunk.check=今いるチャンクは %s の領土です
+cw.chunk.wasteland=今いるチャンクは荒地です
+cw.chunk.sell.notfound=このチャンクは売却できません
+cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
