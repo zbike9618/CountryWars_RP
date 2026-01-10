@@ -23,7 +23,7 @@ cw.mcform.createMessage=§a[CountryWars] §6%s §rが建国されました
 
 cw.scform.title=国の設定
 cw.scform.information=基本情報
-cw.scform.informations=国の名前 : %s\n国の説明 : %s
+cw.scform.informations=国の名前 : %s\n国の説明 : %s\n 国王 : %s\nメンバー : %s
 cw.scform.information.description=国の説明
 cw.scform.information.name=国の名前
 
@@ -80,17 +80,21 @@ cw.tpa.requestnotice=§6%s§7からテレポート要請が届きました\n§a/
 
 cw.tpa.secondrequest=§c%s§7には既にテレポート要請を送信済みです
 cw.tpa.secondrequestnotice=§6%s§7から§6再度§7テレポート要請が届きました\n§a/tpa§7で承認できます
-
-//メッセージボックスr
+//メッセージボックス
 cw.messagebox.title=メッセージボックス
 cw.messagebox.recieve=受信(%s)
 cw.messagebox.recieve.tpa=[tpa] From (%s)
 cw.messagebox.recieve.tpaRequest=[tpaRequest] From (%s)
 cw.messagebox.recieve.invitecountry=[CountryInvite] From (%s)
+cw.messagebox.recieve.message=[Message] From (%s)
 
 cw.messagebox.recieve.tpa.read=%s からのtp申請が届いています\n許可しますか？
 cw.messagebox.recieve.tpaRequest.read=%s からのtp要請が届いています\n許可しますか？
 cw.messagebox.recieve.invitecountry.read=%s からの招待が届いています\n許可しますか？
+cw.messagebox.recieve.norequests=受信メッセージがありません
+cw.messagebox.recieve.message.read=%s からのメッセージが届いています\n%s
 
 cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
+cw.messagebox.send.success=%s にメッセージを送りました
+cw.messagebox.send.recieve=%s からのメッセージが届いています
