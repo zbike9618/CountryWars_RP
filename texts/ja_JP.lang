@@ -1,16 +1,17 @@
 //日本語
 cw.initialSpawn=§a§lCountryWarsを導入していただきありがとうございます！§r\n§7ここでは国を作り、同盟・戦争・発展を楽しめます。\n§6まずは建国フォームを開いて国を作成しましょう！
 //フォームの基本
-cw.form.yes=§aはい
-cw.form.no=§cいいえ
-cw.form.redo=§6戻る
-cw.form.cancel=キャンセル
-cw.form.accept=§a§l許可
-cw.form.deny=§c§l拒否
+cw.form.yes=§l§aはい
+cw.form.no=§l§cいいえ
+cw.form.redo=§l§6戻る
+cw.form.cancel=§lキャンセル
+cw.form.accept=§l§a許可
+cw.form.deny=§l§c拒否
 
-cw.form.playerchoiseInCountry=プレイヤーの選択
-
+cw.form.playerchoise=プレイヤーの選択
+cw.form.noplayers=プレイヤーがいません
 //建国フォーム
+cw.mcform.alreadyCountry=あなたはすでに国に所属しています
 cw.mcform.title=§6§l建国フォーム
 cw.mcform.WriteCountryNameLabel=§b国名
 cw.mcform.WriteCountryNamePlaceholder=§7国名を入力してください
@@ -18,13 +19,28 @@ cw.mcform.toggle=§d国家方針の選択\n§7（非平和主義 / 平和主義�
 cw.mcform.toggleTooltip=平和主義を選択すると、戦争をすることができません
 
 
-cw.mc.createMessage=§a[CountryWars] §6%s §rが建国されました
+cw.mcform.createMessage=§a[CountryWars] §6%s §rが建国されました
 
 cw.scform.title=国の設定
 cw.scform.information=基本情報
-cw.scform.informations="国の名前 : %s\n国の説明 : %s"
+cw.scform.informations=国の名前 : %s\n国の説明 : %s
+cw.scform.information.description=国の説明
+cw.scform.information.name=国の名前
+
 cw.scform.setting=設定する
 cw.scform.unjoincountry=あなたは国に所属していません
+
+cw.scform.member.invite=招待する
+cw.scform.member.sendinvite=%s に招待を送りました
+
+cw.scform.member.invited=%s から招待が送られました\n/mbで受け取れます
+
+cw.scform.delete=国を解体する
+cw.scform.delete.check=本当に%sを解体しますか？
+cw.scform.deleteMessage=§a[CountryWars] §6%s§r が解体されました
+
+
+
 
 cw.scform.permission=権限
 cw.scform.permission.set=権限を渡す
@@ -34,6 +50,8 @@ cw.scform.permission.edit=権限を編集する
 cw.scform.permission.edit.delete=権限を削除する
 cw.scform.permission.edit.delete.tooltip=オンにして送信するとこの権限は削除されます
 cw.scform.permission.choice=権限を選択する
+cw.scform.permission.nopermission=権限がありません
+
 //権限
 cw.scform.permissions.information=国の情報を変更できるか
 cw.scform.permissions.permission=権限を決めれるか
@@ -62,3 +80,17 @@ cw.tpa.requestnotice=§6%s§7からテレポート要請が届きました\n§a/
 
 cw.tpa.secondrequest=§c%s§7には既にテレポート要請を送信済みです
 cw.tpa.secondrequestnotice=§6%s§7から§6再度§7テレポート要請が届きました\n§a/tpa§7で承認できます
+
+//メッセージボックスr
+cw.messagebox.title=メッセージボックス
+cw.messagebox.recieve=受信(%s)
+cw.messagebox.recieve.tpa=[tpa] From (%s)
+cw.messagebox.recieve.tpaRequest=[tpaRequest] From (%s)
+cw.messagebox.recieve.invitecountry=[CountryInvite] From (%s)
+
+cw.messagebox.recieve.tpa.read=%s からのtp申請が届いています\n許可しますか？
+cw.messagebox.recieve.tpaRequest.read=%s からのtp要請が届いています\n許可しますか？
+cw.messagebox.recieve.invitecountry.read=%s からの招待が届いています\n許可しますか？
+
+cw.messagebox.send=送信
+cw.messagebox.send.message=メッセージ
