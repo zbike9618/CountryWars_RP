@@ -1,0 +1,15 @@
+{
+    "resource_pack_name": "ToyphoneRP",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "toyphone": {
+            "textures": "textures/items/toyphone_item"
+        },"toyphone_blue": {
+            "textures": "textures/items/toyphone_item_blue"
+        },"toyphone_red": {
+            "textures": "textures/items/toyphone_item_red"
+        },"toyphone_white": {
+            "textures": "textures/items/toyphone_item_white"
+        }
+    }
+}

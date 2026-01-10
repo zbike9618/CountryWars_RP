@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "cw:toyphone_red",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/toyphone_red",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.toyphone"
+      },
+      "animations": {
+        "item": "animation.toyphone"
+      },
+      "scripts": {
+        "parent_setup": "q.get_equipped_item_name == 'toyphone';",
+        "animate": [
+          "item",
+          {"item": "c.is_first_person"}
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"]
+    }
+  }
+}

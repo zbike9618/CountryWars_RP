@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.toyphone": {
+      "loop": true,
+      "animation_length": 4,
+      "bones": {
+        "rightItem": {
+          "rotation": {
+            "0.0": [
+              "c.is_first_person ? 80.0 : 45.0",
+              "c.is_first_person ? 20 : 0.0",
+              "c.is_first_person ? 0 : 0.0"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "c.is_first_person ? 0 : 0",
+              "c.is_first_person ? 6 : 0",
+              "c.is_first_person ? 0 : 0"
+            ]
+          },
+          "scale": 
+            "c.is_first_person ? 2 : 1"
+        }
+      }
+    }
+  }
+}
