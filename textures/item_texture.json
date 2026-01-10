@@ -10,6 +10,12 @@
             "textures": "textures/items/toyphone_item_red"
         },"toyphone_white": {
             "textures": "textures/items/toyphone_item_white"
+        },"kaihuku_kit1": {
+            "textures": "textures/items/kaihuku_kit_item1"
+        },"kaihuku_kit2": {
+            "textures": "textures/items/kaihuku_kit_item2"
+        },"kaihuku_kit3": {
+            "textures": "textures/items/kaihuku_kit_item3"
         }
     }
 }
