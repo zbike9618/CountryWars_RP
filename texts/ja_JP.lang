@@ -11,6 +11,7 @@ cw.form.buy=§l§a購入する
 cw.form.sell=§l§c売却する
 cw.form.playerchoise=プレイヤーの選択
 cw.form.noplayers=プレイヤーがいません
+cw.form.unjoincountry=あなたは国に所属していません
 
 //建国フォーム
 cw.mcform.alreadyCountry=あなたはすでに国に所属しています
@@ -26,12 +27,11 @@ cw.mcform.createMessage=§a[CountryWars] §6%s §rが建国されました
 
 cw.scform.title=国の設定
 cw.scform.information=基本情報
-cw.scform.informations=国の名前 : %s\n国の説明 : %s\n国王 : %s\nメンバー : %s\n国庫 : ¥%s\n消費税 : %s％  所得税 : %s％\n国民税 : %s％  関税 : %s％
+cw.scform.informations=国の名前 : %s\n国の説明 : %s\n国王 : %s\nメンバー : %s\n国庫 : ¥%s\n持ってるチャンク数 : %s\n消費税 : %s％  所得税 : %s％\n国民税 : %s％  関税 : %s％
 cw.scform.information.description=国の説明
 cw.scform.information.name=国の名前
 
 cw.scform.setting=設定する
-cw.scform.unjoincountry=あなたは国に所属していません
 
 cw.scform.member=メンバー
 cw.scform.member.invite=招待する
@@ -129,11 +129,14 @@ cw.messagebox.send.recieve=%s からのメッセージが届いています
 
 //チャンク
 cw.chunk.buy.title=チャンクを購入
-cw.chunk.buy.body=現在いるチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(現在のお金 : ¥%s)
-cw.chunk.buy.success=現在いるチャンクを購入しました
+cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(現在のお金 : ¥%s)
+cw.chunk.buy.success=このチャンクを購入しました
 cw.chunk.buy.nomoney=お金が足りないため購入できません
 cw.chunk.buy.already=このチャンクは%s の領土です
 cw.chunk.check=今いるチャンクは %s の領土です
 cw.chunk.wasteland=今いるチャンクは荒地です
 cw.chunk.sell.notfound=このチャンクは売却できません
+cw.chunk.sell.check=このチャンクを売却しますか？\n売却すると¥%sが国庫に入ります
 cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
+cw.chunk.actionbar.wasteland=荒地
+cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
