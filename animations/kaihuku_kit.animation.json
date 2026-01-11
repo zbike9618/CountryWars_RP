@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.kaihuku_kit": {
+      "loop": true,
+      "animation_length": 4,
+      "bones": {
+        "rightItem": {
+          "rotation": {
+            "0.0": [
+              "c.is_first_person ? 40.0 : -80.0",
+              "c.is_first_person ? 40.0 : -90.0",
+              "c.is_first_person ? 90 : 0.0"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "c.is_first_person ? 0 : 0",
+              "c.is_first_person ? -1 : -9",
+              "c.is_first_person ? 0 : 0"
+            ]
+          },
+          "scale": 
+            "c.is_first_person ? 0.5 : 0.7"
+        }
+      }
+    }
+  }
+}

@@ -140,3 +140,11 @@ cw.chunk.sell.check=このチャンクを売却しますか？\n売却すると�
 cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
+
+//phone
+check.money=所持金確認
+player.telepor=プレイヤーへテレポート
+message.system=メッセージ機能
+goto.lobby=ロビーへ
+select.job=職業選択
+went.lobby=<ロビーへテレポートしました>
