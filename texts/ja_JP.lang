@@ -126,6 +126,29 @@ cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
 cw.messagebox.send.success=%s にメッセージを送りました
 cw.messagebox.send.recieve=%s からのメッセージが届いています
+// jobs
+cw.jobsform.title=§6§l職業フォーム
+cw.jobsform.working=§a§l就職中
+cw.jobs.miner=鉱夫
+cw.jobs.hunter=狩猟者
+cw.jobs.lumberjack=木こり
+cw.jobs.farmer=農民
+cw.jobs.netherdigger=ネザー採掘者
+cw.jobs.builder=建築者
+cw.jobs.leave=§e職業「%s 」を辞めました
+cw.jobs.join=§a職業「%s 」に就きました！
+cw.jobs.limit=§c職業は最大 %s 個までです！
+cw.jobs.reward.actionbar.miner=§a 鉱夫として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.hunter=§a 狩猟者として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.lumberjack=§a 木こりとして %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.farmer=§a 農民として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.netherdigger=§a ネザー採掘者として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.builder=§a 建築者として %s $獲得！ 残高: %s $
+
+
+
+
+
 
 //チャンク
 cw.chunk.buy.title=チャンクを購入
