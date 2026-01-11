@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.xp_box": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"rightItem": {
+					"rotation": ["c.is_first_person ? 100 : 45.0", "c.is_first_person ? 60 : 0.0", "c.is_first_person ? -30 : 0.0"],
+					"position": ["c.is_first_person ? 0 : 0", "c.is_first_person ? 0 : -2", "c.is_first_person ? 0 : -2"],
+					"scale": "c.is_first_person ? 1.2 : 1"
+				},
+				"huta": {
+					"rotation": ["c.is_first_person ? 0 : 0", "c.is_first_person ? 0 : 0.0", "c.is_first_person ? 0 : 0.0"],
+					"position": ["c.is_first_person ? 0 : 0", "c.is_first_person ? 0 : 0", "c.is_first_person ? 0 : 0"],
+					"scale": "c.is_first_person ? 1 : 1"
+				}
+			}
+		}
+	}
+}

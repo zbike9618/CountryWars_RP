@@ -18,6 +18,10 @@
             "textures": "textures/items/kaihuku_kit_item3"
         },"fabric": {
             "textures": "textures/items/fabric"
+        },"anshi_goggle": {
+            "textures": "textures/items/anshi_goggle_item"
+        },"xp_box": {
+            "textures": "textures/items/xp_box_item"
         }
     }
 }

@@ -140,7 +140,7 @@ cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 
 //phone
 check.money=所持金確認
-player.telepor=プレイヤーへテレポート
+player.teleport=プレイヤーへテレポート
 message.system=メッセージ機能
 goto.lobby=ロビーへ
 select.job=職業選択
