@@ -150,7 +150,7 @@
 								"east": {"uv": [10, 2], "uv_size": [2, 2]},
 								"south": {"uv": [8, 2], "uv_size": [2, 2]},
 								"west": {"uv": [14, 2], "uv_size": [2, 2]},
-								"up": {"uv": [12, 2], "uv_size": [-2, -2], "uv_rotation": 180},
+								"up": {"uv": [12, 2], "uv_size": [-2, -2], "uv_rotation": 270},
 								"down": {"uv": [14, 2], "uv_size": [-2, -2], "uv_rotation": 180}
 							}
 						},

@@ -16,6 +16,8 @@
             "textures": "textures/items/kaihuku_kit_item2"
         },"kaihuku_kit3": {
             "textures": "textures/items/kaihuku_kit_item3"
+        },"fabric": {
+            "textures": "textures/items/fabric"
         }
     }
 }
