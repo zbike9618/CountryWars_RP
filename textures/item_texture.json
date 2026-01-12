@@ -4,30 +4,66 @@
     "texture_data": {
         "toyphone": {
             "textures": "textures/items/toyphone_item"
-        },"toyphone_blue": {
+        },
+        "toyphone_blue": {
             "textures": "textures/items/toyphone_item_blue"
-        },"toyphone_red": {
+        },
+        "toyphone_red": {
             "textures": "textures/items/toyphone_item_red"
-        },"toyphone_white": {
+        },
+        "toyphone_white": {
             "textures": "textures/items/toyphone_item_white"
-        },"kaihuku_kit1": {
+        },
+        "kaihuku_kit1": {
             "textures": "textures/items/kaihuku_kit_item1"
-        },"kaihuku_kit2": {
+        },
+        "kaihuku_kit2": {
             "textures": "textures/items/kaihuku_kit_item2"
-        },"kaihuku_kit3": {
+        },
+        "kaihuku_kit3": {
             "textures": "textures/items/kaihuku_kit_item3"
-        },"fabric": {
+        },
+        "fabric": {
             "textures": "textures/items/fabric"
-        },"anshi_goggle": {
+        },
+        "anshi_goggle": {
             "textures": "textures/items/anshi_goggle_item"
-        },"xp_box": {
+        },
+        "xp_box": {
             "textures": "textures/items/xp_box_item"
-        },"ingot": {
+        },
+        "ingot": {
             "textures": "textures/items/ingot_item"
-        },"plain": {
+        },
+        "plain": {
             "textures": "textures/items/plain"
-        },"mega_item": {
+        },
+        "mega_item": {
             "textures": "textures/items/mega_item"
+        },
+        "bill_1000": {
+            "textures": "textures/items/bill_1000"
+        },
+        "bill_5000": {
+            "textures": "textures/items/bill_5000"
+        },
+        "bill_10000": {
+            "textures": "textures/items/bill_10000"
+        },
+        "coin_1": {
+            "textures": "textures/items/coin_1"
+        },
+        "coin_10": {
+            "textures": "textures/items/coin_10"
+        },
+        "coin_50": {
+            "textures": "textures/items/coin_50"
+        },
+        "coin_100": {
+            "textures": "textures/items/coin_100"
+        },
+        "coin_500": {
+            "textures": "textures/items/coin_500"
         }
     }
 }

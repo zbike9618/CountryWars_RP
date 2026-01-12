@@ -191,3 +191,12 @@ cw.phone.message.system=メッセージ機能
 cw.phone.goto.lobby=ロビーへ
 cw.phone.select.job=職業選択
 cw.phone.went.lobby=<ロビーへテレポートしました>
+
+item.cw:coin_1=1円玉
+item.cw:coin_10=10円玉
+item.cw:coin_50=50円玉
+item.cw:coin_100=100円玉
+item.cw:coin_500=500円玉
+item.cw:bill_1000=1000円札
+item.cw:bill_5000=5000円札
+item.cw:bill_10000=10000円札
