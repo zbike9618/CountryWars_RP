@@ -108,6 +108,7 @@ cw.tpa.requestnotice=§6%s§7からテレポート要請が届きました\n§a/
 
 cw.tpa.secondrequest=§c%s§7には既にテレポート要請を送信済みです
 cw.tpa.secondrequestnotice=§6%s§7から§6再度§7テレポート要請が届きました\n§a/tpa§7で承認できます
+
 //メッセージボックス
 cw.messagebox.title=メッセージボックス
 cw.messagebox.recieve=受信(%s)
@@ -126,6 +127,7 @@ cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
 cw.messagebox.send.success=%s にメッセージを送りました
 cw.messagebox.send.recieve=%s からのメッセージが届いています
+
 // jobs
 cw.jobsform.title=§6§l職業フォーム
 cw.jobsform.working=§a§l就職中
@@ -138,17 +140,15 @@ cw.jobs.builder=建築者
 cw.jobs.leave=§e職業「%s 」を辞めました
 cw.jobs.join=§a職業「%s 」に就きました！
 cw.jobs.limit=§c職業は最大 %s 個までです！
-cw.jobs.reward.actionbar.miner=§a 鉱夫として %s $獲得！ 残高: %s $
-cw.jobs.reward.actionbar.hunter=§a 狩猟者として %s $獲得！ 残高: %s $
-cw.jobs.reward.actionbar.lumberjack=§a 木こりとして %s $獲得！ 残高: %s $
-cw.jobs.reward.actionbar.farmer=§a 農民として %s $獲得！ 残高: %s $
-cw.jobs.reward.actionbar.netherdigger=§a ネザー採掘者として %s $獲得！ 残高: %s $
-cw.jobs.reward.actionbar.builder=§a 建築者として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.miner=§a 鉱夫として¥ %s 獲得！ 残高:￥ %s
+cw.jobs.reward.actionbar.hunter=§a 狩猟者として¥ %s 獲得！ 残高:￥ %s
+cw.jobs.reward.actionbar.lumberjack=§a 木こりとして¥ %s 獲得！ 残高:￥ %s
+cw.jobs.reward.actionbar.farmer=§a 農民として¥ %s 獲得！ 残高:￥ %s
+cw.jobs.reward.actionbar.netherdigger=§a ネザー採掘者として¥ %s 獲得！ 残高:￥ %s
+cw.jobs.reward.actionbar.builder=§a 建築者として¥ %s 獲得！ 残高:￥ %s
 
-
-
-
-
+//money
+cw.watchmoney=§a所持金:¥ %s
 
 //チャンク
 cw.chunk.buy.title=チャンクを購入
@@ -191,8 +191,31 @@ cw.phone.message.system=メッセージ機能
 cw.phone.goto.lobby=ロビーへ
 cw.phone.select.job=職業選択
 cw.phone.went.lobby=<ロビーへテレポートしました>
-cw.phone.set.home=ホーム
-//item
+cw.phone.set.home=ホームを設定・管理する
+cw.phone.goto.home=ホームに移動する
+//items
+item.cw:coin_1=1円玉
+item.cw:coin_10=10円玉
+item.cw:coin_50=50円玉
+item.cw:coin_100=100円玉
+item.cw:coin_500=500円玉
+item.cw:bill_1000=1000円札
+item.cw:bill_5000=5000円札
+item.cw:bill_10000=10000円札
+item.cw:anshi_goggle=暗視ゴーグル
+item.cw:fabric=布
+item.cw:steel_ingot=鋼
+item.cw:kaihuku_kit1=回復キット <Level 1>
+item.cw:kaihuku_kit2=回復キット <Level 2>
+item.cw:kaihuku_kit3=回復キット <Level 3>
+item.cw:xp_box=経験値ボックス
+item.cw:steel_plain=鋼の元
+item.cw:mega_item=大量収納箱
+item.cw:toyphone_blue=ZPhone-Blue
+item.cw:toyphone_red=ZPhone-Red
+item.cw:toyphone_white=ZPhone-White
+item.cw:toyphone=ZPhone
+
 cw.item.dirt=土
 cw.item.stone=石
 cw.item.cobblestone=丸石
