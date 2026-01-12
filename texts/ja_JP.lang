@@ -191,6 +191,8 @@ cw.phone.message.system=メッセージ機能
 cw.phone.goto.lobby=ロビーへ
 cw.phone.select.job=職業選択
 cw.phone.went.lobby=<ロビーへテレポートしました>
+cw.phone.set.home=ホームを設定・管理する
+cw.phone.goto.home=ホームに移動する
 //items
 item.cw:coin_1=1円玉
 item.cw:coin_10=10円玉
