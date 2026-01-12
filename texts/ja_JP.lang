@@ -191,7 +191,7 @@ cw.phone.message.system=メッセージ機能
 cw.phone.goto.lobby=ロビーへ
 cw.phone.select.job=職業選択
 cw.phone.went.lobby=<ロビーへテレポートしました>
-
+//items
 item.cw:coin_1=1円玉
 item.cw:coin_10=10円玉
 item.cw:coin_50=50円玉
@@ -200,3 +200,16 @@ item.cw:coin_500=500円玉
 item.cw:bill_1000=1000円札
 item.cw:bill_5000=5000円札
 item.cw:bill_10000=10000円札
+item.cw:anshi_goggle=暗視ゴーグル
+item.cw:fabric=布
+item.cw:steel_ingot=鋼
+item.cw:kaihuku_kit1=回復キット <Level 1>
+item.cw:kaihuku_kit2=回復キット <Level 2>
+item.cw:kaihuku_kit3=回復キット <Level 3>
+item.cw:xp_box=経験値ボックス
+item.cw:steel_plain=鋼の元
+item.cw:mega_item=大量収納箱
+item.cw:toyphone_blue=ZPhone-Blue
+item.cw:toyphone_red=ZPhone-Red
+item.cw:toyphone_white=ZPhone-White
+item.cw:toyphone=ZPhone
