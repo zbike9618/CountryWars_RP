@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.xp_box": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"rightItem": {
+					"rotation": [
+						"c.is_first_person ? 100 : 45",
+						"c.is_first_person ? 60 : 0",
+						"c.is_first_person ? -30 : 0"
+					],
+					"position": [
+						"c.is_first_person ? 0 : 0",
+						"c.is_first_person ? 0 : -2",
+						"c.is_first_person ? 0 : -2"
+					],
+					"scale": "c.is_first_person ? 1.2 : 1"
+				},
+				"leftItem": {
+					"rotation": [
+						"c.is_first_person ? -15 : 45",
+						"c.is_first_person ? -40 : 0",
+						"c.is_first_person ? 0 : 0"
+					],
+					"position": [
+						"c.is_first_person ? -17 : 0",
+						"c.is_first_person ? 3 : -2",
+						"c.is_first_person ? 15 : -2"
+					],
+					"scale": "c.is_first_person ? 0.9 : 1"
+				},
+				"box": {
+					"scale": "c.item_slot == 'main_hand' ? 1 : 0"
+				},
+				"box2": {
+					"scale": "c.item_slot == 'off_hand' ? 1 : 0"
+				}
+			}
+		}
+	}
+}

@@ -142,9 +142,9 @@ cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
 
 //phone
-check.money=所持金確認
-player.teleport=プレイヤーへテレポート
-message.system=メッセージ機能
-goto.lobby=ロビーへ
-select.job=職業選択
-went.lobby=<ロビーへテレポートしました>
+cw.phone.check.money=所持金確認
+cw.phone.player.teleport=プレイヤーへテレポート
+cw.phone.message.system=メッセージ機能
+cw.phone.goto.lobby=ロビーへ
+cw.phone.select.job=職業選択
+cw.phone.went.lobby=<ロビーへテレポートしました>

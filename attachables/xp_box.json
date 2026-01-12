@@ -15,10 +15,19 @@
                 "default": "geometry.xp_box"
             },
             "animations": {
-                "xp_box": "animation.xp_box"
+                "xp_box": "animation.xp_box",
+                "xp_box_open": "animation.xp_box.open"
             },
             "scripts": {
-                "animate": [ "xp_box" ]
+                "pre_animation": [
+                    "variable.is_sneaking = query.is_sneaking;"
+                ],
+                "animate": [
+                    "xp_box",
+                    {
+                        "xp_box_open": "variable.is_sneaking"
+                    }
+                ]
             },
             "render_controllers": [
                 "controller.render.item_default"

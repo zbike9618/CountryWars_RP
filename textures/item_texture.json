@@ -22,6 +22,12 @@
             "textures": "textures/items/anshi_goggle_item"
         },"xp_box": {
             "textures": "textures/items/xp_box_item"
+        },"ingot": {
+            "textures": "textures/items/ingot_item"
+        },"plain": {
+            "textures": "textures/items/plain"
+        },"mega_item": {
+            "textures": "textures/items/mega_item"
         }
     }
 }
