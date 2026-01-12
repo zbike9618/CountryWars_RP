@@ -12,7 +12,7 @@ cw.form.sell=§l§c売却する
 cw.form.playerchoise=プレイヤーの選択
 cw.form.noplayers=プレイヤーがいません
 cw.form.unjoincountry=あなたは国に所属していません
-
+cw.form.overwrite=上書きする
 //建国フォーム
 cw.mcform.alreadyCountry=あなたはすでに国に所属しています
 cw.mcform.title=§6§l建国フォーム
@@ -141,6 +141,26 @@ cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
 
+// メインメニュー
+cw.home.menu.add=ホームを追加
+cw.home.menu.update=位置を上書き/更新
+cw.home.menu.delete=ホームを削除
+// 追加・更新
+cw.home.set.title=ホーム設定
+cw.home.set.name=ホームの名前を入力してください
+cw.home.set.success=ホーム「%s」を座標 (%s, %s, %s) に設定しました
+cw.home.update.success=ホーム「%s」の位置を座標 (%s, %s, %s) に更新しました
+// 削除
+cw.home.delete.success=ホーム「%s」を削除しました
+// テレポート
+cw.home.tp.title=ホームへ移動
+cw.home.tp.dropdown=移動先を選択してください
+cw.home.tp.success=ホーム「%s」へ移動しました
+cw.home.tp.nohome=ホームが設定されていません
+// 確認・エラー系
+cw.home.set=ホーム設定の確認
+cw.home.set.edit=「%s」は既に存在します。上書きしますか？
+cw.home.set.max=ホームの最大数に達しました(最大 : %sホーム)
 //phone
 check.money=所持金確認
 player.telepor=プレイヤーへテレポート
