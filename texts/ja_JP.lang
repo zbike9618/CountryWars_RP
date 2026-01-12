@@ -185,9 +185,9 @@ cw.home.set=ホーム設定の確認
 cw.home.set.edit=「%s」は既に存在します。上書きしますか？
 cw.home.set.max=ホームの最大数に達しました(最大 : %sホーム)
 //phone
-check.money=所持金確認
-player.teleport=プレイヤーへテレポート
-message.system=メッセージ機能
-goto.lobby=ロビーへ
-select.job=職業選択
-went.lobby=<ロビーへテレポートしました>
+cw.phone.check.money=所持金確認
+cw.phone.player.teleport=プレイヤーへテレポート
+cw.phone.message.system=メッセージ機能
+cw.phone.goto.lobby=ロビーへ
+cw.phone.select.job=職業選択
+cw.phone.went.lobby=<ロビーへテレポートしました>
