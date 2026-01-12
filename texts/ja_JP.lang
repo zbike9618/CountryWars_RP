@@ -12,7 +12,7 @@ cw.form.sell=§l§c売却する
 cw.form.playerchoise=プレイヤーの選択
 cw.form.noplayers=プレイヤーがいません
 cw.form.unjoincountry=あなたは国に所属していません
-
+cw.form.overwrite=上書きする
 //建国フォーム
 cw.mcform.alreadyCountry=あなたはすでに国に所属しています
 cw.mcform.title=§6§l建国フォーム
@@ -126,6 +126,29 @@ cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
 cw.messagebox.send.success=%s にメッセージを送りました
 cw.messagebox.send.recieve=%s からのメッセージが届いています
+// jobs
+cw.jobsform.title=§6§l職業フォーム
+cw.jobsform.working=§a§l就職中
+cw.jobs.miner=鉱夫
+cw.jobs.hunter=狩猟者
+cw.jobs.lumberjack=木こり
+cw.jobs.farmer=農民
+cw.jobs.netherdigger=ネザー採掘者
+cw.jobs.builder=建築者
+cw.jobs.leave=§e職業「%s 」を辞めました
+cw.jobs.join=§a職業「%s 」に就きました！
+cw.jobs.limit=§c職業は最大 %s 個までです！
+cw.jobs.reward.actionbar.miner=§a 鉱夫として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.hunter=§a 狩猟者として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.lumberjack=§a 木こりとして %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.farmer=§a 農民として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.netherdigger=§a ネザー採掘者として %s $獲得！ 残高: %s $
+cw.jobs.reward.actionbar.builder=§a 建築者として %s $獲得！ 残高: %s $
+
+
+
+
+
 
 //チャンク
 cw.chunk.buy.title=チャンクを購入
@@ -141,6 +164,26 @@ cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
 
+// メインメニュー
+cw.home.menu.add=ホームを追加
+cw.home.menu.update=位置を上書き/更新
+cw.home.menu.delete=ホームを削除
+// 追加・更新
+cw.home.set.title=ホーム設定
+cw.home.set.name=ホームの名前を入力してください
+cw.home.set.success=ホーム「%s」を座標 (%s, %s, %s) に設定しました
+cw.home.update.success=ホーム「%s」の位置を座標 (%s, %s, %s) に更新しました
+// 削除
+cw.home.delete.success=ホーム「%s」を削除しました
+// テレポート
+cw.home.tp.title=ホームへ移動
+cw.home.tp.dropdown=移動先を選択してください
+cw.home.tp.success=ホーム「%s」へ移動しました
+cw.home.tp.nohome=ホームが設定されていません
+// 確認・エラー系
+cw.home.set=ホーム設定の確認
+cw.home.set.edit=「%s」は既に存在します。上書きしますか？
+cw.home.set.max=ホームの最大数に達しました(最大 : %sホーム)
 //phone
 cw.phone.check.money=所持金確認
 cw.phone.player.teleport=プレイヤーへテレポート
