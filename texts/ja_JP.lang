@@ -13,6 +13,7 @@ cw.form.playerchoise=プレイヤーの選択
 cw.form.noplayers=プレイヤーがいません
 cw.form.unjoincountry=あなたは国に所属していません
 cw.form.overwrite=上書きする
+cw.form.nomoney=お金が足りないため購入できません
 //建国フォーム
 cw.mcform.alreadyCountry=あなたはすでに国に所属しています
 cw.mcform.title=§6§l建国フォーム
@@ -135,13 +136,14 @@ cw.playermarket.sell.priceerror=価格は自然数で入力してください
 cw.playermarket.sell.success=[%s個]を出品しました
 cw.playermarket.selled.success1=§a[CountryWars] §r
 cw.playermarket.selled.success2=[%s個]が出品されました
-
+cw.playermarket.sell.description=商品説明
 cw.playermarket.sell.amount=個数
 cw.playermarket.edit=出品した商品の編集
 cw.playermarket.buy=購入
 cw.playermarket.buy.body=本当に購入しますか？\n商品 :
 cw.playermarket.buy.body2=\n現在のお金 : ¥%s\n価格 : ¥%s \n個数 : %s\n%s\n出品者 : %s
 cw.playermarket.buy.success=[%s]を購入しました
+
 // jobs
 cw.jobsform.title=§6§l職業フォーム
 cw.jobsform.working=§a§l就職中
@@ -168,7 +170,6 @@ cw.watchmoney=§a所持金:¥ %s
 cw.chunk.buy.title=チャンクを購入
 cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(現在のお金 : ¥%s)
 cw.chunk.buy.success=このチャンクを購入しました
-cw.chunk.buy.nomoney=お金が足りないため購入できません
 cw.chunk.buy.already=このチャンクは%s の領土です
 cw.chunk.check=今いるチャンクは %s の領土です
 cw.chunk.wasteland=今いるチャンクは荒地です
