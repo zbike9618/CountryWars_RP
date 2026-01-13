@@ -127,7 +127,22 @@ cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
 cw.messagebox.send.success=%s にメッセージを送りました
 cw.messagebox.send.recieve=%s からのメッセージが届いています
+//playermarket
+cw.playermarket.title=プレイヤーマーケット
+cw.playermarket.see=商品をみる
+cw.playermarket.sell=出品
+cw.playermarket.sell.price=価格
+cw.playermarket.sell.priceerror=価格は自然数で入力してください
+cw.playermarket.sell.success=[%s個]を出品しました
+cw.playermarket.selled.success1=§a[CountryWars] §r
+cw.playermarket.selled.success2=[%s個]が出品されました
 
+cw.playermarket.sell.amount=個数
+cw.playermarket.edit=出品した商品の編集
+cw.playermarket.buy=購入
+cw.playermarket.buy.body=本当に購入しますか？\n商品 :
+cw.playermarket.buy.body2=\n現在のお金 : ¥%s\n価格 : ¥%s \n個数 : %s\n%s\n出品者 : %s
+cw.playermarket.buy.success=[%s]を購入しました
 // jobs
 cw.jobsform.title=§6§l職業フォーム
 cw.jobsform.working=§a§l就職中
@@ -150,7 +165,7 @@ cw.jobs.reward.actionbar.builder=§a 建築者として¥ %s 獲得！ 残高:�
 //money
 cw.watchmoney=§a所持金:¥ %s
 
-//チャンク
+//chunk
 cw.chunk.buy.title=チャンクを購入
 cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(現在のお金 : ¥%s)
 cw.chunk.buy.success=このチャンクを購入しました
@@ -164,23 +179,23 @@ cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
 
-// メインメニュー
+// home
 cw.home.menu.add=ホームを追加
 cw.home.menu.update=位置を上書き/更新
 cw.home.menu.delete=ホームを削除
-// 追加・更新
+
 cw.home.set.title=ホーム設定
 cw.home.set.name=ホームの名前を入力してください
 cw.home.set.success=ホーム「%s」を座標 (%s, %s, %s) に設定しました
 cw.home.update.success=ホーム「%s」の位置を座標 (%s, %s, %s) に更新しました
-// 削除
+
 cw.home.delete.success=ホーム「%s」を削除しました
-// テレポート
+
 cw.home.tp.title=ホームへ移動
 cw.home.tp.dropdown=移動先を選択してください
 cw.home.tp.success=ホーム「%s」へ移動しました
 cw.home.tp.nohome=ホームが設定されていません
-// 確認・エラー系
+
 cw.home.set=ホーム設定の確認
 cw.home.set.edit=「%s」は既に存在します。上書きしますか？
 cw.home.set.max=ホームの最大数に達しました(最大 : %sホーム)
