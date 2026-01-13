@@ -15,6 +15,8 @@
          "textures" : "textures/blocks/tsan"
        },"Z" : {
          "textures" : "textures/blocks/Z"
+       },"light" : {
+         "textures" : "textures/blocks/light"
        }
     },
     "texture_name" : "atlas.terrain"

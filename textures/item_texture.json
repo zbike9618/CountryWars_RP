@@ -41,6 +41,9 @@
         "mega_item": {
             "textures": "textures/items/mega_item"
         },
+        "magnet": {
+            "textures": "textures/items/magnet_item"
+        },
         "bill_1000": {
             "textures": "textures/items/bill_1000"
         },

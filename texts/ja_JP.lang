@@ -108,7 +108,6 @@ cw.tpa.requestnotice=§6%s§7からテレポート要請が届きました\n§a/
 
 cw.tpa.secondrequest=§c%s§7には既にテレポート要請を送信済みです
 cw.tpa.secondrequestnotice=§6%s§7から§6再度§7テレポート要請が届きました\n§a/tpa§7で承認できます
-
 //メッセージボックス
 cw.messagebox.title=メッセージボックス
 cw.messagebox.recieve=受信(%s)
@@ -206,8 +205,8 @@ cw.phone.message.system=メッセージ機能
 cw.phone.goto.lobby=ロビーへ
 cw.phone.select.job=職業選択
 cw.phone.went.lobby=<ロビーへテレポートしました>
-cw.phone.set.home=ホームを設定・管理する
-cw.phone.goto.home=ホームに移動する
+cw.phone.set.home=ホームの設定・管理
+cw.phone.goto.home=ホームへ移動する
 //items
 item.cw:coin_1=1円玉
 item.cw:coin_10=10円玉
@@ -230,3 +229,4 @@ item.cw:toyphone_blue=ZPhone-Blue
 item.cw:toyphone_red=ZPhone-Red
 item.cw:toyphone_white=ZPhone-White
 item.cw:toyphone=ZPhone
+item.cw:magnet=マグネット
