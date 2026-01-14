@@ -1,0 +1,12 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cw:core",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/core" },
+      "geometry": { "default": "geometry.core" },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}
