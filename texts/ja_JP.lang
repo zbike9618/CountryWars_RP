@@ -139,9 +139,11 @@ cw.playermarket.selled.success2=[%s個]が出品されました
 cw.playermarket.sell.description=商品説明
 cw.playermarket.sell.amount=個数
 cw.playermarket.edit=出品した商品の編集
+cw.playermarket.edit.toggle=出品した商品を取り下げるか
+cw.playermarket.edit.delete=商品を取り下げました
 cw.playermarket.buy=購入
 cw.playermarket.buy.body=本当に購入しますか？\n商品 :
-cw.playermarket.buy.body2=\n現在のお金 : ¥%s\n価格 : ¥%s \n個数 : %s\n%s\n出品者 : %s
+cw.playermarket.buy.body2=\n現在のお金 : ¥%s\n価格 : ¥%s \nLore : %s\n個数 : %s\n%s\n出品者 : %s
 cw.playermarket.buy.success=[%s]を購入しました
 
 // jobs
