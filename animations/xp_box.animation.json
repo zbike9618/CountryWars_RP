@@ -9,11 +9,11 @@
 					"rotation": [
 						"c.is_first_person ? 140 : 45",
 						"c.is_first_person ? 70 : 0",
-						"c.is_first_person ? 0 : 0"
+						"c.is_first_person ? -10 : 0"
 					],
 					"position": [
 						"c.is_first_person ? 10 : 0",
-						"c.is_first_person ? 7 : -2",
+						"c.is_first_person ? 0 : -2",
 						"c.is_first_person ? 10 : -2"
 					],
 					"scale": "c.is_first_person ? 2 : 1"
@@ -22,11 +22,11 @@
 					"rotation": [
 						"c.is_first_person ? -15 : 45",
 						"c.is_first_person ? -40 : 0",
-						"c.is_first_person ? 0 : 0"
+						"c.is_first_person ? 15 : 0"
 					],
 					"position": [
 						"c.is_first_person ? -17 : 0",
-						"c.is_first_person ? 8 : -2",
+						"c.is_first_person ? 3 : -2",
 						"c.is_first_person ? 15 : -2"
 					],
 					"scale": "c.is_first_person ? 1.2 : 1"
