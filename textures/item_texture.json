@@ -44,6 +44,9 @@
         "magnet": {
             "textures": "textures/items/magnet_item"
         },
+        "shinai": {
+            "textures": "textures/items/shinai_item"
+        },
         "bill_1000": {
             "textures": "textures/items/bill_1000"
         },
