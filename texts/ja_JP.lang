@@ -1,5 +1,6 @@
 //日本語
 cw.initialSpawn=§a§lCountryWarsを導入していただきありがとうございます！§r\n§7ここでは国を作り、同盟・戦争・発展を楽しめます。\n§6まずは建国フォームを開いて国を作成しましょう！
+cw.initialSpawn.messageRecieve=メッセージが%s件来ています
 //フォームの基本
 cw.form.yes=§l§aはい
 cw.form.no=§l§cいいえ
@@ -10,6 +11,7 @@ cw.form.deny=§l§c拒否
 cw.form.buy=§l§a購入する
 cw.form.sell=§l§c売却する
 cw.form.playerchoise=プレイヤーの選択
+cw.form.countrychoise=国の選択
 cw.form.noplayers=プレイヤーがいません
 cw.form.unjoincountry=あなたは国に所属していません
 cw.form.overwrite=上書きする
@@ -84,6 +86,20 @@ cw.scform.permissions.member_invite=メンバーを招待できるか
 cw.scform.permissions.member_kick=メンバーを追放できるか
 cw.scform.permissions.money_deposit=国庫に預けられるか
 cw.scform.permissions.money_withdraw=国庫から引き出せるか
+//戦争
+
+cw.warform.title=戦争関連
+
+cw.warform.declare=§l§c宣戦布告
+cw.warform.declare.none=宣戦布告できる国がいません
+cw.warform.declare.check=%s§7に宣戦布告しますか？
+cw.warform.declare.message=§a[CountryWars] §6%s§rが§6%s§rに宣戦布告しました
+cw.warform.declared=%s§7に宣戦布告されました
+cw.warform.join=戦争に参加する
+cw.war.invade=§a[CountryWars] §6%s§rが%sの領土[%s,??,%s]を侵攻しました
+cw.war.invade.success=§a[CountryWars] §6%s§rが%sの領土[%s,??,%s]を征服しました
+cw.war.invade.finish=§a[CountryWars] §6%s§rが§6%s§rに勝利しました
+cw.war.invade.finish.money=§a[CountryWars] %sに賠償金として¥%s国庫から引き出されました
 //tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
