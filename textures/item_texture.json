@@ -47,8 +47,8 @@
         "shinai": {
             "textures": "textures/items/shinai_item"
         },
-        "security_camera": {
-            "textures": "textures/items/shinai_item"
+        "security_camera_item": {
+            "textures": "textures/items/security_camera_item"
         },
         "bill_1000": {
             "textures": "textures/items/bill_1000"

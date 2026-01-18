@@ -254,5 +254,6 @@ item.cw:shinai2=竹刀2
 item.cw:shinai3=竹刀3
 item.cw:shinai4=竹刀4
 item.cw:shinai5=竹刀5
+item.cw:security_camera_item=リモコン
 tile.cw:security_camera.name=監視カメラ
 tile.cw:light.name=Light
