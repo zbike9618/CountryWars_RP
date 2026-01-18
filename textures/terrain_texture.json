@@ -17,6 +17,8 @@
          "textures" : "textures/blocks/Z"
        },"light" : {
          "textures" : "textures/blocks/light"
+       },"security_camera" : {
+         "textures" : "textures/blocks/security_camera"
        }
     },
     "texture_name" : "atlas.terrain"
