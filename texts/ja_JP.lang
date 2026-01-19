@@ -1,5 +1,6 @@
 //日本語
 cw.initialSpawn=§a§lCountryWarsを導入していただきありがとうございます！§r\n§7ここでは国を作り、同盟・戦争・発展を楽しめます。\n§6まずは建国フォームを開いて国を作成しましょう！
+cw.commingsoon=coming soon
 cw.initialSpawn.messageRecieve=メッセージが%s件来ています
 //フォームの基本
 cw.form.yes=§l§aはい
@@ -228,6 +229,60 @@ cw.phone.select.job=職業選択
 cw.phone.went.lobby=<ロビーへテレポートしました>
 cw.phone.set.home=ホームの設定・管理
 cw.phone.goto.home=ホームへ移動する
+cw.phone.help=ヘルプを表示します
+
+//bank
+cw.bankform.title=§6§l銀行
+cw.bankform.tobank=銀行へ振り込む
+cw.bankform.frombank=銀行から引き落とす
+cw.bankform.exchange=両替
+
+//secondname
+cw.secondnameform.title=二つ名
+cw.secondnameform.before=二つ名[前] %s
+cw.secondnameform.after=二つ名[後] %s
+cw.secondnameform.beforechanged=二つ名[前]を「 %s 」に変更しました\n現在： %s
+cw.secondnameform.afterchanged=二つ名[後]を「 %s 」に変更しました\n現在： %s
+
+//menu
+cw.menu.title=管理者用ツール
+cw.menu.movemoney=金銭操作
+cw.menu.secondname=二つ名操作
+cw.menu.playerdatareset=§4プレイヤーデータリセット§r[実験的段階]
+cw.menu.movemoney.operation=操作内容を選択してください
+cw.menu.movemoney.action.add=お金を追加
+cw.menu.movemoney.action.remove=お金を削除
+cw.menu.movemoney.action.set=お金を設定
+cw.menu.movemoney.player=プレイヤーを選択してください
+cw.menu.movemoney.amount=金額を入力してください
+cw.menu.movemoney.amount.example=例 : 1000
+cw.menu.movemoney.error.invalidoperation=無効な操作です
+cw.menu.movemoney.error.invalidamount=無効な金額です
+cw.menu.movemoney.success.add=プレイヤー:%s の所持金に¥ %s 追加しました
+cw.menu.movemoney.success.remove=プレイヤー:%s の所持金を¥ %s 削除しました
+cw.menu.movemoney.success.set=プレイヤー:%s の所持金を¥ %s に設定しました
+cw.menu.secondname.addtitle=二つ名追加
+cw.menu.secondname.removetitle=二つ名削除
+cw.menu.secondname.player=プレイヤーを選択してください
+cw.menu.secondname.position=前後どちらにしますか？
+cw.menu.secondname.position.before=前
+cw.menu.secondname.position.after=後
+cw.menu.secondname.add.secondname=二つ名を入力してください
+cw.menu.secondname.add.secondname.example=例 : 勇敢な
+cw.menu.secondname.add.before.success=プレイヤー:%s の二つ名[前]に「 %s 」を追加しました
+cw.menu.secondname.add.after.success=プレイヤー:%s の二つ名[後]に「 %s 」を追加しました
+cw.menu.secondname.remove.before=二つ名[前]を削除
+cw.menu.secondname.remove.after=二つ名[後]を削除
+cw.menu.secondname.remove.tooltip=「-」を選択すると二つ名は削除されません
+cw.menu.secondname.remove.before.success=プレイヤー:%s の二つ名[前]から「 %s 」を削除しました
+cw.menu.secondname.remove.after.success=プレイヤー:%s の二つ名[後]から「 %s 」を削除しました
+cw.menu.secondname.remove.error=初期の二つ名は削除できません
+cw.menu.playerdatareset.player=プレイヤーを選択してください
+cw.menu.playerdatareset.reset=§4選択したプレイヤーデータが消去されることに同意します
+cw.menu.playerdatareset.tooltip=消去されるデータ[お金・二つ名]§4注意§r:
+cw.menu.playerdatareset.error=プレイヤーデータのリセットをキャンセルしました
+cw.menu.playerdatareset.success=プレイヤー:%s のプレイヤーデータの一部がリセットされました\n§4リセットを完了させるため対象のプレイヤーは入り直してください
+
 //items
 item.cw:coin_1=1円玉
 item.cw:coin_10=10円玉
