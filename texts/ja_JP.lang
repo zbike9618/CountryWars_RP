@@ -244,6 +244,11 @@ cw.secondnameform.after=二つ名[後] %s
 cw.secondnameform.beforechanged=二つ名[前]を「 %s 」に変更しました\n現在： %s
 cw.secondnameform.afterchanged=二つ名[後]を「 %s 」に変更しました\n現在： %s
 
+//listcoutnry
+cw.listcountry.title=国家一覧
+cw.listcountry.nocountry=表示可能な国家がありません
+cw.listcountry.info.ok=閉じる
+
 //menu
 cw.menu.title=管理者用ツール
 cw.menu.movemoney=金銭操作
