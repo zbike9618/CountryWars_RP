@@ -95,11 +95,13 @@ cw.warform.declare.none=宣戦布告できる国がいません
 cw.warform.declare.check=%s§7に宣戦布告しますか？
 cw.warform.declare.message=§a[CountryWars] §6%s§rが§6%s§rに宣戦布告しました
 cw.warform.declared=%s§7に宣戦布告されました
+cw.warform.declare.nochunk=どちらかが領土を保持していません
 cw.warform.join=戦争に参加する
-cw.war.invade=§a[CountryWars] §6%s§rが%sの領土[%s,??,%s]を侵攻しました
-cw.war.invade.success=§a[CountryWars] §6%s§rが%sの領土[%s,??,%s]を征服しました
+cw.war.invade=§a[CountryWars] §6%s§rが%s§rの領土[%s,??,%s]を侵攻しました
+cw.war.invade.success=§a[CountryWars] §6%s§rが%s§rの領土[%s,??,%s]を征服しました
 cw.war.invade.finish=§a[CountryWars] §6%s§rが§6%s§rに勝利しました
-cw.war.invade.finish.money=§a[CountryWars] %sに賠償金として¥%s国庫から引き出されました
+cw.war.invade.finish.money=§a[CountryWars]§r %s§rに賠償金として¥%s国庫から引き出されました
+cw.war.death=%s§rの残り復活回数は%s回です
 //tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
@@ -186,7 +188,7 @@ cw.watchmoney=§a所持金:¥ %s
 
 //chunk
 cw.chunk.buy.title=チャンクを購入
-cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(現在のお金 : ¥%s)
+cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(国庫残高 : ¥%s)
 cw.chunk.buy.success=このチャンクを購入しました
 cw.chunk.buy.already=このチャンクは%s の領土です
 cw.chunk.check=今いるチャンクは %s の領土です
