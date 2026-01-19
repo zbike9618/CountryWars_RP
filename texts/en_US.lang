@@ -1,43 +1,238 @@
 //英語
 cw.initialSpawn=§a§lThank you for installing CountryWars!§r\n§7Create your own country and enjoy alliances, wars, and development.\n§6Open the country creation form to get started!\n§8Note: Translations may not be perfect.
-
-//フォームの基本
-cw.form.yes=§aYes
-cw.form.no=§cNo
-cw.form.redo=§6Back
-cw.form.cancel=§7Cancel
-cw.form.accept=§a§lAccept
-cw.form.deny=§c§lDeny
-
-//建国フォーム
-cw.mcform.title=§6§lCreate Country
+//Form Basics
+cw.form.yes=§l§aYes
+cw.form.no=§l§cNo
+cw.form.redo=§l§6Back
+cw.form.cancel=§lCancel
+cw.form.accept=§l§aAccept
+cw.form.deny=§l§cDeny
+cw.form.buy=§l§aBuy
+cw.form.sell=§l§cSell
+cw.form.playerchoise=Select Player
+cw.form.noplayers=No players found
+cw.form.unjoincountry=You do not belong to a country
+cw.form.overwrite=Overwrite
+cw.form.nomoney=Insufficient funds to purchase
+//Founding Form
+cw.mcform.alreadyCountry=You already belong to a country
+cw.mcform.title=§6§lFounding Form
 cw.mcform.WriteCountryNameLabel=§bCountry Name
 cw.mcform.WriteCountryNamePlaceholder=§7Enter country name
-cw.mcform.toggle=§dSelect National Policy\n§7(Peaceful / Non-Peaceful)
+cw.mcform.toggle=§dNational Policy\n§7(Non-Pacifist / Pacifist)
+cw.mcform.toggleTooltip=If you choose Pacifism, you cannot declare war.
 
+cw.mcform.countryalreadyexists=§c§lThat country name already exists
+
+cw.mcform.createMessage=§a[CountryWars] §6%s §rhas been established!
+
+cw.scform.title=Country Settings
+cw.scform.information=Basic Information
+cw.scform.informations=Name: %s\nDescription: %s\nKing: %s\nMembers: %s\nTreasury: ¥%s\nChunks Owned: %s\nConsumption Tax: %s%%  Income Tax: %s%%\nNational Tax: %s%%  Customs: %s%%
+cw.scform.information.description=Country Description
+cw.scform.information.name=Country Name
+
+cw.scform.setting=Settings
+
+cw.scform.member=Members
+cw.scform.member.invite=Invite
+cw.scform.member.kick=Kick
+cw.scform.member.sendinvite=Sent an invitation to %s
+
+cw.scform.member.kick.success=Kicked %s from the country
+cw.scform.member.kicked=You have been kicked from %s
+
+cw.scform.member.invited=You received an invitation from %s\nType /mb to view it
+cw.scform.money=Treasury
+cw.scform.money.deposit=Deposit
+cw.scform.money.withdraw=Withdraw
+cw.scform.money.title=Current Balance: ¥%s\nTreasury: ¥%s
+cw.scform.money.deposit.noenough=Insufficient funds
+cw.scform.money.withdraw.countrynomoney=The treasury does not have enough money
+cw.scform.money.deposit.success=Deposited ¥%s into the treasury
+cw.scform.money.withdraw.success=Withdrew ¥%s from the treasury
+
+cw.scform.tax=Taxes
+cw.scform.tax.consumption=Consumption Tax [%]
+cw.scform.tax.income=Income Tax [%]
+cw.scform.tax.country=National Tax [%]
+cw.scform.tax.customs=Customs [%]
+
+cw.scform.delete=Disband Country
+cw.scform.delete.check=Are you sure you want to disband %s?
+cw.scform.deleteMessage=§a[CountryWars] §6%s§r has been disbanded
+
+
+
+
+cw.scform.permission=Permissions
+cw.scform.permission.set=Grant Permission
+cw.scform.permission.make=Create Permission
+cw.scform.permission.make.name=Permission Name
+cw.scform.permission.edit=Edit Permission
+cw.scform.permission.edit.delete=Delete Permission
+cw.scform.permission.edit.delete.tooltip=Toggle ON and submit to delete this permission
+cw.scform.permission.choice=Select Permission
+cw.scform.permission.nopermission=No permission
+
+//Permissions List
+cw.scform.permissions.information=Can change country info?
+cw.scform.permissions.permission=Can manage permissions?
+cw.scform.permissions.member_invite=Can invite members?
+cw.scform.permissions.member_kick=Can kick members?
+cw.scform.permissions.money_deposit=Can deposit to treasury?
+cw.scform.permissions.money_withdraw=Can withdraw from treasury?
 //tpa
 cw.tpaform.title=§9§lTeleport
 cw.tpaform.accept=§aTeleport Request
-cw.tpaform.request=§bTeleport Ask
-cw.tpaform.recieve=§6Received List (§f%s§6)
+cw.tpaform.request=§bTeleport Invite
+cw.tpaform.recieve=§6Inbox (§f%s§6)
 
-cw.tpaformS.nobodyAccept=§7No available players to teleport to
-cw.tpaformS.body=§7Send a teleport request from §f%s§7 to §f%s§7?
+cw.tpaformS.nobodyAccept=§7No players available for teleport
+cw.tpaformS.body=Send a teleport request from §f%s§7 to §f%s§7?
 
-cw.tpaformR.nobodyAccept=§7No teleport requests
-cw.tpaformR.body=§f%s§6 has sent you a teleport request.\n§aAccept§7 it?
+cw.tpaformR.nobodyAccept=§7No pending teleport requests
+cw.tpaformR.body=Teleport request from §f%s§6.\n§aAccept§7?
 
-cw.tpaformReq.body=§7Send a teleport ask to §f%s§7?
-cw.tpaformReq.recieve=§f%s§6 has sent you a teleport ask.\n§aAccept§7 it?
+cw.tpaformReq.body=Send a teleport invitation to §f%s§7?
+cw.tpaformReq.recieve=Teleport invitation from §f%s§6.\n§aAccept§7?
+cw.tpa.send=§aSent teleport request to %s
+cw.tpa.notice=§6Received teleport request from %s
 
-cw.tpa.send=§7Teleport request sent to §a%s
-cw.tpa.notice=§6%s§7 has sent you a teleport request
+cw.tpa.secondsend=§cTeleport request already sent to %s
+cw.tpa.secondnotice=§6Received §6another§7 teleport request from %s
 
-cw.tpa.secondsend=§7You have already sent a teleport request to §c%s
-cw.tpa.secondnotice=§6%s§7 has sent you another teleport request
+cw.tpa.request=§bSent teleport invitation to %s
+cw.tpa.requestnotice=§6Received teleport invitation from %s\nAccept with §a/tpa§7
 
-cw.tpa.request=§7Teleport ask sent to §b%s
-cw.tpa.requestnotice=§6%s§7 has sent you a teleport ask\n§7Use §a/tpa§7 to accept
+cw.tpa.secondrequest=§cTeleport invitation already sent to %s
+cw.tpa.secondrequestnotice=§6Received §6another§7 teleport invitation from %s\nAccept with §a/tpa§7
+//Message Box
+cw.messagebox.title=Message Box
+cw.messagebox.recieve=Inbox(%s)
+cw.messagebox.recieve.tpa=[tpa] From (%s)
+cw.messagebox.recieve.tpaRequest=[tpaRequest] From (%s)
+cw.messagebox.recieve.invitecountry=[CountryInvite] From (%s)
+cw.messagebox.recieve.message=[Message] From (%s)
 
-cw.tpa.secondrequest=§7You have already sent a teleport ask to §c%s
-cw.tpa.secondrequestnotice=§6%s§7 has sent you another teleport ask\n§7Use §a/tpa§7 to accept
+cw.messagebox.recieve.tpa.read=TP request from %s\nAccept?
+cw.messagebox.recieve.tpaRequest.read=TP invitation from %s\nAccept?
+cw.messagebox.recieve.invitecountry.read=Country invitation from %s\nAccept?
+cw.messagebox.recieve.norequests=No messages in inbox
+cw.messagebox.recieve.message.read=Message from %s\n%s
+
+cw.messagebox.send=Send
+cw.messagebox.send.message=Message
+cw.messagebox.send.success=Message sent to %s
+cw.messagebox.send.recieve=New message from %s
+//Player Market
+cw.playermarket.title=Player Market
+cw.playermarket.see=View Items
+cw.playermarket.sell=List Item
+cw.playermarket.sell.price=Price
+cw.playermarket.sell.priceerror=Please enter a valid price (positive integer)
+cw.playermarket.sell.success=Listed [%s units]
+cw.playermarket.selled.success1=§a[CountryWars] §r
+cw.playermarket.selled.success2=[%s units] have been listed
+cw.playermarket.sell.description=Item Description
+cw.playermarket.sell.amount=Quantity
+cw.playermarket.edit=Edit Listed Item
+cw.playermarket.edit.toggle=Remove item from market?
+cw.playermarket.edit.delete=Item removed from market
+cw.playermarket.buy=Purchase
+cw.playermarket.buy.body=Are you sure you want to buy?\nItem:
+cw.playermarket.buy.body2=\nCurrent Balance: ¥%s\nPrice: ¥%s \nLore: %s\nQuantity: %s\n%s\nSeller: %s
+cw.playermarket.buy.success=Purchased [%s]
+
+// Jobs
+cw.jobsform.title=§6§lJobs Form
+cw.jobsform.working=§a§lEmployed
+cw.jobs.miner=Miner
+cw.jobs.hunter=Hunter
+cw.jobs.lumberjack=Lumberjack
+cw.jobs.farmer=Farmer
+cw.jobs.netherdigger=Nether Digger
+cw.jobs.builder=Builder
+cw.jobs.leave=§eQuit job: "%s"
+cw.jobs.join=§aJoined job: "%s"!
+cw.jobs.limit=§cYou can only have up to %s jobs!
+cw.jobs.reward.actionbar.miner=§a Earned ¥ %s as a Miner! Balance: ¥ %s
+cw.jobs.reward.actionbar.hunter=§a Earned ¥ %s as a Hunter! Balance: ¥ %s
+cw.jobs.reward.actionbar.lumberjack=§a Earned ¥ %s as a Lumberjack! Balance: ¥ %s
+cw.jobs.reward.actionbar.farmer=§a Earned ¥ %s as a Farmer! Balance: ¥ %s
+cw.jobs.reward.actionbar.netherdigger=§a Earned ¥ %s as a Nether Digger! Balance: ¥ %s
+cw.jobs.reward.actionbar.builder=§a Earned ¥ %s as a Builder! Balance: ¥ %s
+
+//Money
+cw.watchmoney=§aBalance: ¥ %s
+
+//Chunk
+cw.chunk.buy.title=Buy Chunk
+cw.chunk.buy.body=Do you want to buy this chunk?\nCost: ¥%s\n(Current Balance: ¥%s)
+cw.chunk.buy.success=Purchased this chunk
+cw.chunk.buy.already=This chunk belongs to %s
+cw.chunk.check=This chunk is territory of %s
+cw.chunk.wasteland=This chunk is wasteland
+cw.chunk.sell.notfound=This chunk cannot be sold
+cw.chunk.sell.check=Do you want to sell this chunk?\nSelling it will add ¥%s to the treasury.
+cw.chunk.sell.success=Sold this chunk (¥%s => ¥%s)
+cw.chunk.actionbar.wasteland=Wasteland
+cw.chunk.buy.maxchunk=Reached max chunk limit (Max: %s chunks)
+
+// Home
+cw.home.menu.add=Add Home
+cw.home.menu.update=Overwrite/Update Location
+cw.home.menu.delete=Delete Home
+
+cw.home.set.title=Home Settings
+cw.home.set.name=Enter home name
+cw.home.set.success=Set home "%s" at (%s, %s, %s)
+cw.home.update.success=Updated home "%s" to (%s, %s, %s)
+
+cw.home.delete.success=Deleted home "%s"
+
+cw.home.tp.title=Teleport to Home
+cw.home.tp.dropdown=Select destination
+cw.home.tp.success=Teleported to home "%s"
+cw.home.tp.nohome=No home set
+
+cw.home.set=Confirm Home Setting
+cw.home.set.edit="%s" already exists. Overwrite?
+cw.home.set.max=Reached max home limit (Max: %s homes)
+//Phone
+cw.phone.check.money=Check Balance
+cw.phone.player.teleport=Teleport to Player
+cw.phone.message.system=Messaging System
+cw.phone.goto.lobby=Go to Lobby
+cw.phone.select.job=Select Job
+cw.phone.went.lobby=<Teleported to Lobby>
+cw.phone.set.home=Manage Homes
+cw.phone.goto.home=Go to Home
+//Items
+item.cw:coin_1=1 Yen Coin
+item.cw:coin_10=10 Yen Coin
+item.cw:coin_50=50 Yen Coin
+item.cw:coin_100=100 Yen Coin
+item.cw:coin_500=500 Yen Coin
+item.cw:bill_1000=1000 Yen Bill
+item.cw:bill_5000=5000 Yen Bill
+item.cw:bill_10000=10000 Yen Bill
+item.cw:anshi_goggle=Night Vision Goggles
+item.cw:fabric=Fabric
+item.cw:steel_ingot=Steel Ingot
+item.cw:kaihuku_kit1=Medkit <Level 1>
+item.cw:kaihuku_kit2=Medkit <Level 2>
+item.cw:kaihuku_kit3=Medkit <Level 3>
+item.cw:xp_box=Experience Box
+item.cw:steel_plain=Raw Steel
+item.cw:mega_item=Mega Storage Box
+item.cw:toyphone_blue=ZPhone-Blue
+item.cw:toyphone_red=ZPhone-Red
+item.cw:toyphone_white=ZPhone-White
+item.cw:toyphone=ZPhone
+item.cw:magnet=Magnet
+item.cw:shinai1=Bamboo Sword 1
+item.cw:shinai2=Bamboo Sword 2
+item.cw:shinai3=Bamboo Sword 3
+item.cw:shinai4=Bamboo Sword 4
+item.cw:shinai5=Bamboo Sword 5
