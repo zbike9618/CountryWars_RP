@@ -246,7 +246,7 @@ cw.secondnameform.afterchanged=二つ名[後]を「 %s 」に変更しました\
 cw.menu.title=管理者用ツール
 cw.menu.movemoney=金銭操作
 cw.menu.secondname=二つ名操作
-cw.menu.playerdatareset=§4プレイヤーデータリセット
+cw.menu.playerdatareset=§4プレイヤーデータリセット§r[実験的段階]
 cw.menu.movemoney.operation=操作内容を選択してください
 cw.menu.movemoney.action.add=お金を追加
 cw.menu.movemoney.action.remove=お金を削除
@@ -274,11 +274,12 @@ cw.menu.secondname.remove.after=二つ名[後]を削除
 cw.menu.secondname.remove.tooltip=「-」を選択すると二つ名は削除されません
 cw.menu.secondname.remove.before.success=プレイヤー:%s の二つ名[前]から「 %s 」を削除しました
 cw.menu.secondname.remove.after.success=プレイヤー:%s の二つ名[後]から「 %s 」を削除しました
+cw.menu.secondname.remove.error=初期の二つ名は削除できません
 cw.menu.playerdatareset.player=プレイヤーを選択してください
 cw.menu.playerdatareset.reset=§4選択したプレイヤーデータが消去されることに同意します
-cw.menu.playerdatareset.tooltip=これにチェックを入れると、選択したプレイヤーデータが消去されることに同意したことになります
+cw.menu.playerdatareset.tooltip=消去されるデータ[お金・二つ名]§4注意§r:
 cw.menu.playerdatareset.error=プレイヤーデータのリセットをキャンセルしました
-cw.menu.playerdatareset.success=プレイヤー:%s のプレイヤーデータをリセットしました\n⚠️ワールドに入り直すとリセットが完了します
+cw.menu.playerdatareset.success=プレイヤー:%s のプレイヤーデータの一部がリセットされました\n§4リセットを完了させるため対象のプレイヤーは入り直してください
 
 //items
 item.cw:coin_1=1円玉
