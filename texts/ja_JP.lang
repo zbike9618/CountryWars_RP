@@ -324,10 +324,15 @@ tile.cw:light.name=Light
 ## help
 ##body
 cw.help.title=ヘルプ一覧
-##cw.help.howtoplay=遊び方
+cw.help.howtoplay=遊び方
 ##cw.help.rules=ルール
 cw.help.commands=コマンド一覧
-##内容
+##遊び方内容
+cw.help.howtoplay.whatisthisgame.title=このアドオンについて
+cw.help.howtoplay.whatisthisgame.body=このアドオンはお金を集めて建国し、領土を買ったり奪ったりして国を拡大するゲームです。
+cw.help.howtoplay.mainguide.title=遊び方
+cw.help.howtoplay.mainguide.body=1.「/jobs」で職業に就き、お金を稼ぎます。\n 2.「/mc」で建国をします。\n 3.「/buyc」で領土を買い、国を拡大します。\n 4.もしも気に食わない国家がある場合は「/war」で戦争し、領土を奪うことができます。
+##コマンド一覧内容
 cw.help.commands.money.title=§lお金の確認§r
 cw.help.commands.money.body=現在の所持金を確認します。
 cw.help.commands.bank.title=§l銀行§r
