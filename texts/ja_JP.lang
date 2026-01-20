@@ -1,8 +1,8 @@
-//日本語
+##日本語
 cw.initialSpawn=§a§lCountryWarsを導入していただきありがとうございます！§r\n§7ここでは国を作り、同盟・戦争・発展を楽しめます。\n§6まずは建国フォームを開いて国を作成しましょう！
 cw.commingsoon=coming soon
 cw.initialSpawn.messageRecieve=メッセージが%s件来ています
-//フォームの基本
+##フォームの基本
 cw.form.yes=§l§aはい
 cw.form.no=§l§cいいえ
 cw.form.redo=§l§6戻る
@@ -17,7 +17,7 @@ cw.form.noplayers=プレイヤーがいません
 cw.form.unjoincountry=あなたは国に所属していません
 cw.form.overwrite=上書きする
 cw.form.nomoney=お金が足りないため購入できません
-//建国フォーム
+##建国フォーム
 cw.mcform.alreadyCountry=あなたはすでに国に所属しています
 cw.mcform.title=§6§l建国フォーム
 cw.mcform.WriteCountryNameLabel=§b国名
@@ -80,14 +80,14 @@ cw.scform.permission.edit.delete.tooltip=オンにして送信するとこの権
 cw.scform.permission.choice=権限を選択する
 cw.scform.permission.nopermission=権限がありません
 
-//権限
+##権限
 cw.scform.permissions.information=国の情報を変更できるか
 cw.scform.permissions.permission=権限を決めれるか
 cw.scform.permissions.member_invite=メンバーを招待できるか
 cw.scform.permissions.member_kick=メンバーを追放できるか
 cw.scform.permissions.money_deposit=国庫に預けられるか
 cw.scform.permissions.money_withdraw=国庫から引き出せるか
-//戦争
+##戦争
 
 cw.warform.title=戦争関連
 
@@ -103,7 +103,7 @@ cw.war.invade.success=§a[CountryWars] §6%s§rが%s§rの領土[%s,??,%s]を征
 cw.war.invade.finish=§a[CountryWars] §6%s§rが§6%s§rに勝利しました
 cw.war.invade.finish.money=§a[CountryWars]§r %s§rに賠償金として¥%s国庫から引き出されました
 cw.war.death=%s§rの残り復活回数は%s回です
-//tpa
+##tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
 cw.tpaform.request=§bテレポート要請
@@ -128,7 +128,7 @@ cw.tpa.requestnotice=§6%s§7からテレポート要請が届きました\n§a/
 
 cw.tpa.secondrequest=§c%s§7には既にテレポート要請を送信済みです
 cw.tpa.secondrequestnotice=§6%s§7から§6再度§7テレポート要請が届きました\n§a/tpa§7で承認できます
-//メッセージボックス
+##メッセージボックス
 cw.messagebox.title=メッセージボックス
 cw.messagebox.recieve=受信(%s)
 cw.messagebox.recieve.tpa=[tpa] From (%s)
@@ -146,7 +146,7 @@ cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
 cw.messagebox.send.success=%s にメッセージを送りました
 cw.messagebox.send.recieve=%s からのメッセージが届いています
-//playermarket
+##playermarket
 cw.playermarket.title=プレイヤーマーケット
 cw.playermarket.see=商品をみる
 cw.playermarket.sell=出品
@@ -165,7 +165,7 @@ cw.playermarket.buy.body=本当に購入しますか？\n商品 :
 cw.playermarket.buy.body2=\n現在のお金 : ¥%s\n価格 : ¥%s \nLore : %s\n個数 : %s\n%s\n出品者 : %s
 cw.playermarket.buy.success=[%s]を購入しました
 
-// jobs
+##jobs
 cw.jobsform.title=§6§l職業フォーム
 cw.jobsform.working=§a§l就職中
 cw.jobs.miner=鉱夫
@@ -184,10 +184,10 @@ cw.jobs.reward.actionbar.farmer=§a 農民として¥ %s 獲得！ 残高:￥ %s
 cw.jobs.reward.actionbar.netherdigger=§a ネザー採掘者として¥ %s 獲得！ 残高:￥ %s
 cw.jobs.reward.actionbar.builder=§a 建築者として¥ %s 獲得！ 残高:￥ %s
 
-//money
+##money
 cw.watchmoney=§a所持金:¥ %s
 
-//chunk
+##chunk
 cw.chunk.buy.title=チャンクを購入
 cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(国庫残高 : ¥%s)
 cw.chunk.buy.success=このチャンクを購入しました
@@ -200,7 +200,7 @@ cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
 
-// home
+##home
 cw.home.menu.add=ホームを追加
 cw.home.menu.update=位置を上書き/更新
 cw.home.menu.delete=ホームを削除
@@ -220,7 +220,7 @@ cw.home.tp.nohome=ホームが設定されていません
 cw.home.set=ホーム設定の確認
 cw.home.set.edit=「%s」は既に存在します。上書きしますか？
 cw.home.set.max=ホームの最大数に達しました(最大 : %sホーム)
-//phone
+##phone
 cw.phone.check.money=所持金確認
 cw.phone.player.teleport=プレイヤーへテレポート
 cw.phone.message.system=メッセージ機能
@@ -231,25 +231,25 @@ cw.phone.set.home=ホームの設定・管理
 cw.phone.goto.home=ホームへ移動する
 cw.phone.help=ヘルプを表示します
 
-//bank
+##bank
 cw.bankform.title=§6§l銀行
 cw.bankform.tobank=銀行へ振り込む
 cw.bankform.frombank=銀行から引き落とす
 cw.bankform.exchange=両替
 
-//secondname
+##secondname
 cw.secondnameform.title=二つ名
 cw.secondnameform.before=二つ名[前] %s
 cw.secondnameform.after=二つ名[後] %s
 cw.secondnameform.beforechanged=二つ名[前]を「 %s 」に変更しました\n現在： %s
 cw.secondnameform.afterchanged=二つ名[後]を「 %s 」に変更しました\n現在： %s
 
-//listcoutnry
+##listcoutnry
 cw.listcountry.title=国家一覧
 cw.listcountry.nocountry=表示可能な国家がありません
 cw.listcountry.info.ok=閉じる
 
-//menu
+##menu
 cw.menu.title=管理者用ツール
 cw.menu.movemoney=金銭操作
 cw.menu.secondname=二つ名操作
@@ -289,7 +289,7 @@ cw.menu.playerdatareset.tooltip=消去されるデータ[お金・二つ名]§4�
 cw.menu.playerdatareset.error=プレイヤーデータのリセットをキャンセルしました
 cw.menu.playerdatareset.success=プレイヤー:%s のプレイヤーデータの一部がリセットされました\n§4リセットを完了させるため対象のプレイヤーは入り直してください
 
-//items
+##items
 item.cw:coin_1=1円玉
 item.cw:coin_10=10円玉
 item.cw:coin_50=50円玉
@@ -320,3 +320,41 @@ item.cw:shinai5=竹刀5
 item.cw:security_camera_item=リモコン
 tile.cw:security_camera.name=監視カメラ
 tile.cw:light.name=Light
+
+## help
+##body
+cw.help.title=ヘルプ一覧
+##cw.help.howtoplay=遊び方
+##cw.help.rules=ルール
+cw.help.commands=コマンド一覧
+##内容
+cw.help.commands.money.title=§lお金の確認§r
+cw.help.commands.money.body=現在の所持金を確認します。
+cw.help.commands.bank.title=§l銀行§r
+cw.help.commands.bank.body=クラウドへの預け入れ、引き出し、両替を行います。
+cw.help.commands.sethome.title=§lホーム設定§r
+cw.help.commands.sethome.body=ホームの管理ができます。
+cw.help.commands.home.title=§lホームへ戻る§r
+cw.help.commands.home.body=設定したホーム地点へテレポートします。
+cw.help.commands.jobs.title=§l職業§r
+cw.help.commands.jobs.body=職業に就くことで、特定の行動でお金を稼ぐことができます。
+cw.help.commands.tpaccept.title=§lテレポート承認§r
+cw.help.commands.tpaccept.body=他プレイヤーからのテレポートリクエストを承認します。\n簡略コマンド:/tpa
+cw.help.commands.messagebox.title=§lメールボックス§r
+cw.help.commands.messagebox.body=オフライン中などに届いたメッセージを確認します。\n簡略コマンド:/mb
+cw.help.commands.listcountry.title=§l国リスト§r
+cw.help.commands.listcountry.body=現在存在する国の一覧を表示します。\n簡略コマンド:/lc
+cw.help.commands.playermarket.title=§lプレイヤーマーケット§r
+cw.help.commands.playermarket.body=プレイヤー同士でアイテムを売買できる市場を開きます。\n簡略コマンド:/pm
+cw.help.commands.makecountry.title=§l国の建国§r
+cw.help.commands.makecountry.body=新しく自分の国を建国します。\n簡略コマンド:/mc
+cw.help.commands.settingscountry.title=§l国籍・設定§r
+cw.help.commands.settingscountry.body=所属している国の設定変更や管理を行います。\n簡略コマンド:/sc
+cw.help.commands.buychunk.title=§l土地の購入§r
+cw.help.commands.buychunk.body=現在立っている場所のチャンクを自分の領土として購入します。\n簡略コマンド:/buyc
+cw.help.commands.sellchunk.title=§l土地の売却§r
+cw.help.commands.sellchunk.body=所有しているチャンクを売却し、領土を手放します。\n簡略コマンド:/sellc
+cw.help.commands.checkchunk.title=§l土地情報の確認§r
+cw.help.commands.checkchunk.body=現在地の所有者や保護情報を確認します。\n簡略コマンド:/cc
+cw.help.commands.war.title=§l戦争§r
+cw.help.commands.war.body=他国への宣戦布告や、戦争に関する情報の確認を行います。
