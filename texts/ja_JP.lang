@@ -199,7 +199,9 @@ cw.chunk.sell.check=このチャンクを売却しますか？\n売却すると�
 cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
-
+cw.chunk.break=§c§lこのチャンクは %s の領土なので壊せません！§r
+cw.chunk.place=§c§lこのチャンクは %s の領土なので置けません！§r
+cw.chunk.interect=§c§lこのチャンクは %s の領土なので触れません！§r
 // home
 cw.home.menu.add=ホームを追加
 cw.home.menu.update=位置を上書き/更新
