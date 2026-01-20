@@ -97,13 +97,14 @@ cw.warform.declare.check=%s§7に宣戦布告しますか？
 cw.warform.declare.message=§a[CountryWars] §6%s§rが§6%s§rに宣戦布告しました
 cw.warform.declared=%s§7に宣戦布告されました
 cw.warform.declare.nochunk=どちらかが領土を保持していません
-cw.warform.peace=講和する
+cw.warform.peace=§l§a講和する(WIP)
+cw.warform.declare.peace=平和国は戦争を仕掛けられません
+
 cw.war.invade=§a[CountryWars] §6%s§rが%s§rの領土[%s,??,%s]を侵攻しました
 cw.war.invade.success=§a[CountryWars] §6%s§rが%s§rの領土[%s,??,%s]を征服しました
 cw.war.invade.finish=§a[CountryWars] §6%s§rが§6%s§rに勝利しました
 cw.war.invade.finish.money=§a[CountryWars]§r %s§rに賠償金として¥%s国庫から引き出されました
 cw.war.death=%s§rの残り復活回数は%s回です
-cw.warform.declare.peace=平和国は戦争を仕掛けられません
 cw.war.attacknowar=§c戦争に関係ない人は攻撃できません
 ##tpa
 cw.tpaform.title=§9§lテレポート
