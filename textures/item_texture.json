@@ -15,40 +15,40 @@
             "textures": "textures/items/toyphone_item_white"
         },
         "kaihuku_kit1": {
-            "textures": "textures/items/kaihuku_kit_item1"
+            "textures": "textures/items/kaihuku_kit1"
         },
         "kaihuku_kit2": {
-            "textures": "textures/items/kaihuku_kit_item2"
+            "textures": "textures/items/kaihuku_kit2"
         },
         "kaihuku_kit3": {
-            "textures": "textures/items/kaihuku_kit_item3"
+            "textures": "textures/items/kaihuku_kit3"
         },
         "fabric": {
             "textures": "textures/items/fabric"
         },
         "anshi_goggle": {
-            "textures": "textures/items/anshi_goggle_item"
+            "textures": "textures/items/anshi_goggle"
         },
         "xp_box": {
-            "textures": "textures/items/xp_box_item"
+            "textures": "textures/items/xp_box"
         },
         "ingot": {
-            "textures": "textures/items/ingot_item"
+            "textures": "textures/items/ingot"
         },
         "plain": {
             "textures": "textures/items/plain"
         },
         "mega_item": {
-            "textures": "textures/items/mega_item"
+            "textures": "textures/items/mega"
         },
         "magnet": {
-            "textures": "textures/items/magnet_item"
+            "textures": "textures/items/magnet"
         },
         "shinai": {
-            "textures": "textures/items/shinai_item"
+            "textures": "textures/items/shinai"
         },
         "security_camera_item": {
-            "textures": "textures/items/security_camera_item"
+            "textures": "textures/items/security_camera"
         },
         "bill_1000": {
             "textures": "textures/items/bill_1000"

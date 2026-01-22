@@ -257,3 +257,9 @@ item.cw:shinai5=竹刀5
 item.cw:security_camera_item=リモコン
 tile.cw:security_camera.name=監視カメラ
 tile.cw:light.name=Light
+
+cw.camera_registered=カメラ座標を登録しました: %s
+cw.camera_not_found=保存されていたカメラが見つかりません
+cw.camera_view_started=カメラ視点に切り替えました
+cw.camera_view_ended=カメラ視点を終了しました
+cw.no_camera_registered=カメラが登録されていません
