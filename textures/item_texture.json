@@ -47,6 +47,9 @@
         "shinai": {
             "textures": "textures/items/shinai"
         },
+        "dice": {
+            "textures": "textures/items/dice"
+        },
         "security_camera_item": {
             "textures": "textures/items/security_camera"
         },
