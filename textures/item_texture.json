@@ -50,6 +50,21 @@
         "dice": {
             "textures": "textures/items/dice"
         },
+        "fabric_helmet": {
+            "textures": "textures/items/fabric_helmet"
+        },
+        "fabric_chestplate": {
+            "textures": "textures/items/fabric_chestplate"
+        },
+        "fabric_leg": {
+            "textures": "textures/items/fabric_leg"
+        },
+        "fabric_boots": {
+            "textures": "textures/items/fabric_boots"
+        },
+        "cooked_zombie": {
+            "textures": "textures/items/cooked_zombie"
+        },
         "security_camera_item": {
             "textures": "textures/items/security_camera"
         },
