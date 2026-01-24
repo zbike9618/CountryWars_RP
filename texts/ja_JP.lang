@@ -102,12 +102,15 @@ cw.warform.declare.peace=平和国は戦争を仕掛けられません
 
 cw.war.invade=§a[CountryWars] §6%s§rが%s§rの領土[%s,??,%s]を侵攻しました
 cw.war.invade.success=§a[CountryWars] §6%s§rが%s§rの領土[%s,??,%s]を征服しました
-cw.war.invade.finish=§a[CountryWars] §6%s§rが§6%s§rに勝利しました
+
 cw.war.invade.finish.money=§a[CountryWars]§r %s§rに賠償金として¥%s国庫から引き出されました
-cw.war.death=%s§rの残り復活回数は%s回です
+cw.war.death=[§cCountryWars] §r%s§rの残り復活回数は%s回です
 cw.war.attacknowar=§c戦争に関係ない人は攻撃できません
 cw.war.attacknoown=§c自分の領土は攻撃できません
 cw.war.nozanki=§c残機がもうありません
+cw.war.finish.invade=§a[CountryWars] §6%s§rが§6%s§rの領土を全て征服しました
+cw.war.finish.killall=§a[CountryWars] §6%s§rが§6%s§rの国民を全滅させました
+
 ##tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
