@@ -106,6 +106,8 @@ cw.war.invade.finish=§a[CountryWars] §6%s§rが§6%s§rに勝利しました
 cw.war.invade.finish.money=§a[CountryWars]§r %s§rに賠償金として¥%s国庫から引き出されました
 cw.war.death=%s§rの残り復活回数は%s回です
 cw.war.attacknowar=§c戦争に関係ない人は攻撃できません
+cw.war.attacknoown=§c自分の領土は攻撃できません
+cw.war.nozanki=§c残機がもうありません
 ##tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
@@ -237,6 +239,14 @@ cw.phone.set.home=ホームの設定・管理
 cw.phone.goto.home=ホームへ移動する
 cw.phone.help=ヘルプを表示します
 
+##pay
+cw.pay.noplayer=指定されたプレイヤーが見つかりません。
+cw.pay.minamount=値が無効です
+cw.pay.selfpay=自分自身にお金を渡すことはできません。
+cw.pay.nomoney=お金が足りません。
+cw.pay.me=%s に %s 円渡しました
+cw.pay.to=%s から %s 円受け取りました
+
 ##bank
 cw.bankform.title=§6§l銀行
 cw.bankform.tobank=銀行へ振り込む
@@ -329,8 +339,18 @@ item.cw:fabric_leg=布のレギンス
 item.cw:fabric_boots=布のブーツ
 item.cw:cooked_zombie=ゾンビ肉のグリル
 item.cw:security_camera_item=リモコン
+item.cw:platinum_ingot=プラチナの延べ棒
+item.cw:nitricacid_bucket=硝酸入りバケツ
+item.cw:sulfur=硫黄
+item.cw:sulfuricacid_bucket=硫酸入りバケツ
+item.cw:nitroglycerin_bucket=ニトログリセリン入りバケツ
+item.cw:sulfuric_iron=硫黄混合鉄
+item.cw:fertilizer=肥料
 tile.cw:security_camera.name=監視カメラ
 tile.cw:light.name=Light
+tile.cw:platinum_ore.name=プラチナ鉱石
+tile.cw:sulfur_ore.name=硫黄鉱石
+tile.cw:platinum_iron_alloy.name=白金鉄合金
 
 cw.camera_registered=カメラ座標を登録しました: %s
 cw.camera_not_found=保存されていたカメラが見つかりません

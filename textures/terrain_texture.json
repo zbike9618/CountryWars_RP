@@ -1,27 +1,41 @@
 {
-    "num_mip_levels" : 4,
-    "padding" : 8,
-    "resource_pack_name" : "player_trophy",
-    "texture_data" : {
-      "zsan" : {
-      "textures" : "textures/blocks/zsan"
-       },"fsan" : {
-         "textures" : "textures/blocks/fsan"
-       },"bsan" : {
-         "textures" : "textures/blocks/bsan"
-       },"csan" : {
-         "textures" : "textures/blocks/csan"
-       },"tsan" : {
-         "textures" : "textures/blocks/tsan"
-       },"Z" : {
-         "textures" : "textures/blocks/Z"
-       },"light" : {
-         "textures" : "textures/blocks/light"
-       },"security_camera" : {
-         "textures" : "textures/blocks/security_camera"
-       }
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "player_trophy",
+  "texture_data": {
+    "zsan": {
+      "textures": "textures/blocks/doll/zsan"
     },
-    "texture_name" : "atlas.terrain"
+    "fsan": {
+      "textures": "textures/blocks/doll/fsan"
+    },
+    "bsan": {
+      "textures": "textures/blocks/doll/bsan"
+    },
+    "csan": {
+      "textures": "textures/blocks/doll/csan"
+    },
+    "tsan": {
+      "textures": "textures/blocks/doll/tsan"
+    },
+    "Z": {
+      "textures": "textures/blocks/Z"
+    },
+    "light": {
+      "textures": "textures/blocks/light"
+    },
+    "security_camera": {
+      "textures": "textures/blocks/security_camera"
+    },
+    "platinum_ore": {
+      "textures": "textures/blocks/platinum_ore"
+    },
+    "sulfur_ore": {
+      "textures": "textures/blocks/sulfur_ore"
+    },
+    "platinum_iron_alloy": {
+      "textures": "textures/blocks/platinum_iron_alloy"
+    }
+  },
+  "texture_name": "atlas.terrain"
 }
-
- 

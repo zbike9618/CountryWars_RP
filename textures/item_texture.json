@@ -91,6 +91,27 @@
         },
         "coin_500": {
             "textures": "textures/items/coin_500"
+        },
+        "platinum_ingot": {
+            "textures": "textures/items/platinum_ingot"
+        },
+        "nitricacid_bucket": {
+            "textures": "textures/items/nitricacid_bucket"
+        },
+        "sulfur": {
+            "textures": "textures/items/sulfur"
+        },
+        "sulfuricacid_bucket": {
+            "textures": "textures/items/sulfuricacid_bucket"
+        },
+        "nitroglycerin_bucket": {
+            "textures": "textures/items/nitroglycerin_bucket"
+        },
+        "sulfuric_iron": {
+            "textures": "textures/items/sulfuric_iron"
+        },
+        "fertilizer": {
+            "textures": "textures/items/fertilizer"
         }
     }
 }
