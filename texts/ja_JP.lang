@@ -406,3 +406,8 @@ cw.help.commands.checkchunk.title=§l土地情報の確認§r
 cw.help.commands.checkchunk.body=現在地の所有者や保護情報を確認します。\n簡略コマンド:/cc
 cw.help.commands.war.title=§l戦争§r
 cw.help.commands.war.body=他国への宣戦布告や、戦争に関する情報の確認を行います。
+
+##エンティティ
+entity.cw:airboard.name=エアボード
+entity.cw:dice.name=サイコロ
+entity.cw:core.name=コア
