@@ -204,15 +204,11 @@ cw.chunk.sell.check=このチャンクを売却しますか？\n売却すると�
 cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
-<<<<<<< HEAD
 cw.chunk.break=§c§lこのチャンクは %s の領土なので壊せません！§r
 cw.chunk.place=§c§lこのチャンクは %s の領土なので置けません！§r
 cw.chunk.interect=§c§lこのチャンクは %s の領土なので触れません！§r
-// home
-=======
 
 ##home
->>>>>>> 4f7cb7f5ac3775801b115c86dff10d926ce94a11
 cw.home.menu.add=ホームを追加
 cw.home.menu.update=位置を上書き/更新
 cw.home.menu.delete=ホームを削除
@@ -328,6 +324,8 @@ item.cw:shinai2=竹刀2
 item.cw:shinai3=竹刀3
 item.cw:shinai4=竹刀4
 item.cw:shinai5=竹刀5
+item.cw:dice=サイコロ
+item.cw:cooked_zombie=ゾンビ肉のグリル
 item.cw:security_camera_item=リモコン
 item.cw:platinum_ingot=プラチナの延べ棒
 item.cw:nitricacid_bucket=硝酸入りバケツ
@@ -341,6 +339,12 @@ tile.cw:light.name=Light
 tile.cw:platinum_ore.name=プラチナ鉱石
 tile.cw:sulfur_ore.name=硫黄鉱石
 tile.cw:platinum_iron_alloy.name=白金鉄合金
+
+cw.camera_registered=カメラ座標を登録しました: %s
+cw.camera_not_found=保存されていたカメラが見つかりません
+cw.camera_view_started=カメラ視点に切り替えました
+cw.camera_view_ended=カメラ視点を終了しました
+cw.no_camera_registered=カメラが登録されていません
 ## help
 ##body
 cw.help.title=ヘルプ一覧
