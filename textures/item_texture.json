@@ -112,6 +112,18 @@
         },
         "fertilizer": {
             "textures": "textures/items/fertilizer"
+        },
+        "platinum_helmet": {
+            "textures": "textures/items/platinum_helmet"
+        },
+        "platinum_chestplate": {
+            "textures": "textures/items/platinum_chestplate"
+        },
+        "platinum_leggings": {
+            "textures": "textures/items/platinum_leggings"
+        },
+        "platinum_boots": {
+            "textures": "textures/items/platinum_boots"
         }
     }
 }
