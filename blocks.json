@@ -1,0 +1,15 @@
+{
+    "format_version": "1.19.0",
+    "cw:platinum_ore": {
+        "textures": "platinum_ore",
+        "sound": "stone"
+    },
+    "cw:sulfur_ore": {
+        "textures": "sulfur_ore",
+        "sound": "stone"
+    },
+    "cw:platinum_iron_alloy": {
+        "textures": "platinum_iron_alloy",
+        "sound": "stone"
+    }
+}
