@@ -237,6 +237,14 @@ cw.phone.set.home=ホームの設定・管理
 cw.phone.goto.home=ホームへ移動する
 cw.phone.help=ヘルプを表示します
 
+##pay
+cw.pay.noplayer=指定されたプレイヤーが見つかりません。
+cw.pay.minamount=値が無効です
+cw.pay.selfpay=自分自身にお金を渡すことはできません。
+cw.pay.nomoney=お金が足りません。
+cw.pay.me=%s に %s 円渡しました
+cw.pay.to=%s から %s 円受け取りました
+
 ##bank
 cw.bankform.title=§6§l銀行
 cw.bankform.tobank=銀行へ振り込む
