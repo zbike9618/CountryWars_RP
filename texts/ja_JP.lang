@@ -17,6 +17,9 @@ cw.form.noplayers=プレイヤーがいません
 cw.form.unjoincountry=あなたは国に所属していません
 cw.form.overwrite=上書きする
 cw.form.nomoney=お金が足りないため購入できません
+cw.form.nowmoney=今の所持金 : %s ¥
+cw.form.error.int=数値は自然数で入力してください
+
 ##建国フォーム
 cw.mcform.alreadyCountry=あなたはすでに国に所属しています
 cw.mcform.title=§6§l建国フォーム
@@ -97,7 +100,54 @@ cw.warform.declare.check=%s§7に宣戦布告しますか？
 cw.warform.declare.message=§a[CountryWars] §6%s§rが§6%s§rに宣戦布告しました
 cw.warform.declared=%s§7に宣戦布告されました
 cw.warform.declare.nochunk=どちらかが領土を保持していません
-cw.warform.peace=§l§a講和する(WIP)
+cw.warform.peace=§l§6講和交渉
+cw.warform.peace.nowar=§c現在、戦争中の国はありません。
+cw.warform.peace.select=講和交渉を行う国を選択してください。
+cw.warform.peace.manage=§l%sとの講和管理
+cw.warform.peace.propose=新しい条件を提案
+cw.warform.peace.accept=現在の提案を承認
+cw.warform.peace.reject=提案を拒否
+cw.warform.peace.reject.confirm=本当に現在の講和提案を拒否しますか？
+cw.warform.peace.money=金額
+cw.warform.peace.type=種類
+cw.warform.peace.offer=§a金を支払う
+cw.warform.peace.request=§c金を要求する
+cw.warform.peace.equal=§e対等な講和
+cw.warform.peace.noproposal=§7現在、有効な講和提案はありません。
+# ステータス表示
+cw.warform.peace.status.both_accepted= §l§a[両国承認済]
+cw.warform.peace.status.self_accepted= §l§e[自国承認済]
+cw.warform.peace.status.pending_out= §7[提案中]
+cw.warform.peace.status.pending_in= §6[提案受信中]
+cw.warform.peace.status.accepted=§a承認済
+cw.warform.peace.status.pending=§7未承認
+# 提案内容（RawMessage用）
+cw.warform.peace.proposal.offer=§l§b提案: §f%s が %s に §e%s¥ §fを支払う
+cw.warform.peace.proposal.request=§l§b提案: §f%s が %s に §e%s¥ §fを支払う
+cw.warform.peace.proposal.equal=§l§b提案: §e対等な条件での講和
+# 確認画面
+cw.warform.peace.confirm.offer=%sに §e%s¥ §fを支払う条件で講和を提案しますか？
+cw.warform.peace.confirm.request=%sから §e%s¥ §fを受け取る条件で講和を提案しますか？
+cw.warform.peace.confirm.equal=%sと対等な条件で講和を提案しますか？
+# 通知（入れ子回避版）
+# senderの例: [国名]に講和を提案しました ([金額などの説明])
+cw.war.peace.proposed.sender.middle=に講和を提案しました (
+# receiverの例: [国名]から講和の提案が届きました ([金額などの説明])
+cw.war.peace.proposed.receiver.middle=から講和の提案が届きました (
+cw.war.peace.finalized.prefix=§l§g【講和成立】§r 
+cw.war.peace.finalized.offer=§f%sが%sに§e%s¥§fを支払い、停戦しました。
+cw.war.peace.finalized.request=§f%sが%sに§e%s¥§fを支払い、停戦しました。
+cw.war.peace.finalized.equal=§f%sと%sが対当な条件で停戦しました。
+# 補助
+cw.warform.peace.proposal.money.offer=%s¥ を提供
+cw.warform.peace.proposal.money.request=%s¥ を要求
+cw.war.peace.accepted.self=§a%sとの講和を承認しました。相手の承認を待っています。
+cw.war.peace.accepted.other=§6%sが講和提案を承認しました。
+cw.war.peace.rejected.self=§c%sとの講和提案を取り消しました。
+cw.war.peace.rejected.other=§c%sが講和提案を拒否、または取り消しました。
+cw.war.peace.insufficient=§c資金が不足しているため、講和を成立させることができません。
+cw.war.peace.finalized=§l§g【講和成立】§r %s
+
 cw.warform.declare.peace=平和国は戦争を仕掛けられません
 
 cw.war.invade=§a[CountryWars] §6%s§rが%s§rの領土[%s,??,%s]を侵攻しました
@@ -159,7 +209,6 @@ cw.playermarket.title=プレイヤーマーケット
 cw.playermarket.see=商品をみる
 cw.playermarket.sell=出品
 cw.playermarket.sell.price=価格
-cw.playermarket.sell.priceerror=価格は自然数で入力してください
 cw.playermarket.sell.success=[%s個]を出品しました
 cw.playermarket.selled.success1=§a[CountryWars] §r
 cw.playermarket.selled.success2=[%s個]が出品されました
@@ -209,7 +258,7 @@ cw.chunk.actionbar.wasteland=荒地
 cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャンクを買えません(最大 : %sチャンク)
 cw.chunk.break=§c§lこのチャンクは %s の領土なので壊せません！§r
 cw.chunk.place=§c§lこのチャンクは %s の領土なので置けません！§r
-cw.chunk.interect=§c§lこのチャンクは %s の領土なので触れません！§r
+cw.chunk.interact=§c§lこのチャンクは %s の領土なので触れません！§r
 
 ##home
 cw.home.menu.add=ホームを追加
