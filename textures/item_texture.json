@@ -124,6 +124,21 @@
         },
         "platinum_boots": {
             "textures": "textures/items/platinum_boots"
+        },
+        "end_raw": {
+            "textures": "textures/items/end_raw"
+        },
+        "end_ingot": {
+            "textures": "textures/items/end_ingot"
+        },
+        "end_upgrade": {
+            "textures": "textures/items/end_upgrade"
+        },
+        "end_sword": {
+            "textures": "textures/items/end_sword"
+        },
+        "air_board_key": {
+            "textures": "textures/items/air_board_key"
         }
     }
 }

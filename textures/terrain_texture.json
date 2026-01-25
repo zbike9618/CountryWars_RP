@@ -35,6 +35,9 @@
     },
     "platinum_iron_alloy": {
       "textures": "textures/blocks/platinum_iron_alloy"
+    },
+    "end_ore": {
+      "textures": "textures/blocks/end_ore"
     }
   },
   "texture_name": "atlas.terrain"
