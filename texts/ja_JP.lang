@@ -336,6 +336,7 @@ item.cw:shinai3=竹刀3
 item.cw:shinai4=竹刀4
 item.cw:shinai5=竹刀5
 item.cw:dice=サイコロ
+item.cw:airboard_key=エアボードツール
 item.cw:fabric_helmet=布のヘルメット
 item.cw:fabric_chestplate=布のチェストプレート
 item.cw:fabric_leg=布のレギンス
@@ -358,6 +359,7 @@ item.cw:platinum_leggings=プラチナのレギンス
 item.cw:platinum_boots=プラチナのブーツ
 tile.cw:security_camera.name=監視カメラ
 tile.cw:light.name=Light
+tile.cw:end_ore.name=エンド鉱石
 tile.cw:platinum_ore.name=プラチナ鉱石
 tile.cw:sulfur_ore.name=硫黄鉱石
 tile.cw:platinum_iron_alloy.name=白金鉄合金
@@ -414,3 +416,8 @@ cw.help.commands.war.body=他国への宣戦布告や、戦争に関する情報
 entity.cw:airboard.name=エアボード
 entity.cw:dice.name=サイコロ
 entity.cw:core.name=コア
+
+##グループ
+itemGroup.playerdolls=プレイヤー像
+
+action.hint.exit.cw:airboard=スニークでエアボードから降りる

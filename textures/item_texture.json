@@ -137,8 +137,8 @@
         "end_sword": {
             "textures": "textures/items/end_sword"
         },
-        "air_board_key": {
-            "textures": "textures/items/air_board_key"
+        "airboard_key": {
+            "textures": "textures/items/airboard_key"
         }
     }
 }
