@@ -1,0 +1,15 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dynamite.wield": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": ["c.is_first_person ? 5 : 90", "c.is_first_person ? 50 :-0", "c.is_first_person ? -145 :0"],
+					"position": ["-c.is_first_person ? 6 :-0", "c.is_first_person ? 24 :23", "c.is_first_person ? 2 :0"],
+					"scale": 0.5
+				}
+			}
+		}
+	}
+}
