@@ -316,6 +316,9 @@ cw.secondnameform.afterchanged=二つ名[後]を「 %s 」に変更しました\
 cw.countrylist.title=国家一覧
 cw.countrylist.nocountry=表示可能な国家がありません
 
+##chat
+cw.chattype.changed=§aチャットモードを「%s」に変更しました
+cw.chattype.already=§c既に「%s」モードです
 ##menu
 cw.menu.title=管理者用ツール
 cw.menu.movemoney=金銭操作
