@@ -27,6 +27,9 @@
     "security_camera": {
       "textures": "textures/blocks/security_camera"
     },
+    "timer_bomb": {
+      "textures": "textures/blocks/timer_bomb"
+    },
     "platinum_ore": {
       "textures": "textures/blocks/platinum_ore"
     },

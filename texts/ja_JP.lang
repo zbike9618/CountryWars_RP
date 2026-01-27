@@ -420,12 +420,19 @@ tile.cw:end_ore.name=エンド鉱石
 tile.cw:platinum_ore.name=プラチナ鉱石
 tile.cw:sulfur_ore.name=硫黄鉱石
 tile.cw:platinum_iron_alloy.name=白金鉄合金
+tile.cw:timer_bomb.name=時限爆弾
 
 cw.camera_registered=カメラ座標を登録しました: %s
 cw.camera_not_found=保存されていたカメラが見つかりません
 cw.camera_view_started=カメラ視点に切り替えました
 cw.camera_view_ended=カメラ視点を終了しました
 cw.no_camera_registered=カメラが登録されていません
+
+cw.timer_bomb.title=時限爆弾
+cw.timer_bomb.tooltip=送信を押すとカウントダウンを開始します
+cw.timer_bomb.time=設定時間
+cw.timer_bomb.warn=秒数は0以上を入力してください
+cw.timer_bomb.check=残りの時間[ %s : %s : %s ]
 ## help
 ##body
 cw.help.title=ヘルプ一覧
