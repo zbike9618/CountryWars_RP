@@ -11,8 +11,13 @@
     "cw:platinum_iron_alloy": {
         "textures": "platinum_iron_alloy",
         "sound": "stone"
-    },"cw:end_ore": {
+    },
+    "cw:end_ore": {
         "textures": "end_ore",
         "sound": "stone"
+    },
+    "cw:timer_bomb": {
+        "textures": "timer_bomb",
+        "sound": "grass"
     }
 }
