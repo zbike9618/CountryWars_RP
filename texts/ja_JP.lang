@@ -62,7 +62,6 @@ cw.scform.tax=税金
 cw.scform.tax.consumption=消費税[％]
 cw.scform.tax.income=所得税[％]
 cw.scform.tax.country=国民税[％]
-cw.scform.tax.customs=関税[％]
 cw.tax.timenear=§a[CountryWars] §r土地の維持費の回収まで残り%sです\n国庫に維持費の分のお金がないと国は解体されます
 cw.tax.levy=国民税として¥%sを徴収しました
 cw.tax.maintenance.fail=§a[CountryWars] §r%s の土地の維持費の回収に失敗し、解体しました\n国庫に維持費の分のお金がありません
@@ -84,13 +83,47 @@ cw.scform.permission.edit.delete.tooltip=オンにして送信するとこの権
 cw.scform.permission.choice=権限を選択する
 cw.scform.permission.nopermission=権限がありません
 
-##権限
-cw.scform.permissions.information=国の情報を変更できるか
-cw.scform.permissions.permission=権限を決めれるか
-cw.scform.permissions.member_invite=メンバーを招待できるか
-cw.scform.permissions.member_kick=メンバーを追放できるか
-cw.scform.permissions.money_deposit=国庫に預けられるか
-cw.scform.permissions.money_withdraw=国庫から引き出せるか
+## 外交システム (Diplomacy)
+cw.scform.diplomacy=外交
+cw.scform.diplomacy.list=外交関係一覧
+cw.scform.diplomacy.change=関係の変更
+cw.scform.diplomacy.requests=同盟申請
+cw.scform.diplomacy.request_pending=未処理の同盟申請: %s件
+cw.scform.diplomacy.permission=外交権限設定
+cw.scform.diplomacy.nocountries=対象となる国がありません
+cw.scform.diplomacy.select_country=国を選択
+cw.error.country_not_found=国が見つかりません
+cw.scform.diplomacy.action=%s との外交
+cw.scform.diplomacy.current_relation=現在の関係: %s
+cw.scform.diplomacy.req_ally=同盟申請
+cw.scform.diplomacy.set_friend=友好国に設定
+cw.scform.diplomacy.set_neutral=中立国に設定
+cw.scform.diplomacy.set_enemy=敵対国に設定
+cw.scform.diplomacy.already_ally=既に同盟関係です
+cw.scform.diplomacy.already_requested=既に申請済みです
+cw.scform.diplomacy.request_sent=%s に申請を送りました
+cw.scform.diplomacy.receive_request=%s から同盟申請が届いています
+cw.scform.diplomacy.ally_broken=%s との同盟が解消されました
+cw.scform.diplomacy.relation_updated=%s との関係を %s にしました
+cw.scform.diplomacy.no_requests=申請はありません
+cw.scform.diplomacy.request_handle=申請処理
+cw.scform.diplomacy.request_body=%s からの申請
+cw.scform.diplomacy.accept=承諾
+cw.scform.diplomacy.deny=拒否
+cw.scform.diplomacy.accepted=%s と同盟を結びました
+cw.scform.diplomacy.request_accepted=%s が承諾しました
+cw.scform.diplomacy.denied=%s との同盟を拒否しました
+cw.scform.diplomacy.request_denied=%s が拒否しました
+cw.scform.diplomacy.permission_settings=権限設定
+cw.scform.diplomacy.edit_perm=%s の権限編集
+cw.scform.diplomacy.perm_updated=%s の権限を更新しました
+cw.diplomacy.perm.enter_territory=領土侵入
+cw.diplomacy.perm.break_block=ブロック破壊
+cw.diplomacy.perm.place_block=ブロック設置
+cw.diplomacy.perm.open_container=コンテナ利用
+cw.diplomacy.perm.interact=干渉
+cw.diplomacy.perm.attack=攻撃
+
 ##戦争
 
 cw.warform.title=戦争関連
@@ -205,24 +238,24 @@ cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
 cw.messagebox.send.success=%s にメッセージを送りました
 cw.messagebox.send.recieve=%s からのメッセージが届いています
-##playermarket
-cw.playermarket.title=プレイヤーマーケット
-cw.playermarket.see=商品をみる
-cw.playermarket.sell=出品
-cw.playermarket.sell.price=価格
-cw.playermarket.sell.success=[%s個]を出品しました
-cw.playermarket.selled.success1=§a[CountryWars] §r
-cw.playermarket.selled.success2=[%s個]が出品されました
-cw.playermarket.sell.description=商品説明
-cw.playermarket.sell.amount=個数
-cw.playermarket.edit=出品した商品の編集
-cw.playermarket.edit.toggle=出品した商品を取り下げるか
-cw.playermarket.edit.delete=商品を取り下げました
-cw.playermarket.buy=購入
-cw.playermarket.buy.body=本当に購入しますか？\n商品 :
-cw.playermarket.buy.body2=\n現在のお金 : ¥%s\n価格 : ¥%s \nLore : %s\n個数 : %s\n%s\n出品者 : %s
-cw.playermarket.buy.success=[%s]を購入しました
-
+## プレイヤーマーケット
+cw.playermarket.title=§lプレイヤーマーケット
+cw.playermarket.see=§b商品をみる
+cw.playermarket.sell=§e出品する
+cw.playermarket.sell.price=販売価格 (1個あたり)
+cw.playermarket.sell.success=§a[成功] §f%s個 を出品しました。
+cw.playermarket.selled.success1=§a[お知らせ] §r
+cw.playermarket.selled.success2=§f新たに §e%s個 §fの商品が出品されました。
+cw.playermarket.sell.description=商品の説明 (任意)
+cw.playermarket.sell.amount=出品する個数
+cw.playermarket.edit=§6出品情報の変更
+cw.playermarket.edit.toggle=この商品を取り下げる (在庫を回収)
+cw.playermarket.edit.delete=§e[マーケット] §f出品を取り下げ、アイテムを回収しました。
+cw.playermarket.buy=§l購入の確認
+cw.playermarket.buy.body=§f以下の商品を購入しますか？
+# 引数の順: 1.商品名, 2.数量, 3.税込価格, 4.税抜価格, 5.出品者, 6.説明, 7.所持金
+cw.playermarket.buy.body2=§7----------------------\n§f商品: §b%s\n§f数量: §e%s個\n§f価格: §a¥%s §7(税抜: ¥%s)\n§f出品者: §d%s\n§7----------------------\n§f説明: §7%s\n§f詳細情報: %s\n\n§f現在の所持金: §a¥%s
+cw.playermarket.buy.success=§a[購入完了] §f%s を購入しました。
 ##jobs
 cw.jobsform.title=§6§l職業フォーム
 cw.jobsform.working=§a§l就職中
@@ -260,7 +293,7 @@ cw.chunk.buy.maxchunk=持てる最大のチャンク数に達したためチャ�
 cw.chunk.break=§c§lこのチャンクは %s の領土なので壊せません！§r
 cw.chunk.place=§c§lこのチャンクは %s の領土なので置けません！§r
 cw.chunk.interact=§c§lこのチャンクは %s の領土なので触れません！§r
-
+cw.chunk.hurt=§c§lこのチャンクは %s の領土なので傷つけません！§r
 ##home
 cw.home.menu.add=ホームを追加
 cw.home.menu.update=位置を上書き/更新
@@ -489,3 +522,4 @@ entity.cw:core.name=コア
 itemGroup.playerdolls=プレイヤー像
 
 action.hint.exit.cw:airboard=スニークでエアボードから降りる
+
