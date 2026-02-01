@@ -392,14 +392,23 @@ cw.menu.playerdatareset.reset=§4選択したプレイヤーデータが消去�
 cw.menu.playerdatareset.tooltip=消去されるデータ[お金・二つ名]§4注意§r:
 cw.menu.playerdatareset.error=プレイヤーデータのリセットをキャンセルしました
 cw.menu.playerdatareset.success=プレイヤー:%s のプレイヤーデータの一部がリセットされました\n§4リセットを完了させるため対象のプレイヤーは入り直してください
+
 ##shop
-shop.title=ショップ
-shop.purchase_confirm=購入確認
-shop.amount=購入数
-shop.stack_calculation=スタック換算 (x64)
-shop.not_enough_money=§c所持金が足りません。 (必要: ¥%s, 所持: ¥%s)
-shop.purchased=購入完了: 
-shop.total_price= 合計:
+cw.shop.title=ショップ
+cw.shop.purchase_confirm=購入確認
+cw.shop.amount=購入数
+cw.shop.stack_calculation=スタック換算 (x64)
+cw.shop.not_enough_money=§c所持金が足りません。 (必要: ¥%s, 所持: ¥%s)
+cw.shop.purchased=購入完了: 
+cw.shop.total_price= 合計:
+cw.shop.building=建材
+cw.shop.food=食べ物
+cw.shop.mob_drop=モブドロップ品
+cw.shop.farm=農業
+cw.shop.other1=その他1
+cw.shop.other2=その他2
+cw.shop.original=アドオンオリジナル
+
 ##items
 item.cw:coin_1=1円玉
 item.cw:coin_10=10円玉
