@@ -117,12 +117,11 @@ cw.scform.diplomacy.request_denied=%s が拒否しました
 cw.scform.diplomacy.permission_settings=権限設定
 cw.scform.diplomacy.edit_perm=%s の権限編集
 cw.scform.diplomacy.perm_updated=%s の権限を更新しました
-cw.diplomacy.perm.enter_territory=領土侵入
 cw.diplomacy.perm.break_block=ブロック破壊
 cw.diplomacy.perm.place_block=ブロック設置
-cw.diplomacy.perm.open_container=コンテナ利用
-cw.diplomacy.perm.interact=干渉
-cw.diplomacy.perm.attack=攻撃
+cw.diplomacy.perm.interact=ブロック干渉
+cw.diplomacy.perm.attack_player=プレイヤーへの攻撃
+cw.diplomacy.perm.attack_entity=エンティティへの攻撃
 
 ##戦争
 
@@ -195,6 +194,11 @@ cw.war.nozanki=§c残機がもうありません
 cw.war.finish.invade=§a[CountryWars] §6%s§rが§6%s§rの領土を全て征服しました
 cw.war.finish.killall=§a[CountryWars] §6%s§rが§6%s§rの国民を全滅させました
 
+##stock
+cw.stock.title=株価推移 (%s)
+cw.stock.buy=株購入
+cw.stock.buy.text=何株購入しますか？　(1株¥%s)
+cw.stock.sell=株売却
 ##tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
@@ -283,9 +287,12 @@ cw.chunk.buy.title=チャンクを購入
 cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購入するのには¥%sかかります\n(国庫残高 : ¥%s)
 cw.chunk.buy.success=このチャンクを購入しました
 cw.chunk.buy.already=このチャンクは%s の領土です
+cw.chunk.buy.war=戦争中なのでチャンクを購入することはできません
 cw.chunk.check=今いるチャンクは %s の領土です
 cw.chunk.wasteland=今いるチャンクは荒地です
+cw.chunk.sell.title=チャンクの売却
 cw.chunk.sell.notfound=このチャンクは売却できません
+cw.chunk.sell.war=戦争中なのでチャンクを売却することはできません
 cw.chunk.sell.check=このチャンクを売却しますか？\n売却すると¥%sが国庫に入ります
 cw.chunk.sell.success=このチャンクを売却しました(¥%s => ¥%s)
 cw.chunk.actionbar.wasteland=荒地
