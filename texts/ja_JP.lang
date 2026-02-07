@@ -82,6 +82,17 @@ cw.scform.permission.edit.delete=権限を削除する
 cw.scform.permission.edit.delete.tooltip=オンにして送信するとこの権限は削除されます
 cw.scform.permission.choice=権限を選択する
 cw.scform.permission.nopermission=権限がありません
+cw.scform.permissions.information=国の情報の変更
+cw.scform.permissions.permission=権限の管理
+cw.scform.permissions.member_invite=メンバーの招待
+cw.scform.permissions.member_kick=メンバーの追放
+cw.scform.permissions.money_deposit=国庫への預け入れ
+cw.scform.permissions.money_withdraw=国庫からの引き出し
+cw.scform.permissions.diplomacy=外交設定の管理
+cw.scform.permissions.tax_manage=税率の設定
+cw.scform.permissions.war_manage=宣戦布告・講和の管理
+cw.scform.permissions.chunk_buy=土地の購入
+cw.scform.permissions.chunk_sell=土地の売却
 
 ## 外交システム (Diplomacy)
 cw.scform.diplomacy=外交
