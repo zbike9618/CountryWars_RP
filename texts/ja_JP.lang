@@ -155,12 +155,12 @@ cw.warform.peace.status.pending_in= §6[提案受信中]
 cw.warform.peace.status.accepted=§a承認済
 cw.warform.peace.status.pending=§7未承認
 # 提案内容（RawMessage用）
-cw.warform.peace.proposal.offer=§l§b提案: §f%s が %s に §e%s¥ §fを支払う
-cw.warform.peace.proposal.request=§l§b提案: §f%s が %s に §e%s¥ §fを支払う
+cw.warform.peace.proposal.offer=§l§b提案: §f%s が %s に §e¥%s §fを支払う
+cw.warform.peace.proposal.request=§l§b提案: §f%s が %s に §e¥%s §fを支払う
 cw.warform.peace.proposal.equal=§l§b提案: §e対等な条件での講和
 # 確認画面
-cw.warform.peace.confirm.offer=%sに §e%s¥ §fを支払う条件で講和を提案しますか？
-cw.warform.peace.confirm.request=%sから §e%s¥ §fを受け取る条件で講和を提案しますか？
+cw.warform.peace.confirm.offer=%sに §e¥%s §fを支払う条件で講和を提案しますか？
+cw.warform.peace.confirm.request=%sから §e¥%s §fを受け取る条件で講和を提案しますか？
 cw.warform.peace.confirm.equal=%sと対等な条件で講和を提案しますか？
 # 通知（入れ子回避版）
 # senderの例: [国名]に講和を提案しました ([金額などの説明])
@@ -168,12 +168,12 @@ cw.war.peace.proposed.sender.middle=に講和を提案しました (
 # receiverの例: [国名]から講和の提案が届きました ([金額などの説明])
 cw.war.peace.proposed.receiver.middle=から講和の提案が届きました (
 cw.war.peace.finalized.prefix=§l§g【講和成立】§r 
-cw.war.peace.finalized.offer=§f%sが%sに§e%s¥§fを支払い、停戦しました。
-cw.war.peace.finalized.request=§f%sが%sに§e%s¥§fを支払い、停戦しました。
+cw.war.peace.finalized.offer=§f%sが%sに§e¥%s§fを支払い、停戦しました。
+cw.war.peace.finalized.request=§f%sが%sに§e¥%s§fを支払い、停戦しました。
 cw.war.peace.finalized.equal=§f%sと%sが対当な条件で停戦しました。
 # 補助
-cw.warform.peace.proposal.money.offer=%s¥ を提供
-cw.warform.peace.proposal.money.request=%s¥ を要求
+cw.warform.peace.proposal.money.offer=¥%s を提供
+cw.warform.peace.proposal.money.request=¥%s を要求
 cw.war.peace.accepted.self=§a%sとの講和を承認しました。相手の承認を待っています。
 cw.war.peace.accepted.other=§6%sが講和提案を承認しました。
 cw.war.peace.rejected.self=§c%sとの講和提案を取り消しました。
@@ -199,6 +199,13 @@ cw.stock.title=株価推移 (%s)
 cw.stock.buy=株購入
 cw.stock.buy.text=何株購入しますか？　(1株¥%s)
 cw.stock.sell=株売却
+cw.stock.sell.text=何株売却しますか？ \n(現在価格: ¥%s / 所持: %s株)
+cw.stock.invalid_amount=§c無効な数量です
+cw.stock.no_money=§cお金が足りません
+cw.stock.no_money_country=§c国庫に払える資金がありません
+cw.stock.buy_success=§a%s株を購入しました
+cw.stock.no_owned=§c売却できる株を持っていません
+cw.stock.sell_success=§a%s株を売却しました
 ##tpa
 cw.tpaform.title=§9§lテレポート
 cw.tpaform.accept=§aテレポート申請
