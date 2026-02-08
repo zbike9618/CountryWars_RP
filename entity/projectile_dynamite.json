@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cw:projectile_dynamite",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dynamite"
+      },
+      "geometry": {
+        "default": "geometry.dynamite"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

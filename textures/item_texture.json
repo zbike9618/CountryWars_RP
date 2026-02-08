@@ -137,8 +137,11 @@
         "end_sword": {
             "textures": "textures/items/end_sword"
         },
-        "airboard_key": {
+        "air_board_key": {
             "textures": "textures/items/airboard_key"
+        },
+        "dynamite": {
+            "textures": "textures/items/dynamite"
         }
         ,
         "airboard": {
