@@ -68,7 +68,6 @@ cw.scform.deleteMessage=§a[CountryWars] §6%s§r has been disbanded
 cw.scform.permission=Permissions
 cw.scform.permission.set=Grant Permission
 cw.scform.permission.make=Create Permission
-cw.scform.permission.make.name=Permission Name
 cw.scform.permission.edit=Edit Permission
 cw.scform.permission.edit.delete=Delete Permission
 cw.scform.permission.edit.delete.tooltip=Toggle ON and submit to delete this permission
@@ -236,3 +235,17 @@ item.cw:shinai2=Bamboo Sword 2
 item.cw:shinai3=Bamboo Sword 3
 item.cw:shinai4=Bamboo Sword 4
 item.cw:shinai5=Bamboo Sword 5
+
+cw.menu.adminchunk=Admin Chunk Settings
+cw.menu.adminchunk.set=Set as Admin Chunk
+cw.menu.adminchunk.remove=Remove Admin Chunk
+cw.menu.adminchunk.set.success=Chunk %s set as Admin territory.
+cw.menu.adminchunk.remove.success=Admin territory removed from Chunk %s.
+
+cw.menu.adminchunk.setting=Admin Chunk Detailed Settings
+cw.menu.adminchunk.setting.place=Allow Block Placement
+cw.menu.adminchunk.setting.break=Allow Block Breaking
+cw.menu.adminchunk.setting.interact=Allow Interactions
+cw.menu.adminchunk.setting.hurtEntity=Allow Attacking Entities
+cw.menu.adminchunk.setting.hurtPlayer=Allow Attacking Players
+cw.menu.adminchunk.setting.success=Updated settings for Chunk %s.

@@ -244,6 +244,23 @@ cw.tpa.secondrequest=§c%s§7には既にテレポート要請を送信済みで
 cw.tpa.secondrequestnotice=§6%s§7から§6再度§7テレポート要請が届きました\n§a/tpa§7で承認できます
 ##メッセージボックス
 cw.messagebox.title=メッセージボックス
+cw.messagebox.delete.item.title=アイテムの破棄
+cw.messagebox.delete.item.body=アイテムは1分後に破棄されますがよろしいですか？
+
+cw.menu.adminchunk=管理者用チャンク設定
+cw.menu.adminchunk.set=管理者領土に設定
+cw.menu.adminchunk.remove=管理者領土を解除
+cw.menu.adminchunk.set.success=チャンク %s を管理者領土に設定しました
+cw.menu.adminchunk.remove.success=チャンク %s の管理者領土を解除しました
+
+cw.menu.adminchunk.setting=管理者領土の詳細設定
+cw.menu.adminchunk.setting.place=ブロックの設置を許可
+cw.menu.adminchunk.setting.break=ブロックの破壊を許可
+cw.menu.adminchunk.setting.interact=ブロックへの干渉を許可
+cw.menu.adminchunk.setting.hurtEntity=エンティティへの攻撃を許可
+cw.menu.adminchunk.setting.hurtPlayer=プレイヤーへの攻撃を許可
+cw.menu.adminchunk.setting.success=チャンク %s の設定を更新しました
+
 cw.messagebox.recieve=受信(%s)
 cw.messagebox.recieve.tpa=[tpa] From (%s)
 cw.messagebox.recieve.tpaRequest=[tpaRequest] From (%s)
@@ -382,6 +399,7 @@ cw.chattype.already=§c既に「%s」モードです
 cw.menu.title=管理者用ツール
 cw.menu.movemoney=金銭操作
 cw.menu.secondname=二つ名操作
+cw.menu.adminchunk=アドミンチャンク
 cw.menu.playerdatareset=§4プレイヤーデータリセット§r[実験的機能]
 cw.menu.deletecountry=§4国家の消去§r[実験的機能]
 cw.menu.movemoney.operation=操作内容を選択してください
