@@ -140,5 +140,9 @@
         "airboard_key": {
             "textures": "textures/items/airboard_key"
         }
+        ,
+        "airboard": {
+            "textures": "textures/items/airboard"
+        }
     }
 }
