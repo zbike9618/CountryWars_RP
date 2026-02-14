@@ -143,5 +143,9 @@
         "dynamite": {
             "textures": "textures/items/dynamite"
         }
+        ,
+        "airboard": {
+            "textures": "textures/items/airboard"
+        }
     }
 }
