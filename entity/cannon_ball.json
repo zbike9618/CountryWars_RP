@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cw:cannon_ball",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/cannon_ball"
+      },
+      "geometry": {
+        "default": "geometry.cannon_ball"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.tank": {
+            "arrays": {
+                "textures": {
+                    "Array.track": [
+                        "Texture.t1",
+                        "Texture.t2",
+                        "Texture.t3"
+                    ]
+                }
+            },
+            "geometry": "geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Array.track[ math.floor( query.life_time * (12.0 - query.modified_move_speed) * (query.modified_move_speed / query.modified_move_speed)) ]"
+            ]
+        }
+    }
+}

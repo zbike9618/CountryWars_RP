@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cw:tank",
+            "geometry": {
+                "default": "geometry.tank"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "t1": "textures/entity/tank/tank1",
+                "t2": "textures/entity/tank/tank2",
+                "t3": "textures/entity/tank/tank3"
+            },
+            "scripts": {
+                "animate": [
+                    "controller.tank_change"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.tank"
+            ]
+        }
+    }
+}
