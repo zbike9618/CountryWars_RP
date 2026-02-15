@@ -503,6 +503,17 @@ item.cw:platinum_chestplate=プラチナのチェストプレート
 item.cw:platinum_leggings=プラチナのレギンス
 item.cw:platinum_boots=プラチナのブーツ
 item.cw:dynamite=ダイナマイト
+item.cw:wrench=レンチ
+
+item.cw:tank_template=戦車アタッチメント
+item.cw:fast_tank_template=戦車アタッチメント(移動)
+item.cw:fast_underwater_tank_template=戦車アタッチメント(水中移動)
+item.cw:antiwater_tank_template=戦車アタッチメント(水中爆破)
+item.cw:more_fly_tank_template=戦車アタッチメント(飛行距離増加)
+item.cw:shield_tank_template=戦車アタッチメント(防御)
+item.cw:explosion_tank_template=戦車アタッチメント(自爆)
+item.cw:attack_tank_template=戦車アタッチメント(威力増加)
+
 tile.cw:security_camera.name=監視カメラ
 tile.cw:light.name=Light
 tile.cw:end_ore.name=エンド鉱石
@@ -510,12 +521,16 @@ tile.cw:platinum_ore.name=プラチナ鉱石
 tile.cw:sulfur_ore.name=硫黄鉱石
 tile.cw:platinum_iron_alloy.name=白金鉄合金
 tile.cw:timer_bomb.name=時限爆弾
-
+cw:itemGroup.name.tank_template=アタッチメント
 cw.camera_registered=カメラ座標を登録しました: %s
 cw.camera_not_found=保存されていたカメラが見つかりません
 cw.camera_view_started=カメラ視点に切り替えました
 cw.camera_view_ended=カメラ視点を終了しました
 cw.no_camera_registered=カメラが登録されていません
+
+cw.tank_config.title=戦車アタッチメント設定
+cw.tank_config.dropdown=戦車アタッチメントを選んでください
+cw.tank_config.noset=未設定
 
 cw.timer_bomb.title=時限爆弾
 cw.timer_bomb.tooltip=送信を押すとカウントダウンを開始します
