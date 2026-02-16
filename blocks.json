@@ -19,5 +19,9 @@
     "cw:timer_bomb": {
         "textures": "timer_bomb",
         "sound": "grass"
+    },
+    "cw:landmine": {
+        "textures": "landmine",
+        "sound": "stone"
     }
 }

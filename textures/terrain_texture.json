@@ -41,6 +41,9 @@
     },
     "end_ore": {
       "textures": "textures/blocks/end_ore"
+    },
+    "landmine": {
+      "textures": "textures/blocks/landmine"
     }
   },
   "texture_name": "atlas.terrain"
