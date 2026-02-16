@@ -142,10 +142,57 @@
         },
         "dynamite": {
             "textures": "textures/items/dynamite"
-        }
-        ,
+        },
         "airboard": {
             "textures": "textures/items/airboard"
+        },
+        "wrench": {
+            "textures": "textures/items/wrench"
+        },
+        "fast_tank_template": {
+            "textures": "textures/items/tank_template/fast"
+        },
+        "fast_underwater_tank_template": {
+            "textures": "textures/items/tank_template/fast_underwater"
+        },
+        "antiwater_tank_template": {
+            "textures": "textures/items/tank_template/antiwater"
+        },
+        "more_fly_tank_template": {
+            "textures": "textures/items/tank_template/more_fly"
+        },
+        "shield_tank_template": {
+            "textures": "textures/items/tank_template/shield"
+        },
+        "tank_template": {
+            "textures": "textures/items/tank_template/template"
+        },
+        "explosion_tank_template": {
+            "textures": "textures/items/tank_template/explode"
+        },
+        "attack_tank_template": {
+            "textures": "textures/items/tank_template/attack"
+        },
+        "iron_plate": {
+            "textures": "textures/items/tank/iron_plate"
+        },
+        "oil": {
+            "textures": "textures/items/oil"
+        },
+        "sbr": {
+            "textures": "textures/items/sbr"
+        },
+        "wheel": {
+            "textures": "textures/items/wheel"
+        },
+        "caterpillar": {
+            "textures": "textures/items/caterpillar"
+        },
+        "cannon": {
+            "textures": "textures/items/cannon"
+        },
+        "tank_item": {
+            "textures": "textures/items/tank"
         }
     }
 }
