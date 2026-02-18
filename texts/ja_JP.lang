@@ -47,6 +47,12 @@ cw.scform.member.sendinvite=%s に招待を送りました
 
 cw.scform.member.kick.success=%sを追放しました
 cw.scform.member.kicked=%s から追放されました
+cw.scform.member.transfer=国王を譲る
+cw.scform.member.transfer.title=国王の譲位
+cw.scform.member.transfer.select=譲位するメンバーを選択してください
+cw.scform.member.transfer.confirm=本当に %s に国王の座を譲りますか？\nあなたは一般国民（権限なし）になります。
+cw.scform.member.transfer.success=%s に国王を譲りました。
+cw.scform.member.transfer.announced=§a[CountryWars] §6%s§r の国王が §6%s§r に譲位されました。
 
 cw.scform.member.invited=%s から招待が送られました\n/mbで受け取れます
 cw.scform.money=国庫
@@ -146,6 +152,12 @@ cw.warform.declared=%s§7に宣戦布告されました
 cw.warform.declare.nochunk=どちらかが領土を保持していません
 cw.warform.declare.protected.self=§cあなたの国はまだ戦争保護期間中のため、宣戦布告できません。
 cw.warform.declare.protected.enemy=§c%s は現在戦争保護期間中のため、宣戦布告できません。
+cw.scform.protection.cancel=§l§6戦争保護の解除
+cw.scform.protection.cancel.confirm=戦争保護期間を解除しますか？\nこれ以降、他国から宣戦布告を受けるようになります。
+cw.scform.protection.cancel.success=§a戦争保護期間を解除しました。
+cw.scform.protection.cancel.already=§c現在のところ、戦争保護は有効ではありません。
+cw.scform.protection.cancel.noowner=§c国王のみが保護期間を解除できます。
+cw.scform.protection.cancel.defeated=§c戦争に敗北した直後のため、残り §l§e%s§r の間は保護を解除できません。
 cw.warform.peace=§l§6講和交渉
 cw.warform.peace.nowar=§c現在、戦争中の国はありません。
 cw.warform.peace.select=講和交渉を行う国を選択してください。
@@ -206,6 +218,7 @@ cw.war.attacknoown=§c自分の領土は攻撃できません
 cw.war.nozanki=§c残機がもうありません
 cw.war.finish.invade=§a[CountryWars] §6%s§rが§6%s§rの領土を全て征服しました
 cw.war.finish.killall=§a[CountryWars] §6%s§rが§6%s§rの国民を全滅させました
+cw.war.finish.force=§a[CountryWars] §6%s§rが解体されたため、§6%s§rとの戦争が強制終了されました。
 
 ##stock
 cw.stock.title=株価推移 (%s)
