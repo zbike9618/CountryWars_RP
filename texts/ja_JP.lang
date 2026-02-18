@@ -34,7 +34,7 @@ cw.mcform.createMessage=§a[CountryWars] §6%s §rが建国されました
 
 cw.scform.title=国の設定
 cw.scform.information=基本情報
-cw.scform.informations=国の名前 : %s§r\n国の説明 : %s§r\n\n国王 : %s§r\n\nメンバー : %s§r\n\n国庫 : ¥%s§r\n\n持ってるチャンク数 : %s§r\n\n消費税 : %s％  所得税 : %s％\n\n国民税 : %s％  関税 : %s％
+cw.scform.informations=国の名前 : %s§r\n国の説明 : %s§r\n\n国王 : %s§r\n\nメンバー : %s§r\n\n国庫 : ¥%s§r\n\n持ってるチャンク数 : %s§r\n\n消費税 : %s％  所得税 : %s％\n\n国民税 : %s％  関税 : %s％\n\n§6戦争保護期間§r : 残り %s
 cw.scform.information.description=国の説明
 cw.scform.information.name=国の名前
 
@@ -144,6 +144,8 @@ cw.warform.declare.check=%s§7に宣戦布告しますか？
 cw.warform.declare.message=§a[CountryWars] §6%s§rが§6%s§rに宣戦布告しました
 cw.warform.declared=%s§7に宣戦布告されました
 cw.warform.declare.nochunk=どちらかが領土を保持していません
+cw.warform.declare.protected.self=§cあなたの国はまだ戦争保護期間中のため、宣戦布告できません。
+cw.warform.declare.protected.enemy=§c%s は現在戦争保護期間中のため、宣戦布告できません。
 cw.warform.peace=§l§6講和交渉
 cw.warform.peace.nowar=§c現在、戦争中の国はありません。
 cw.warform.peace.select=講和交渉を行う国を選択してください。
