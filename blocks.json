@@ -23,5 +23,13 @@
     "cw:landmine": {
         "textures": "landmine",
         "sound": "stone"
+    },
+    "cw:redstone_connector": {
+        "textures": "redstone_connector",
+        "sound": "stone"
+    },
+    "cw:redstone_antenna": {
+        "textures": "redstone_antenna",
+        "sound": "stone"
     }
 }

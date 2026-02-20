@@ -31,6 +31,7 @@ cw.mcform.toggleTooltip=平和主義を選択すると、戦争をすること�
 cw.mcform.countryalreadyexists=§c§lその国名はすでに存在しています
 
 cw.mcform.createMessage=§a[CountryWars] §6%s §rが建国されました
+cw.mcform.notEnoughMoney=§c建国には§e%s§c必要です。現在の手持ち: §e%s
 
 cw.scform.title=国の設定
 cw.scform.information=基本情報
@@ -63,6 +64,9 @@ cw.scform.money.deposit.noenough=お金が足りません
 cw.scform.money.withdraw.countrynomoney=国庫にそこまでのお金がありません
 cw.scform.money.deposit.success=国庫に¥%s預けました
 cw.scform.money.withdraw.success=¥%s引き出しました
+
+cw.scform.exit=§c国から脱退
+cw.scform.exit.check=%sから脱退しますか？
 
 cw.scform.tax=税金
 cw.scform.tax.consumption=消費税[％]
@@ -543,6 +547,8 @@ tile.cw:platinum_ore.name=プラチナ鉱石
 tile.cw:sulfur_ore.name=硫黄鉱石
 tile.cw:platinum_iron_alloy.name=白金鉄合金
 tile.cw:timer_bomb.name=時限爆弾
+tile.cw:redstone_connector.name=レッドストーンコネクター
+tile.cw:redstone_antenna.name=レッドストーンアンテナ
 cw:itemGroup.name.tank_template=アタッチメント
 cw.camera_registered=カメラ座標を登録しました: %s
 cw.camera_not_found=保存されていたカメラが見つかりません
