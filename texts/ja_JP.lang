@@ -342,6 +342,7 @@ cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購
 cw.chunk.buy.success=このチャンクを購入しました
 cw.chunk.buy.already=このチャンクは%s の領土です
 cw.chunk.buy.war=戦争中なのでチャンクを購入することはできません
+cw.chunk.buy.overworld=チャンクはオーバーワールドのみ買えます
 cw.chunk.check=今いるチャンクは %s の領土です
 cw.chunk.wasteland=今いるチャンクは荒地です
 cw.chunk.sell.title=チャンクの売却
