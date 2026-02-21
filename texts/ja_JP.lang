@@ -147,7 +147,7 @@ cw.diplomacy.perm.attack_entity=エンティティへの攻撃
 ##戦争
 
 cw.warform.title=戦争関連
-
+cw.war.invade.cancel.surrounded=§c周りが敵地すぎるため、このチャンクは侵攻できません（敵地が周囲に5個以上あります）
 cw.warform.declare=§l§c宣戦布告
 cw.warform.declare.none=宣戦布告できる国がいません
 cw.warform.declare.check=%s§7に宣戦布告しますか？
@@ -618,3 +618,19 @@ itemGroup.playerdolls=プレイヤー像
 
 action.hint.exit.cw:airboard=スニークでエアボードから降りる
 
+
+## レッドストーン
+cw.redstone.antenna.title=アンテナ設定
+cw.redstone.antenna.key=チャンネルキーを入力
+cw.redstone.connector.title=コネクター設定
+cw.redstone.connector.key=送信するチャンネルキーを入力
+
+## 管理者コマンド (BAN系)
+cw.admin.ban.success=%s 人のプレイヤーをBANしました。理由: %s
+cw.admin.unban.success=%s のBANを解除しました
+cw.admin.banlist.empty=現在BANされているプレイヤーはいません
+cw.admin.banlist.header=§e--- BANリスト ---§r
+cw.admin.banlist.entry=§b%s§r: %s (解除: %s)
+cw.admin.ban.kick_msg=BANされました: %s
+cw.admin.ban.remaining=残り時間: %s
+cw.admin.blacklist.kick_msg=あなたはブラックリストに登録されています。
