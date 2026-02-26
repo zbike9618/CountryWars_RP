@@ -366,6 +366,9 @@ cw.phone.went.lobby=<ロビーへテレポートしました>
 cw.phone.set.home=ホームの設定・管理
 cw.phone.goto.home=ホームへ移動する
 cw.phone.help=ヘルプを表示します
+cw.lchat.title=ローカルチャット
+cw.wchat.title=ワールドチャット
+cw.cchat.title=国チャット
 
 ##pay
 cw.pay.noplayer=指定されたプレイヤーが見つかりません。
