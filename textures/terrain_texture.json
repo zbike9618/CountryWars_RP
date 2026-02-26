@@ -44,6 +44,12 @@
     },
     "landmine": {
       "textures": "textures/blocks/landmine"
+    },
+    "redstone_connector": {
+      "textures": "textures/blocks/redstone_connector"
+    },
+    "redstone_antenna": {
+      "textures": "textures/blocks/redstone_antenna"
     }
   },
   "texture_name": "atlas.terrain"

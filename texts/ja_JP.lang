@@ -31,10 +31,11 @@ cw.mcform.toggleTooltip=平和主義を選択すると、戦争をすること�
 cw.mcform.countryalreadyexists=§c§lその国名はすでに存在しています
 
 cw.mcform.createMessage=§a[CountryWars] §6%s §rが建国されました
+cw.mcform.notEnoughMoney=§c建国には§e%s§c必要です。現在の手持ち: §e%s
 
 cw.scform.title=国の設定
 cw.scform.information=基本情報
-cw.scform.informations=国の名前 : %s§r\n国の説明 : %s§r\n\n国王 : %s§r\n\nメンバー : %s§r\n\n国庫 : ¥%s§r\n\n持ってるチャンク数 : %s§r\n\n消費税 : %s％  所得税 : %s％\n\n国民税 : %s％  関税 : %s％
+cw.scform.informations=国の名前 : %s§r\n国の説明 : %s§r\n\n国王 : %s§r\n\nメンバー : %s§r\n\n国庫 : ¥%s§r\n\n持ってるチャンク数 : %s§r\n\n消費税 : %s％  所得税 : %s％\n\n国民税 : %s％  関税 : %s％\n\n§6戦争保護期間§r : 残り %s
 cw.scform.information.description=国の説明
 cw.scform.information.name=国の名前
 
@@ -47,6 +48,12 @@ cw.scform.member.sendinvite=%s に招待を送りました
 
 cw.scform.member.kick.success=%sを追放しました
 cw.scform.member.kicked=%s から追放されました
+cw.scform.member.transfer=国王を譲る
+cw.scform.member.transfer.title=国王の譲位
+cw.scform.member.transfer.select=譲位するメンバーを選択してください
+cw.scform.member.transfer.confirm=本当に %s に国王の座を譲りますか？\nあなたは一般国民（権限なし）になります。
+cw.scform.member.transfer.success=%s に国王を譲りました。
+cw.scform.member.transfer.announced=§a[CountryWars] §6%s§r の国王が §6%s§r に譲位されました。
 
 cw.scform.member.invited=%s から招待が送られました\n/mbで受け取れます
 cw.scform.money=国庫
@@ -57,6 +64,9 @@ cw.scform.money.deposit.noenough=お金が足りません
 cw.scform.money.withdraw.countrynomoney=国庫にそこまでのお金がありません
 cw.scform.money.deposit.success=国庫に¥%s預けました
 cw.scform.money.withdraw.success=¥%s引き出しました
+
+cw.scform.exit=§c国から脱退
+cw.scform.exit.check=%sから脱退しますか？
 
 cw.scform.tax=税金
 cw.scform.tax.consumption=消費税[％]
@@ -137,13 +147,21 @@ cw.diplomacy.perm.attack_entity=エンティティへの攻撃
 ##戦争
 
 cw.warform.title=戦争関連
-
+cw.war.invade.cancel.surrounded=§c周りが敵地すぎるため、このチャンクは侵攻できません（敵地が周囲に5個以上あります）
 cw.warform.declare=§l§c宣戦布告
 cw.warform.declare.none=宣戦布告できる国がいません
 cw.warform.declare.check=%s§7に宣戦布告しますか？
 cw.warform.declare.message=§a[CountryWars] §6%s§rが§6%s§rに宣戦布告しました
 cw.warform.declared=%s§7に宣戦布告されました
 cw.warform.declare.nochunk=どちらかが領土を保持していません
+cw.warform.declare.protected.self=§cあなたの国はまだ戦争保護期間中のため、宣戦布告できません。
+cw.warform.declare.protected.enemy=§c%s は現在戦争保護期間中のため、宣戦布告できません。
+cw.scform.protection.cancel=§l§6戦争保護の解除
+cw.scform.protection.cancel.confirm=戦争保護期間を解除しますか？\nこれ以降、他国から宣戦布告を受けるようになります。
+cw.scform.protection.cancel.success=§a戦争保護期間を解除しました。
+cw.scform.protection.cancel.already=§c現在のところ、戦争保護は有効ではありません。
+cw.scform.protection.cancel.noowner=§c国王のみが保護期間を解除できます。
+cw.scform.protection.cancel.defeated=§c戦争に敗北した直後のため、残り §l§e%s§r の間は保護を解除できません。
 cw.warform.peace=§l§6講和交渉
 cw.warform.peace.nowar=§c現在、戦争中の国はありません。
 cw.warform.peace.select=講和交渉を行う国を選択してください。
@@ -204,6 +222,7 @@ cw.war.attacknoown=§c自分の領土は攻撃できません
 cw.war.nozanki=§c残機がもうありません
 cw.war.finish.invade=§a[CountryWars] §6%s§rが§6%s§rの領土を全て征服しました
 cw.war.finish.killall=§a[CountryWars] §6%s§rが§6%s§rの国民を全滅させました
+cw.war.finish.force=§a[CountryWars] §6%s§rが解体されたため、§6%s§rとの戦争が強制終了されました。
 
 ##stock
 cw.stock.title=株価推移 (%s)
@@ -284,7 +303,7 @@ cw.playermarket.sell=§e出品する
 cw.playermarket.sell.price=販売価格 (1個あたり)
 cw.playermarket.sell.success=§a[成功] §f%s個 を出品しました。
 cw.playermarket.selled.success1=§a[お知らせ] §r
-cw.playermarket.selled.success2=§f新たに §e%s個 §fの商品が出品されました。
+cw.playermarket.selled.success2=§fがマーケットに出品されました。
 cw.playermarket.sell.description=商品の説明 (任意)
 cw.playermarket.sell.amount=出品する個数
 cw.playermarket.edit=§6出品情報の変更
@@ -295,6 +314,10 @@ cw.playermarket.buy.body=§f以下の商品を購入しますか？
 # 引数の順: 1.商品名, 2.数量, 3.税込価格, 4.税抜価格, 5.出品者, 6.説明, 7.所持金
 cw.playermarket.buy.body2=§7----------------------\n§f商品: §b%s\n§f数量: §e%s個\n§f価格: §a¥%s §7(税抜: ¥%s)\n§f出品者: §d%s\n§7----------------------\n§f説明: §7%s\n§f詳細情報: %s\n\n§f現在の所持金: §a¥%s
 cw.playermarket.buy.success=§a[購入完了] §f%s を購入しました。
+cw.playermarket.buy.success.prefix=§a[購入完了] §f
+cw.playermarket.buy.success.suffix= を購入しました。
+cw.playermarket.buy.success.item_only=%s
+cw.playermarket.buy.success.full=§a[購入完了] §f%s を購入しました。
 ##jobs
 cw.jobsform.title=§6§l職業フォーム
 cw.jobsform.working=§a§l就職中
@@ -323,6 +346,7 @@ cw.chunk.buy.body=このチャンクを購入しますか？\nチャンクを購
 cw.chunk.buy.success=このチャンクを購入しました
 cw.chunk.buy.already=このチャンクは%s の領土です
 cw.chunk.buy.war=戦争中なのでチャンクを購入することはできません
+cw.chunk.buy.overworld=チャンクはオーバーワールドのみ買えます
 cw.chunk.check=今いるチャンクは %s の領土です
 cw.chunk.wasteland=今いるチャンクは荒地です
 cw.chunk.sell.title=チャンクの売却
@@ -531,6 +555,8 @@ tile.cw:platinum_ore.name=プラチナ鉱石
 tile.cw:sulfur_ore.name=硫黄鉱石
 tile.cw:platinum_iron_alloy.name=白金鉄合金
 tile.cw:timer_bomb.name=時限爆弾
+tile.cw:redstone_connector.name=レッドストーンコネクター
+tile.cw:redstone_antenna.name=レッドストーンアンテナ
 cw:itemGroup.name.tank_template=アタッチメント
 cw.camera_registered=カメラ座標を登録しました: %s
 cw.camera_not_found=保存されていたカメラが見つかりません
@@ -600,3 +626,26 @@ itemGroup.playerdolls=プレイヤー像
 
 action.hint.exit.cw:airboard=スニークでエアボードから降りる
 
+
+## レッドストーン
+cw.redstone.antenna.title=アンテナ設定
+cw.redstone.antenna.key=チャンネルキーを入力
+cw.redstone.connector.title=コネクター設定
+cw.redstone.connector.key=送信するチャンネルキーを入力
+
+## 管理者コマンド (BAN系)
+cw.admin.ban.success=%s 人のプレイヤーをBANしました。理由: %s
+cw.admin.unban.success=%s のBANを解除しました
+cw.admin.banlist.empty=現在BANされているプレイヤーはいません
+cw.admin.banlist.header=§e--- BANリスト ---§r
+cw.admin.banlist.entry=§b%s§r: %s (解除: %s)
+cw.admin.ban.kick_msg=BANされました: %s
+cw.admin.ban.remaining=残り時間: %s
+cw.admin.blacklist.kick_msg=あなたはブラックリストに登録されています。
+cw.playermarket.item.durability=§c耐久値の消耗: %s§r
+cw.playermarket.seller=販売者: %s
+cw.playermarket.enchants=§f付与されている効果:
+cw.playermarket.lore=§fアイテムのロア:
+cw.playermarket.tax_notice=§7※あなたの国の消費税(%s%%)が適用されています。
+cw.playermarket.discount=§4%s％OFF
+cw.playermarket.price_up=§c%s％UP
