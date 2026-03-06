@@ -323,6 +323,7 @@ cw.playermarket.buy.success.prefix=§a[購入完了] §f
 cw.playermarket.buy.success.suffix= を購入しました。
 cw.playermarket.buy.success.item_only=%s
 cw.playermarket.buy.success.full=§a[購入完了] §f%s を購入しました。
+cw.playermarket.invfull=§c§lインベントリが満タンです。
 ##jobs
 cw.jobsform.title=§6§l職業フォーム
 cw.jobsform.working=§a§l就職中
