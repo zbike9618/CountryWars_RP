@@ -69,6 +69,8 @@ cw.scform.money.deposit.noenough=お金が足りません
 cw.scform.money.withdraw.countrynomoney=国庫にそこまでのお金がありません
 cw.scform.money.deposit.success=国庫に¥%s預けました
 cw.scform.money.withdraw.success=¥%s引き出しました
+cw.bank.withdraw.success=§a[銀行] §f%s 円引き出しました。
+cw.bank.withdraw.noinventory=§c§lインベントリがいっぱいで引き出せません！
 
 cw.scform.exit=§c国から脱退
 cw.scform.exit.check=%sから脱退しますか？
@@ -301,6 +303,12 @@ cw.messagebox.send=送信
 cw.messagebox.send.message=メッセージ
 cw.messagebox.send.success=%s にメッセージを送りました
 cw.messagebox.send.recieve=%s からのメッセージが届いています
+cw.sendmsg.title=メッセージ送信
+cw.sendmsg.select=送信先プレイヤーを選択
+cw.sendmsg.body=メッセージ内容を入力してください
+cw.sendmsg.success=%sにメッセージを送信しました
+cw.sendmsg.received=%sからメッセージを受信しました: %s
+cw.sendmsg.none=送信可能なプレイヤーがいません
 ## プレイヤーマーケット
 cw.playermarket.title=§lプレイヤーマーケット
 cw.playermarket.see=§b商品をみる
@@ -355,6 +363,7 @@ cw.chunk.buy.war=戦争中なのでチャンクを購入することはできま
 cw.chunk.buy.overworld=チャンクはオーバーワールドのみ買えます
 cw.chunk.check=今いるチャンクは %s の領土です
 cw.chunk.wasteland=今いるチャンクは荒地です
+cw.chunk.admin=§c管理者領土 (Admin Territory)
 cw.chunk.sell.title=チャンクの売却
 cw.chunk.sell.notfound=このチャンクは売却できません
 cw.chunk.sell.war=戦争中なのでチャンクを売却することはできません
@@ -634,10 +643,18 @@ action.hint.exit.cw:airboard=スニークでエアボードから降りる
 
 
 ## レッドストーン
-cw.redstone.antenna.title=アンテナ設定
-cw.redstone.antenna.key=チャンネルキーを入力
-cw.redstone.connector.title=コネクター設定
 cw.redstone.connector.key=送信するチャンネルキーを入力
+
+## 管理者コマンド
+cw.admin.setmoney=§a[Admin] §f%s の所持金を §e¥%s §fに設定しました。
+cw.admin.addmoney=§a[Admin] §f%s の所持金に §e¥%s §f追加しました。
+cw.admin.resetjob=§a[Admin] §f%s の職業タグをリセットしました。
+
+## 管理者呼び出し
+cw.admincall.title=管理者へのお問い合わせ
+cw.admincall.body=管理者にメッセージを送信します。\n困ったことや報告があれば入力してください。
+cw.admincall.field=お問い合わせ内容
+cw.admincall.success=管理者にメッセージを送信しました。対応をお待ちください。
 
 ## 管理者コマンド (BAN系)
 cw.admin.ban.success=%s 人のプレイヤーをBANしました。理由: %s
