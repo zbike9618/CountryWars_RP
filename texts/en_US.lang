@@ -1,5 +1,7 @@
-//英語
+//English
 cw.initialSpawn=§a§lThank you for installing CountryWars!§r\n§7Create your own country and enjoy alliances, wars, and development.\n§6Open the country creation form to get started!\n§8Note: Translations may not be perfect.
+cw.commingsoon=coming soon
+cw.initialSpawn.messageRecieve=You have %s new messages
 //Form Basics
 cw.form.yes=§l§aYes
 cw.form.no=§l§cNo
@@ -9,11 +11,20 @@ cw.form.accept=§l§aAccept
 cw.form.deny=§l§cDeny
 cw.form.buy=§l§aBuy
 cw.form.sell=§l§cSell
+cw.playermarket.history=Sales History
+cw.playermarket.history.title=Sales History
+cw.playermarket.history.empty=No history found
+cw.playermarket.history.close=Close
+cw.playermarket.sold.notify=%1×%2 sold for %3! (Buyer: %4)
 cw.form.playerchoise=Select Player
+cw.form.countrychoise=Select Country
 cw.form.noplayers=No players found
 cw.form.unjoincountry=You do not belong to a country
 cw.form.overwrite=Overwrite
 cw.form.nomoney=Insufficient funds to purchase
+cw.form.nowmoney=Current Balance: %s ¥
+cw.form.error.int=Please enter a natural number
+
 //Founding Form
 cw.mcform.alreadyCountry=You already belong to a country
 cw.mcform.title=§6§lFounding Form
@@ -25,10 +36,11 @@ cw.mcform.toggleTooltip=If you choose Pacifism, you cannot declare war.
 cw.mcform.countryalreadyexists=§c§lThat country name already exists
 
 cw.mcform.createMessage=§a[CountryWars] §6%s §rhas been established!
+cw.mcform.notEnoughMoney=§cFounding requires §e%s§c. Current funds: §e%s
 
 cw.scform.title=Country Settings
 cw.scform.information=Basic Information
-cw.scform.informations=Name: %s\nDescription: %s\nKing: %s\nMembers: %s\nTreasury: ¥%s\nChunks Owned: %s\nConsumption Tax: %s%%  Income Tax: %s%%\nNational Tax: %s%%  Customs: %s%%
+cw.scform.informations=Country Name: %s§r\nDescription: %s§r\n\nKing: %s§r\n\nMembers: %s§r\n\nTreasury: ¥%s§r\n\nChunks Owned: %s§r\n\nConsumption Tax: %s%%  Income Tax: %s%%\n\nNational Tax: %s%%  Customs: %s%%\n\n§6War Protection§r: %s remaining
 cw.scform.information.description=Country Description
 cw.scform.information.name=Country Name
 
@@ -41,6 +53,12 @@ cw.scform.member.sendinvite=Sent an invitation to %s
 
 cw.scform.member.kick.success=Kicked %s from the country
 cw.scform.member.kicked=You have been kicked from %s
+cw.scform.member.transfer=Transfer Kingship
+cw.scform.member.transfer.title=Abdication
+cw.scform.member.transfer.select=Select the member to transfer kingship to
+cw.scform.member.transfer.confirm=Are you sure you want to transfer kingship to %s?\nYou will become a regular citizen (no permissions).
+cw.scform.member.transfer.success=Transferred kingship to %s.
+cw.scform.member.transfer.announced=§a[CountryWars] §6%s§r abdicated in favor of §6%s§r.
 
 cw.scform.member.invited=You received an invitation from %s\nType /mb to view it
 cw.scform.money=Treasury
@@ -51,16 +69,23 @@ cw.scform.money.deposit.noenough=Insufficient funds
 cw.scform.money.withdraw.countrynomoney=The treasury does not have enough money
 cw.scform.money.deposit.success=Deposited ¥%s into the treasury
 cw.scform.money.withdraw.success=Withdrew ¥%s from the treasury
+cw.bank.withdraw.success=§a[Bank] §fWithdrew %s Yen.
+cw.bank.withdraw.noinventory=§c§lInventory full! Cannot withdraw.
+
+cw.scform.exit=§cLeave Country
+cw.scform.exit.check=Do you want to leave %s?
 
 cw.scform.tax=Taxes
 cw.scform.tax.consumption=Consumption Tax [%]
 cw.scform.tax.income=Income Tax [%]
 cw.scform.tax.country=National Tax [%]
-cw.scform.tax.customs=Customs [%]
-
+cw.tax.timenear=§a[CountryWars] §r%s remaining until maintenance fee collection.\nIf the treasury is empty, the country will be disbanded.
+cw.tax.levy=Collected ¥%s as national tax.
+cw.tax.maintenance.fail=§a[CountryWars] §rDisbanded %s due to failure to collect maintenance fees (insufficient funds).
+cw.tax.maintenance.success=§a[CountryWars] §rCollected ¥%s from %s's treasury for maintenance fees.
 cw.scform.delete=Disband Country
 cw.scform.delete.check=Are you sure you want to disband %s?
-cw.scform.deleteMessage=§a[CountryWars] §6%s§r has been disbanded
+cw.scform.deleteMessage=§a[CountryWars] §6%s§r has been disbanded.
 
 
 
@@ -68,20 +93,155 @@ cw.scform.deleteMessage=§a[CountryWars] §6%s§r has been disbanded
 cw.scform.permission=Permissions
 cw.scform.permission.set=Grant Permission
 cw.scform.permission.make=Create Permission
+cw.scform.permission.make.name=Permission Name
 cw.scform.permission.edit=Edit Permission
 cw.scform.permission.edit.delete=Delete Permission
 cw.scform.permission.edit.delete.tooltip=Toggle ON and submit to delete this permission
 cw.scform.permission.choice=Select Permission
 cw.scform.permission.nopermission=No permission
+cw.scform.permissions.information=Change Country Info
+cw.scform.permissions.permission=Manage Permissions
+cw.scform.permissions.member_invite=Invite Members
+cw.scform.permissions.member_kick=Kick Members
+cw.scform.permissions.money_deposit=Deposit to Treasury
+cw.scform.permissions.money_withdraw=Withdraw from Treasury
+cw.scform.permissions.diplomacy=Manage Diplomacy
+cw.scform.permissions.tax_manage=Set Tax Rates
+cw.scform.permissions.war_manage=Manage War/Peace
+cw.scform.permissions.chunk_buy=Buy Land
+cw.scform.permissions.chunk_sell=Sell Land
 
-//Permissions List
-cw.scform.permissions.information=Can change country info?
-cw.scform.permissions.permission=Can manage permissions?
-cw.scform.permissions.member_invite=Can invite members?
-cw.scform.permissions.member_kick=Can kick members?
-cw.scform.permissions.money_deposit=Can deposit to treasury?
-cw.scform.permissions.money_withdraw=Can withdraw from treasury?
-//tpa
+## Diplomacy System
+cw.scform.diplomacy=Diplomacy
+cw.scform.diplomacy.list=Relationships
+cw.scform.diplomacy.change=Change Relationship
+cw.scform.diplomacy.requests=Alliance Requests
+cw.scform.diplomacy.request_pending=%s pending alliance requests
+cw.scform.diplomacy.permission=Diplomacy Permissions
+cw.scform.diplomacy.nocountries=No eligible countries found
+cw.scform.diplomacy.select_country=Select Country
+cw.error.country_not_found=Country not found
+cw.scform.diplomacy.action=%s Diplomacy
+cw.scform.diplomacy.current_relation=Current Relationship: %s
+cw.scform.diplomacy.req_ally=Request Alliance
+cw.scform.diplomacy.set_friend=Set as Friendly
+cw.scform.diplomacy.set_neutral=Set as Neutral
+cw.scform.diplomacy.set_enemy=Set as Enemy
+cw.scform.diplomacy.already_ally=Already allied
+cw.scform.diplomacy.already_requested=Already requested
+cw.scform.diplomacy.request_sent=Sent request to %s
+cw.scform.diplomacy.receive_request=Received alliance request from %s
+cw.scform.diplomacy.ally_broken=Alliance with %s broken
+cw.scform.diplomacy.relation_updated=Set relation with %s to %s
+cw.scform.diplomacy.no_requests=No requests
+cw.scform.diplomacy.request_handle=Handle Request
+cw.scform.diplomacy.request_body=Request from %s
+cw.scform.diplomacy.accept=Accept
+cw.scform.diplomacy.deny=Deny
+cw.scform.diplomacy.accepted=Allied with %s
+cw.scform.diplomacy.request_accepted=%s accepted
+cw.scform.diplomacy.denied=Denied alliance with %s
+cw.scform.diplomacy.request_denied=%s denied
+cw.scform.diplomacy.permission_settings=Permission Settings
+cw.scform.diplomacy.edit_perm=Edit %s Permissions
+cw.scform.diplomacy.perm_updated=Updated permissions for %s
+cw.diplomacy.perm.break_block=Break Blocks
+cw.diplomacy.perm.place_block=Place Blocks
+cw.diplomacy.perm.interact=Interact
+cw.diplomacy.perm.attack_player=Attack Players
+cw.diplomacy.perm.attack_entity=Attack Entities
+
+## War
+
+cw.warform.title=War Menu
+cw.war.invade.cancel.surrounded=§cCannot invade. Surrounded by too many enemy chunks (5 or more).
+cw.warform.declare=§l§cDeclare War
+cw.warform.declare.none=No countries eligible for war
+cw.warform.declare.check=Declare war on %s?
+cw.warform.declare.message=§a[CountryWars] §6%s§r declared war on §6%s§r
+cw.warform.declared=War declared by %s
+cw.warform.declare.nochunk=One or both countries hold no territory
+cw.warform.declare.protected.self=§cCannot declare war. Your country is under war protection.
+cw.warform.declare.protected.enemy=§cCannot declare war. %s is under war protection.
+cw.scform.protection.cancel=§l§6Cancel War Protection
+cw.scform.protection.cancel.confirm=Cancel war protection? Other countries will be able to declare war on you.
+cw.scform.protection.cancel.success=§aWar protection cancelled.
+cw.scform.protection.cancel.already=§cWar protection is not currently active.
+cw.scform.protection.cancel.noowner=§cOnly the king can cancel war protection.
+cw.scform.protection.cancel.defeated=§cCannot cancel protection for %s due to recent defeat.
+cw.warform.peace=§l§6Peace Negotiations
+cw.warform.peace.nowar=§cNot currently at war.
+cw.warform.peace.select=Select a country to negotiate peace with.
+cw.warform.peace.manage=§l%s Peace Management
+cw.warform.peace.propose=Propose New Terms
+cw.warform.peace.accept=Accept Current Proposal
+cw.warform.peace.reject=Reject Proposal
+cw.warform.peace.reject.confirm=Are you sure you want to reject the current peace proposal?
+cw.warform.peace.money=Amount
+cw.warform.peace.type=Type
+cw.warform.peace.offer=§aOffer Money
+cw.warform.peace.request=§cRequest Money
+cw.warform.peace.equal=§eWhite Peace
+cw.warform.peace.noproposal=§7No active peace proposals.
+# Status
+cw.warform.peace.status.both_accepted= §l§a[Both Accepted]
+cw.warform.peace.status.self_accepted= §l§e[Self Accepted]
+cw.warform.peace.status.pending_out= §7[Proposing]
+cw.warform.peace.status.pending_in= §6[Proposal Received]
+cw.warform.peace.status.accepted=§aAccepted
+cw.warform.peace.status.pending=§7Pending
+# Proposals (for RawMessage)
+cw.warform.peace.proposal.offer=§l§bProposal: §f%s pays §e¥%s §fto %s
+cw.warform.peace.proposal.request=§l§bProposal: §f%s pays §e¥%s §fto %s
+cw.warform.peace.proposal.equal=§l§bProposal: §eWhite Peace
+# Confirmation
+cw.warform.peace.confirm.offer=Propose peace with %s paying §e¥%s §f?
+cw.warform.peace.confirm.request=Propose peace receiving §e¥%s §f from %s?
+cw.warform.peace.confirm.equal=Propose white peace with %s?
+# Notifications
+cw.war.peace.proposed.sender.middle=proposed peace to (
+cw.war.peace.proposed.receiver.middle=received peace proposal from (
+cw.war.peace.finalized.prefix=§l§g【Peace Finalized】§r 
+cw.war.peace.finalized.offer=§fCeasefire reached: %s paid §e¥%s §f to %s.
+cw.war.peace.finalized.request=§fCeasefire reached: %s paid §e¥%s §f to %s.
+cw.war.peace.finalized.equal=§fCeasefire reached: %s and %s agreed to white peace.
+# Misc
+cw.warform.peace.proposal.money.offer=Offer ¥%s
+cw.warform.peace.proposal.money.request=Request ¥%s
+cw.war.peace.accepted.self=§aApproved peace with %s. Waiting for opponent.
+cw.war.peace.accepted.other=§6%s approved the peace proposal.
+cw.war.peace.rejected.self=§cWithdrew peace proposal with %s.
+cw.war.peace.rejected.other=§c%s rejected or withdrew the peace proposal.
+cw.war.peace.insufficient=§cInsufficient funds to finalize peace.
+cw.war.peace.finalized=§l§g【Peace Finalized】§r %s
+
+cw.warform.declare.peace=Pacifist countries cannot declare war.
+
+cw.war.invade=§a[CountryWars] §6%s§r invaded %s§r territory [%s,??,%s]
+cw.war.invade.success=§a[CountryWars] §6%s§r conquered %s§r territory [%s,??,%s]
+
+cw.war.invade.finish.money=§a[CountryWars]§r ¥%s deducted from treasury as reparations to %s.
+cw.war.death=[§cCountryWars] §r%s§r has %s respawns remaining.
+cw.war.attacknowar=Cannot attack those not involved in the war.
+cw.war.attacknoown=Cannot attack your own territory.
+cw.war.nozanki=No respawns remaining.
+cw.war.finish.invade=§a[CountryWars] §6%s§r conquered all of §6%s§r's territory.
+cw.war.finish.killall=§a[CountryWars] §6%s§r annihilated §6%s§r's population.
+cw.war.finish.force=§a[CountryWars] §6%s§r disbanded; war with §6%s§r terminated.
+
+##stock
+cw.stock.title=Stock Trend (%s)
+cw.stock.buy=Buy Stock
+cw.stock.buy.text=How many shares? (1 share = ¥%s)
+cw.stock.sell=Sell Stock
+cw.stock.sell.text=How many shares to sell? \n(Price: ¥%s / Owned: %s)
+cw.stock.invalid_amount=§cInvalid amount
+cw.stock.no_money=§cInsufficient funds
+cw.stock.no_money_country=§cTreasury lacks funds for payout
+cw.stock.buy_success=§aPurchased %s shares
+cw.stock.no_owned=§cNo shares to sell
+cw.stock.sell_success=§aSold %s shares
+##tpa
 cw.tpaform.title=§9§lTeleport
 cw.tpaform.accept=§aTeleport Request
 cw.tpaform.request=§bTeleport Invite
@@ -106,45 +266,72 @@ cw.tpa.requestnotice=§6Received teleport invitation from %s\nAccept with §a/tp
 
 cw.tpa.secondrequest=§cTeleport invitation already sent to %s
 cw.tpa.secondrequestnotice=§6Received §6another§7 teleport invitation from %s\nAccept with §a/tpa§7
-//Message Box
+## Message Box
 cw.messagebox.title=Message Box
+cw.messagebox.delete.item.title=Discard Item
+cw.messagebox.delete.item.body=Discard item? It will be deleted in 1 minute.
+
+cw.menu.adminchunk=Admin Chunk Settings
+cw.menu.adminchunk.set=Set as Admin Chunk
+cw.menu.adminchunk.remove=Remove Admin Chunk
+cw.menu.adminchunk.set.success=Chunk %s set as Admin territory.
+cw.menu.adminchunk.remove.success=Admin territory removed from Chunk %s.
+
+cw.menu.adminchunk.setting=Admin Chunk Detailed Settings
+cw.menu.adminchunk.setting.place=Allow Block Placement
+cw.menu.adminchunk.setting.break=Allow Block Breaking
+cw.menu.adminchunk.setting.interact=Allow Interactions
+cw.menu.adminchunk.setting.hurtEntity=Allow Attacking Entities
+cw.menu.adminchunk.setting.hurtPlayer=Allow Attacking Players
+cw.menu.adminchunk.setting.success=Updated settings for Chunk %s.
+
 cw.messagebox.recieve=Inbox(%s)
 cw.messagebox.recieve.tpa=[tpa] From (%s)
 cw.messagebox.recieve.tpaRequest=[tpaRequest] From (%s)
 cw.messagebox.recieve.invitecountry=[CountryInvite] From (%s)
 cw.messagebox.recieve.message=[Message] From (%s)
 
-cw.messagebox.recieve.tpa.read=TP request from %s\nAccept?
-cw.messagebox.recieve.tpaRequest.read=TP invitation from %s\nAccept?
-cw.messagebox.recieve.invitecountry.read=Country invitation from %s\nAccept?
+cw.messagebox.recieve.tpa.read=TP request from %s.\nAccept?
+cw.messagebox.recieve.tpaRequest.read=TP invitation from %s.\nAccept?
+cw.messagebox.recieve.invitecountry.read=Country invitation from %s.\nAccept?
 cw.messagebox.recieve.norequests=No messages in inbox
-cw.messagebox.recieve.message.read=Message from %s\n%s
+cw.messagebox.recieve.message.read=Message from %s:\n%s
 
 cw.messagebox.send=Send
 cw.messagebox.send.message=Message
 cw.messagebox.send.success=Message sent to %s
 cw.messagebox.send.recieve=New message from %s
-//Player Market
-cw.playermarket.title=Player Market
-cw.playermarket.see=View Items
-cw.playermarket.sell=List Item
-cw.playermarket.sell.price=Price
-cw.playermarket.sell.priceerror=Please enter a valid price (positive integer)
-cw.playermarket.sell.success=Listed [%s units]
-cw.playermarket.selled.success1=§a[CountryWars] §r
-cw.playermarket.selled.success2=[%s units] have been listed
-cw.playermarket.sell.description=Item Description
+cw.sendmsg.title=Send Message
+cw.sendmsg.select=Select recipient
+cw.sendmsg.body=Enter message content
+cw.sendmsg.success=Sent message to %s
+cw.sendmsg.received=Received message from %s: %s
+cw.sendmsg.none=No players available to message
+## Player Market
+cw.playermarket.title=§lPlayer Market
+cw.playermarket.see=§bView Items
+cw.playermarket.sell=§eList Item
+cw.playermarket.sell.price=Price (per unit)
+cw.playermarket.sell.success=§a[Success] §fListed %s units.
+cw.playermarket.selled.success1=§a[Notice] §r
+cw.playermarket.selled.success2=§fhas been listed on the market.
+cw.playermarket.sell.description=Description (Optional)
 cw.playermarket.sell.amount=Quantity
-cw.playermarket.edit=Edit Listed Item
-cw.playermarket.edit.toggle=Remove item from market?
-cw.playermarket.edit.delete=Item removed from market
-cw.playermarket.buy=Purchase
-cw.playermarket.buy.body=Are you sure you want to buy?\nItem:
-cw.playermarket.buy.body2=\nCurrent Balance: ¥%s\nPrice: ¥%s \nLore: %s\nQuantity: %s\n%s\nSeller: %s
-cw.playermarket.buy.success=Purchased [%s]
-
-// Jobs
-cw.jobsform.title=§6§lJobs Form
+cw.playermarket.edit=§6Edit Listing
+cw.playermarket.edit.toggle=Remove listing (Retrieve stock)
+cw.playermarket.edit.delete=§e[Market] §fListing removed and items retrieved.
+cw.playermarket.buy=§lConfirm Purchase
+cw.playermarket.buy.body=§fBuy the following item?
+# Args: 1.Name, 2.Qty, 3.Tax-incl Price, 4.Excl-tax Price, 5.Seller, 6.Desc, 7.Info, 8.Balance
+cw.playermarket.buy.body2=§7----------------------\n§fItem: §b%s\n§fQuantity: §e%s\n§fPrice: §a¥%s §7(Ex-tax: ¥%s)\n§fSeller: §d%s\n§7----------------------\n§fDesc: §7%s\n§fDetails: %s\n\n§fBalance: §a¥%s
+cw.playermarket.buy.success=§a[Purchase Complete] §fPurchased %s.
+cw.playermarket.buy.success.prefix=§a[Purchase Complete] §f
+cw.playermarket.buy.success.suffix= purchased.
+cw.playermarket.buy.success.item_only=%s
+cw.playermarket.buy.success.full=§a[Purchase Complete] §fPurchased %s.
+cw.playermarket.invfull=§c§lInventory Full!
+##jobs
+cw.jobsform.title=§6§lJobs
 cw.jobsform.working=§a§lEmployed
 cw.jobs.miner=Miner
 cw.jobs.hunter=Hunter
@@ -154,31 +341,39 @@ cw.jobs.netherdigger=Nether Digger
 cw.jobs.builder=Builder
 cw.jobs.leave=§eQuit job: "%s"
 cw.jobs.join=§aJoined job: "%s"!
-cw.jobs.limit=§cYou can only have up to %s jobs!
-cw.jobs.reward.actionbar.miner=§a Earned ¥ %s as a Miner! Balance: ¥ %s
-cw.jobs.reward.actionbar.hunter=§a Earned ¥ %s as a Hunter! Balance: ¥ %s
-cw.jobs.reward.actionbar.lumberjack=§a Earned ¥ %s as a Lumberjack! Balance: ¥ %s
-cw.jobs.reward.actionbar.farmer=§a Earned ¥ %s as a Farmer! Balance: ¥ %s
-cw.jobs.reward.actionbar.netherdigger=§a Earned ¥ %s as a Nether Digger! Balance: ¥ %s
-cw.jobs.reward.actionbar.builder=§a Earned ¥ %s as a Builder! Balance: ¥ %s
+cw.jobs.limit=§cMax %s jobs!
+cw.jobs.reward.actionbar.miner=§a Miner: Earned ¥ %s! Balance: ¥ %s
+cw.jobs.reward.actionbar.hunter=§a Hunter: Earned ¥ %s! Balance: ¥ %s
+cw.jobs.reward.actionbar.lumberjack=§a Lumberjack: Earned ¥ %s! Balance: ¥ %s
+cw.jobs.reward.actionbar.farmer=§a Farmer: Earned ¥ %s! Balance: ¥ %s
+cw.jobs.reward.actionbar.netherdigger=§a Nether Digger: Earned ¥ %s! Balance: ¥ %s
+cw.jobs.reward.actionbar.builder=§a Builder: Earned ¥ %s! Balance: ¥ %s
 
-//Money
+##money
 cw.watchmoney=§aBalance: ¥ %s
 
-//Chunk
+##chunk
 cw.chunk.buy.title=Buy Chunk
-cw.chunk.buy.body=Do you want to buy this chunk?\nCost: ¥%s\n(Current Balance: ¥%s)
-cw.chunk.buy.success=Purchased this chunk
-cw.chunk.buy.already=This chunk belongs to %s
-cw.chunk.check=This chunk is territory of %s
-cw.chunk.wasteland=This chunk is wasteland
-cw.chunk.sell.notfound=This chunk cannot be sold
-cw.chunk.sell.check=Do you want to sell this chunk?\nSelling it will add ¥%s to the treasury.
-cw.chunk.sell.success=Sold this chunk (¥%s => ¥%s)
+cw.chunk.buy.body=Buy this chunk? Cost: ¥%s (Treasury: ¥%s)
+cw.chunk.buy.success=Chunk purchased.
+cw.chunk.buy.already=This chunk belongs to %s.
+cw.chunk.buy.war=Cannot buy chunks during war.
+cw.chunk.buy.overworld=Chunks can only be bought in the Overworld.
+cw.chunk.check=This chunk belongs to %s.
+cw.chunk.wasteland=This chunk is wasteland.
+cw.chunk.admin=§c管理者領土 (Admin Territory)
+cw.chunk.sell.title=Sell Chunk
+cw.chunk.sell.notfound=This chunk cannot be sold.
+cw.chunk.sell.war=Cannot sell chunks during war.
+cw.chunk.sell.check=Sell this chunk? ¥%s will be added to the treasury.
+cw.chunk.sell.success=Chunk sold (¥%s => ¥%s).
 cw.chunk.actionbar.wasteland=Wasteland
-cw.chunk.buy.maxchunk=Reached max chunk limit (Max: %s chunks)
-
-// Home
+cw.chunk.buy.maxchunk=Max chunk limit reached (%s chunks).
+cw.chunk.break=§c§lTerritory of %s. Cannot break!§r
+cw.chunk.place=§c§lTerritory of %s. Cannot place!§r
+cw.chunk.interact=§c§lTerritory of %s. Cannot interact!§r
+cw.chunk.hurt=§c§lTerritory of %s. Cannot hurt!§r
+##home
 cw.home.menu.add=Add Home
 cw.home.menu.update=Overwrite/Update Location
 cw.home.menu.delete=Delete Home
@@ -198,7 +393,7 @@ cw.home.tp.nohome=No home set
 cw.home.set=Confirm Home Setting
 cw.home.set.edit="%s" already exists. Overwrite?
 cw.home.set.max=Reached max home limit (Max: %s homes)
-//Phone
+##phone
 cw.phone.check.money=Check Balance
 cw.phone.player.teleport=Teleport to Player
 cw.phone.message.system=Messaging System
@@ -207,7 +402,97 @@ cw.phone.select.job=Select Job
 cw.phone.went.lobby=<Teleported to Lobby>
 cw.phone.set.home=Manage Homes
 cw.phone.goto.home=Go to Home
-//Items
+cw.phone.help=Show Help
+cw.lchat.title=Local Chat
+cw.wchat.title=World Chat
+cw.cchat.title=Country Chat
+
+##pay
+cw.pay.noplayer=Player not found.
+cw.pay.minamount=Invalid amount
+cw.pay.selfpay=Cannot pay yourself.
+cw.pay.nomoney=Insufficient funds.
+cw.pay.me=Paid %s Yen to %s
+cw.pay.to=Received %s Yen from %s
+
+##bank
+cw.bankform.title=§6§lBank
+cw.bankform.tobank=Deposit to Bank
+cw.bankform.frombank=Withdraw from Bank
+cw.bankform.exchange=Exchange Currency
+
+##secondname
+cw.secondnameform.title=Titles
+cw.secondnameform.before=Prefix: %s
+cw.secondnameform.after=Suffix: %s
+cw.secondnameform.beforechanged=Updated prefix to "%s". Current: %s
+cw.secondnameform.afterchanged=Updated suffix to "%s". Current: %s
+
+##listcoutnry
+cw.countrylist.title=Country List
+cw.countrylist.nocountry=No countries to display
+
+##chat
+cw.chattype.changed=§aChat mode changed to "%s"
+cw.chattype.already=§cAlready in "%s" mode
+##menu
+cw.menu.title=Admin Tools
+cw.menu.movemoney=Economy Manage
+cw.menu.secondname=Title Manage
+cw.menu.adminchunk=Admin Chunk
+cw.menu.playerdatareset=§4Reset Player Data§r [Experimental]
+cw.menu.deletecountry=§4Delete Country§r [Experimental]
+cw.menu.movemoney.operation=Select operation
+cw.menu.movemoney.action.add=Add Money
+cw.menu.movemoney.action.remove=Remove Money
+cw.menu.movemoney.action.set=Set Money
+cw.menu.movemoney.player=Select Player
+cw.menu.movemoney.amount=Enter Amount
+cw.menu.movemoney.amount.example=Ex: 1000
+cw.menu.movemoney.error.invalidoperation=Invalid operation
+cw.menu.movemoney.error.invalidamount=Invalid amount
+cw.menu.movemoney.success.add=%s: Added ¥ %s. New balance: ¥ %s
+cw.menu.movemoney.success.remove=%s: Removed ¥ %s. New balance: ¥ %s
+cw.menu.movemoney.success.set=%s: Set balance to ¥ %s.
+cw.menu.secondname.addtitle=Add Title
+cw.menu.secondname.removetitle=Remove Title
+cw.menu.secondname.player=Select Player
+cw.menu.secondname.position=Select Position
+cw.menu.secondname.position.before=Prefix
+cw.menu.secondname.position.after=Suffix
+cw.menu.secondname.add.secondname=Enter Title
+cw.menu.secondname.add.secondname.example=Ex: Brave
+cw.menu.secondname.add.before.success=%s: Added Prefix "%s"
+cw.menu.secondname.add.after.success=%s: Added Suffix "%s"
+cw.menu.secondname.remove.before=Remove Prefix
+cw.menu.secondname.remove.after=Remove Suffix
+cw.menu.secondname.remove.tooltip=Select "-" to keep current titles
+cw.menu.secondname.remove.before.success=%s: Removed Prefix "%s"
+cw.menu.secondname.remove.after.success=%s: Removed Suffix "%s"
+cw.menu.secondname.remove.error=Cannot remove default titles
+cw.menu.playerdatareset.player=Select Player
+cw.menu.playerdatareset.reset=§4I agree to reset selected player data
+cw.menu.playerdatareset.tooltip=Data cleared [Money, Titles]. §4Note§r:
+cw.menu.playerdatareset.error=Data reset cancelled.
+cw.menu.playerdatareset.success=%s's data reset. §4Player must rejoin to complete.
+
+##shop
+cw.shop.title=Shop
+cw.shop.purchase_confirm=Confirm Purchase
+cw.shop.amount=Quantity
+cw.shop.stack_calculation=Stack Conversion (x64)
+cw.shop.not_enough_money=§cInsufficient funds. (Required: ¥%s, Balance: ¥%s)
+cw.shop.purchased=Purchased: 
+cw.shop.total_price= Total:
+cw.shop.building=Building Materials
+cw.shop.food=Food
+cw.shop.mob_drop=Mob Drops
+cw.shop.farm=Farming
+cw.shop.other1=Misc 1
+cw.shop.other2=Misc 2
+cw.shop.original=Addon Original
+
+##items
 item.cw:coin_1=1 Yen Coin
 item.cw:coin_10=10 Yen Coin
 item.cw:coin_50=50 Yen Coin
@@ -235,17 +520,156 @@ item.cw:shinai2=Bamboo Sword 2
 item.cw:shinai3=Bamboo Sword 3
 item.cw:shinai4=Bamboo Sword 4
 item.cw:shinai5=Bamboo Sword 5
+item.cw:dice=Dice
+item.cw:airboard_key=Airboard Tool
+item.cw:fabric_helmet=Fabric Helmet
+item.cw:fabric_chestplate=Fabric Chestplate
+item.cw:fabric_leg=Fabric Leggings
+item.cw:fabric_boots=Fabric Boots
+item.cw:cooked_zombie=Grilled Rotten Flesh
+item.cw:security_camera_item=Remote Control
+item.cw:end_raw=End Ores
+item.cw:end_ingot=Endlight Ingot
+item.cw:end_upgrade=End Upgrade
+item.cw:platinum_ingot=Platinum Ingot
+item.cw:nitricacid_bucket=Nitric Acid Bucket
+item.cw:sulfur=Sulfur
+item.cw:sulfuricacid_bucket=Sulfuric Acid Bucket
+item.cw:nitroglycerin_bucket=Nitroglycerin Bucket
+item.cw:sulfuric_iron=Sulfuric Iron
+item.cw:fertilizer=Fertilizer
+item.cw:platinum_helmet=Platinum Helmet
+item.cw:platinum_chestplate=Platinum Chestplate
+item.cw:platinum_leggings=Platinum Leggings
+item.cw:platinum_boots=Platinum Boots
+item.cw:dynamite=Dynamite
+item.cw:wrench=Wrench
+item.cw:iron_plate=Iron Plate
+item.cw:oil=Oil
+item.cw:sbr=Rubber
+item.cw:wheel=Wheel
+item.cw:caterpillar=Caterpillar Track
+item.cw:cannon=Cannon
+item.cw:tank_item=Tank
 
-cw.menu.adminchunk=Admin Chunk Settings
-cw.menu.adminchunk.set=Set as Admin Chunk
-cw.menu.adminchunk.remove=Remove Admin Chunk
-cw.menu.adminchunk.set.success=Chunk %s set as Admin territory.
-cw.menu.adminchunk.remove.success=Admin territory removed from Chunk %s.
+item.cw:tank_template=Tank Attachment
+item.cw:fast_tank_template=Tank Attachment (Speed)
+item.cw:fast_underwater_tank_template=Tank Attachment (Water Speed)
+item.cw:antiwater_tank_template=Tank Attachment (Waterproof Cannon)
+item.cw:more_fly_tank_template=Tank Attachment (Long Range)
+item.cw:shield_tank_template=Tank Attachment (Defense)
+item.cw:explosion_tank_template=Tank Attachment (Self-Destruct)
+item.cw:attack_tank_template=Tank Attachment (Attack Power)
 
-cw.menu.adminchunk.setting=Admin Chunk Detailed Settings
-cw.menu.adminchunk.setting.place=Allow Block Placement
-cw.menu.adminchunk.setting.break=Allow Block Breaking
-cw.menu.adminchunk.setting.interact=Allow Interactions
-cw.menu.adminchunk.setting.hurtEntity=Allow Attacking Entities
-cw.menu.adminchunk.setting.hurtPlayer=Allow Attacking Players
-cw.menu.adminchunk.setting.success=Updated settings for Chunk %s.
+tile.cw:security_camera.name=Security Camera
+tile.cw:light.name=Light
+tile.cw:end_ore.name=End Ore
+tile.cw:platinum_ore.name=Platinum Ore
+tile.cw:sulfur_ore.name=Sulfur Ore
+tile.cw:platinum_iron_alloy.name=Platinum-Iron Alloy
+tile.cw:timer_bomb.name=Timer Bomb
+tile.cw:redstone_connector.name=Redstone Connector
+tile.cw:redstone_antenna.name=Redstone Antenna
+cw:itemGroup.name.tank_template=Attachments
+cw.camera_registered=Registered camera coords: %s
+cw.camera_not_found=Saved camera not found.
+cw.camera_view_started=Switched to camera view.
+cw.camera_view_ended=Exited camera view.
+cw.no_camera_registered=No camera registered.
+
+cw.tank_config.title=Tank Attachment Settings
+cw.tank_config.dropdown=Select Tank Attachment
+cw.tank_config.noset=Not set
+
+cw.timer_bomb.title=Timer Bomb
+cw.timer_bomb.tooltip=Press Submit to start countdown
+cw.timer_bomb.time=Set Time
+cw.timer_bomb.warn=Please enter a time of 0 or more.
+cw.timer_bomb.check=Remaining time [ %s : %s : %s ]
+## help
+##body
+cw.help.title=Help Menu
+cw.help.howtoplay=How to Play
+##cw.help.rules=Rules
+cw.help.commands=Commands List
+##How to Play
+cw.help.howtoplay.whatisthisgame.title=About this Addon
+cw.help.howtoplay.whatisthisgame.body=This addon is a game where you collect money, found a country, buy or conquer territory, and expand your nation.
+cw.help.howtoplay.mainguide.title=How to Play
+cw.help.howtoplay.mainguide.body=1. Join a job with "/jobs" to earn money.\n 2. Found a country with "/mc".\n 3. Buy territory with "/buyc" to expand.\n 4. Declare war with "/war" to conquer other countries' lands.
+##Commands
+cw.help.commands.money.title=§lCheck Balance§r
+cw.help.commands.money.body=View your current funds.
+cw.help.commands.bank.title=§lBank§r
+cw.help.commands.bank.body=Deposit, withdraw, or exchange currency.
+cw.help.commands.sethome.title=§lSet Home§r
+cw.help.commands.sethome.body=Manage your home points.
+cw.help.commands.home.title=§lReturn Home§r
+cw.help.commands.home.body=Teleport to your set home point.
+cw.help.commands.jobs.title=§lJobs§r
+cw.help.commands.jobs.body=Earn money by performing specific actions related to your job.
+cw.help.commands.tpaccept.title=§lAccept Teleport§r
+cw.help.commands.tpaccept.body=Manage teleport requests from other players.\nShortcut: /tpa
+cw.help.commands.messagebox.title=§lMailbox§r
+cw.help.commands.messagebox.body=Check messages received while offline.\nShortcut: /mb
+cw.help.commands.countrylist.title=§lCountry List§r
+cw.help.commands.countrylist.body=View a list of all current countries.\nShortcut: /lc
+cw.help.commands.playermarket.title=§lPlayer Market§r
+cw.help.commands.playermarket.body=Open the marketplace to trade items with other players.\nShortcut: /pm
+cw.help.commands.makecountry.title=§lFound Country§r
+cw.help.commands.makecountry.body=Establish a new country.\nShortcut: /mc
+cw.help.commands.settingscountry.title=§lCountry Info/Settings§r
+cw.help.commands.settingscountry.body=Manage or view your country's settings.\nShortcut: /sc
+cw.help.commands.buychunk.title=§lBuy Land§r
+cw.help.commands.buychunk.body=Purchase the chunk you are standing on as territory.\nShortcut: /buyc
+cw.help.commands.sellchunk.title=§lSell Land§r
+cw.help.commands.sellchunk.body=Sell your owned chunk to the treasury.\nShortcut: /sellc
+cw.help.commands.checkchunk.title=§lCheck Territory§r
+cw.help.commands.checkchunk.body=View ownership and protection status of current location.\nShortcut: /cc
+cw.help.commands.war.title=§lWar§r
+cw.help.commands.war.body=Declare war or view war-related status.
+
+## Entities
+entity.cw:airboard.name=Airboard
+entity.cw:dice.name=Dice
+entity.cw:core.name=Core
+
+## Groups
+itemGroup.playerdolls=Player Dolls
+
+action.hint.exit.cw:airboard=Sneak to dismount airboard
+
+
+## Redstone
+cw.redstone.antenna.title=Antenna Settings
+cw.redstone.antenna.key=Enter Channel Key
+cw.redstone.connector.title=Connector Settings
+cw.redstone.connector.key=Enter Channel Key to Send
+
+## Admin Commands
+cw.admin.setmoney=§a[Admin] §fSet %s's balance to §e¥%s§f.
+cw.admin.addmoney=§a[Admin] §fAdded §e¥%s§f to %s's balance.
+cw.admin.resetjob=§a[Admin] §fReset job tags for %s.
+
+## Admin Call
+cw.admincall.title=Admin Contact
+cw.admincall.body=Send a message to server administrators.\nEnter your report or issue below.
+cw.admincall.field=Message
+cw.admincall.success=Message sent to admins. Please wait for a response.
+
+## Admin Commands (BAN)
+cw.admin.ban.success=Banned %s players. Reason: %s
+cw.admin.unban.success=Unbanned %s.
+cw.admin.banlist.empty=No currently banned players.
+cw.admin.banlist.header=§e--- BAN List ---§r
+cw.admin.banlist.entry=§b%s§r: %s (Until: %s)
+cw.admin.ban.kick_msg=Banned: %s
+cw.admin.ban.remaining=Time remaining: %s
+cw.admin.blacklist.kick_msg=You are blacklisted.
+cw.playermarket.item.durability=§cDurability: %s§r
+cw.playermarket.seller=Seller: %s
+cw.playermarket.enchants=§fEnchantments:
+cw.playermarket.lore=§fLore:
+cw.playermarket.tax_notice=§7* Consumption tax (%s%%) applied.
+cw.playermarket.discount=§4%s%% OFF
+cw.playermarket.price_up=§c%s%% UP
