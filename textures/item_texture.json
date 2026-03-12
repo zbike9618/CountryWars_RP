@@ -193,6 +193,9 @@
         },
         "tank_item": {
             "textures": "textures/items/tank"
+        },
+        "platinum_sword": {
+            "textures": "textures/items/platinum_sword"
         }
     }
 }
