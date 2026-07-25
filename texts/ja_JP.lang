@@ -554,6 +554,7 @@ item.cw:wheel=車輪
 item.cw:caterpillar=キャタピラ
 item.cw:cannon=砲台
 item.cw:tank_item=戦車
+item.cw:mob_bottle=モブボトル
 
 item.cw:tank_template=戦車アタッチメント
 item.cw:fast_tank_template=戦車アタッチメント(移動)
@@ -583,6 +584,7 @@ cw.no_camera_registered=カメラが登録されていません
 cw.tank_config.title=戦車アタッチメント設定
 cw.tank_config.dropdown=戦車アタッチメントを選んでください
 cw.tank_config.noset=未設定
+cw.tank_config.dismantle=戦車解体
 
 cw.timer_bomb.title=時限爆弾
 cw.timer_bomb.tooltip=送信を押すとカウントダウンを開始します

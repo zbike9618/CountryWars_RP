@@ -580,6 +580,7 @@ cw.no_camera_registered=No camera registered.
 cw.tank_config.title=Tank Attachment Settings
 cw.tank_config.dropdown=Select Tank Attachment
 cw.tank_config.noset=Not set
+cw.tank_config.dismantle=Dismantle Tank
 
 cw.timer_bomb.title=Timer Bomb
 cw.timer_bomb.tooltip=Press Submit to start countdown
