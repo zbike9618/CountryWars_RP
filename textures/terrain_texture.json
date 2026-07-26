@@ -50,7 +50,19 @@
     },
     "redstone_antenna": {
       "textures": "textures/blocks/redstone_antenna"
-    }
-  },
-  "texture_name": "atlas.terrain"
+    },
+    "potion_crafter_top": {
+      "textures": "textures/blocks/potion_crafter_top"
+    },
+    "potion_crafter_bottom": {
+      "textures": "textures/blocks/planks_oak"
+    },
+    "potion_crafter_side": {
+      "textures": "textures/blocks/potion_crafter_side"
+    },
+    "potion_crafter_front": {
+      "textures": "textures/blocks/potion_crafter_front"
+    },
+    "texture_name": "atlas.terrain"
+  }
 }
