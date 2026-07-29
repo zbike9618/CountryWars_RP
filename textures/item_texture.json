@@ -196,6 +196,9 @@
         },
         "platinum_sword": {
             "textures": "textures/items/platinum_sword"
+        },
+        "zcoin": {
+            "textures": "textures/items/zcoin"
         }
     }
 }
