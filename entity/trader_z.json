@@ -10,7 +10,7 @@
         "default": "textures/players/z"
       },
       "geometry": {
-        "default": "geometry.player"
+        "default": "geometry.player.armor.base"
       },
       "render_controllers": [
         "controller.render.default"
