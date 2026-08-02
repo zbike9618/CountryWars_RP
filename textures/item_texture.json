@@ -199,6 +199,9 @@
         },
         "zcoin": {
             "textures": "textures/items/zcoin"
+        },
+        "money_up": {
+            "textures": "textures/items/money_up"
         }
     }
 }

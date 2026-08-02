@@ -556,6 +556,7 @@ item.cw:caterpillar=キャタピラ
 item.cw:cannon=砲台
 item.cw:tank_item=戦車
 item.cw:mob_bottle=モブボトル
+item.cw:money_up=MoneyUp
 
 item.cw:tank_template=戦車アタッチメント
 item.cw:fast_tank_template=戦車アタッチメント(移動)
