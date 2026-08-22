@@ -82,6 +82,7 @@ cw.scform.tax.country=国民税[％]
 cw.tax.timenear=§a[CountryWars] §r土地の維持費の回収まで残り%sです\n国庫に維持費の分のお金がないと国は解体されます
 cw.tax.levy=国民税として¥%sを徴収しました
 cw.tax.maintenance.fail=§a[CountryWars] §r%s の土地の維持費の回収に失敗し、解体しました\n国庫に維持費の分のお金がありません
+cw.tax.maintenance.next_fail=§a[CountryWars] §r%s は次回の維持費回収で国が解体されます
 cw.tax.maintenance.success=§a[CountryWars] §r%s の土地の維持費の回収として国庫から¥%s徴収しました
 cw.scform.delete=国を解体する
 cw.scform.delete.check=本当に%sを解体しますか？
