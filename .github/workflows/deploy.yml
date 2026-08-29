@@ -40,8 +40,9 @@ jobs:
             --directory="$GITHUB_WORKSPACE" \
             --exclude-vcs \
             --exclude='./.github' \
-            --exclude='./CountryWars_RP.tar.gz' \
             .
+
+          cp "$RUNNER_TEMP/CountryWars_RP.tar.gz" CountryWars_RP.tar.gz
 
       - name: Upload resource pack to VM100
         uses: appleboy/scp-action@v0.1.7
@@ -50,7 +51,7 @@ jobs:
           username: root
           key: ${{ secrets.PROD_SSH_KEY }}
           port: 22
-          source: "${{ runner.temp }}/CountryWars_RP.tar.gz"
+          source: CountryWars_RP.tar.gz
           target: /tmp/
           overwrite: true
 
