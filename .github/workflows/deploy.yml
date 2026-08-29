@@ -64,7 +64,6 @@ jobs:
           key: ${{ secrets.PROD_SSH_KEY }}
           port: 22
           envs: RELEASE_ID
-          script_stop: true
           command_timeout: 15m
           script: |
             set -Eeuo pipefail
