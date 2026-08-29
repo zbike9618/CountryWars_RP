@@ -36,7 +36,7 @@ jobs:
           tar \
             --create \
             --gzip \
-            --file=CountryWars_RP.tar.gz \
+            --file="$RUNNER_TEMP/CountryWars_RP.tar.gz" \
             --directory="$GITHUB_WORKSPACE" \
             --exclude-vcs \
             --exclude='./.github' \
@@ -50,7 +50,7 @@ jobs:
           username: root
           key: ${{ secrets.PROD_SSH_KEY }}
           port: 22
-          source: CountryWars_RP.tar.gz
+          source: "${{ runner.temp }}/CountryWars_RP.tar.gz"
           target: /tmp/
           overwrite: true
 
