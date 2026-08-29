@@ -1,0 +1,165 @@
+name: Deploy CountryWars RP to Production
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: countrywars-rp-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Connect to the production network
+        uses: tailscale/github-action@v2
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+          args: --accept-routes
+
+      - name: Package resource pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f manifest.json
+          test -f texts/ja_JP.lang
+          tar \
+            --create \
+            --gzip \
+            --file=CountryWars_RP.tar.gz \
+            --directory="$GITHUB_WORKSPACE" \
+            --exclude-vcs \
+            --exclude='./.github' \
+            --exclude='./CountryWars_RP.tar.gz' \
+            .
+
+      - name: Upload resource pack to VM100
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.PROD_SERVER_IP }}
+          username: root
+          key: ${{ secrets.PROD_SSH_KEY }}
+          port: 22
+          source: CountryWars_RP.tar.gz
+          target: /tmp/
+          overwrite: true
+
+      - name: Install RP and update discord_chat language only
+        uses: appleboy/ssh-action@v1.0.3
+        env:
+          RELEASE_ID: ${{ github.sha }}
+        with:
+          host: ${{ secrets.PROD_SERVER_IP }}
+          username: root
+          key: ${{ secrets.PROD_SSH_KEY }}
+          port: 22
+          envs: RELEASE_ID
+          script_stop: true
+          command_timeout: 15m
+          script: |
+            set -Eeuo pipefail
+
+            case "$RELEASE_ID" in
+              ''|*[!0-9a-f]*)
+                echo "Invalid release id: $RELEASE_ID" >&2
+                exit 1
+                ;;
+            esac
+
+            readonly DEPLOY_ID="${RELEASE_ID}-$(date +%Y%m%d%H%M%S)"
+            readonly UPLOAD_ARCHIVE="/tmp/CountryWars_RP.tar.gz"
+            readonly DEPLOY_ROOT="/home/minecraft/.deploy/countrywars-rp"
+            readonly STAGE_DIR="$DEPLOY_ROOT/stage-$DEPLOY_ID"
+            readonly BACKUP_DIR="$DEPLOY_ROOT/backups/$DEPLOY_ID"
+            readonly RP_PARENT="/home/minecraft/S3/server/worlds/Bedrock level/resource_packs"
+            readonly RP_DIR="$RP_PARENT/CountryWars_RP"
+            readonly ARCHIVE_DIR="/home/minecraft/S3/server/minecraftpe"
+            readonly WORLD_PACKS_FILE="/home/minecraft/S3/server/worlds/Bedrock level/world_resource_packs.json"
+            readonly DISCORD_LANG="/home/minecraft/S3/discord_chat/ja_JP.lang"
+            readonly EXPECTED_PACK_UUID="d23a70f8-df54-4aa5-9b7e-166e5d17e6d2"
+
+            test -d "$RP_PARENT"
+            test -d "$ARCHIVE_DIR"
+            test -f "$WORLD_PACKS_FILE"
+            test -f "$DISCORD_LANG"
+            jq empty "$WORLD_PACKS_FILE"
+            test "$(jq -er --arg id "$EXPECTED_PACK_UUID" '[.[] | select(.pack_id == $id)] | length' "$WORLD_PACKS_FILE")" = "1"
+
+            mkdir -p "$DEPLOY_ROOT" "$BACKUP_DIR"
+            rm -rf "$STAGE_DIR"
+            mkdir -p "$STAGE_DIR"
+
+            test -s "$UPLOAD_ARCHIVE"
+            tar \
+              --extract \
+              --gzip \
+              --file="$UPLOAD_ARCHIVE" \
+              --directory="$STAGE_DIR" \
+              --no-same-owner \
+              --no-same-permissions
+
+            test -f "$STAGE_DIR/manifest.json"
+            test -f "$STAGE_DIR/texts/ja_JP.lang"
+            jq empty "$STAGE_DIR/manifest.json"
+
+            PACK_UUID="$(jq -er '.header.uuid' "$STAGE_DIR/manifest.json")"
+            PACK_VERSION_JSON="$(jq -ec '
+              .header.version
+              | if type == "array" and length == 3 and all(.[]; type == "number" and floor == .)
+                then .
+                else error("header.version must contain three integers")
+                end
+            ' "$STAGE_DIR/manifest.json")"
+            PACK_VERSION="$(jq -er -r '.header.version | join(".")' "$STAGE_DIR/manifest.json")"
+
+            test "$PACK_UUID" = "$EXPECTED_PACK_UUID"
+            readonly PACK_ARCHIVE_NAME="${PACK_UUID}_${PACK_VERSION}.zip"
+            readonly STAGED_PACK_ARCHIVE="$DEPLOY_ROOT/${PACK_ARCHIVE_NAME}.${DEPLOY_ID}.tmp"
+            readonly PACK_ARCHIVE="$ARCHIVE_DIR/$PACK_ARCHIVE_NAME"
+
+            rm -f "$STAGED_PACK_ARCHIVE"
+            (
+              cd "$STAGE_DIR"
+              zip -qr "$STAGED_PACK_ARCHIVE" . -x '.git/*'
+            )
+            unzip -t "$STAGED_PACK_ARCHIVE" >/dev/null
+
+            if [ -e "$RP_DIR" ]; then
+              mv "$RP_DIR" "$BACKUP_DIR/CountryWars_RP"
+            fi
+            mv "$STAGE_DIR" "$RP_DIR"
+
+            if [ -e "$PACK_ARCHIVE" ]; then
+              cp -a "$PACK_ARCHIVE" "$BACKUP_DIR/$PACK_ARCHIVE_NAME"
+            fi
+            install -m 0644 "$STAGED_PACK_ARCHIVE" "$PACK_ARCHIVE.tmp.$DEPLOY_ID"
+            mv "$PACK_ARCHIVE.tmp.$DEPLOY_ID" "$PACK_ARCHIVE"
+
+            CURRENT_VERSION="$(jq -ec --arg id "$PACK_UUID" 'first(.[] | select(.pack_id == $id) | .version)' "$WORLD_PACKS_FILE")"
+            if [ "$CURRENT_VERSION" != "$PACK_VERSION_JSON" ]; then
+              cp -a "$WORLD_PACKS_FILE" "$BACKUP_DIR/world_resource_packs.json"
+              jq \
+                --arg id "$PACK_UUID" \
+                --argjson version "$PACK_VERSION_JSON" \
+                'map(if .pack_id == $id then .version = $version else . end)' \
+                "$WORLD_PACKS_FILE" > "$WORLD_PACKS_FILE.tmp.$DEPLOY_ID"
+              mv "$WORLD_PACKS_FILE.tmp.$DEPLOY_ID" "$WORLD_PACKS_FILE"
+            fi
+
+            cp -a "$DISCORD_LANG" "$BACKUP_DIR/discord_chat.ja_JP.lang"
+            install -m 0644 "$RP_DIR/texts/ja_JP.lang" "$DISCORD_LANG.tmp.$DEPLOY_ID"
+            mv "$DISCORD_LANG.tmp.$DEPLOY_ID" "$DISCORD_LANG"
+
+            rm -f "$UPLOAD_ARCHIVE" "$STAGED_PACK_ARCHIVE"
+            echo "Deployed $PACK_ARCHIVE_NAME from $RELEASE_ID"
+            sha256sum "$RP_DIR/texts/ja_JP.lang" "$DISCORD_LANG"
