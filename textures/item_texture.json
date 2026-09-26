@@ -202,6 +202,15 @@
         },
         "money_up": {
             "textures": "textures/items/money_up"
+        },
+        "metal_detector": {
+            "textures": "textures/items/metal_detector"
+        },
+        "peace_switcher": {
+            "textures": "textures/items/peace_switcher"
+        },
+        "mana_rose": {
+            "textures": "textures/items/mana_rose"
         }
     }
 }

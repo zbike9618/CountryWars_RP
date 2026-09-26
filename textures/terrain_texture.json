@@ -1,7 +1,8 @@
 {
   "num_mip_levels": 4,
   "padding": 8,
-  "resource_pack_name": "player_trophy",
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
   "texture_data": {
     "zsan": {
       "textures": "textures/blocks/doll/zsan"
@@ -55,7 +56,7 @@
       "textures": "textures/blocks/potion_crafter_top"
     },
     "potion_crafter_bottom": {
-      "textures": "textures/blocks/planks_oak"
+      "textures": "textures/blocks/potion_crafter_top"
     },
     "potion_crafter_side": {
       "textures": "textures/blocks/potion_crafter_side"
@@ -63,6 +64,11 @@
     "potion_crafter_front": {
       "textures": "textures/blocks/potion_crafter_front"
     },
-    "texture_name": "atlas.terrain"
+    "potion_crafter": {
+      "textures": "textures/blocks/potion_crafter_side"
+    },
+    "mana_rose": {
+      "textures": "textures/blocks/mana_rose"
+    }
   }
 }

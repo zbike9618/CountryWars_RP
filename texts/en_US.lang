@@ -570,6 +570,9 @@ tile.cw:platinum_iron_alloy.name=Platinum-Iron Alloy
 tile.cw:timer_bomb.name=Timer Bomb
 tile.cw:redstone_connector.name=Redstone Connector
 tile.cw:redstone_antenna.name=Redstone Antenna
+tile.cw:potion_crafter.name=Potion Crafter
+tile.cw:mana_rose.name=Mana Rose
+item.cw:mana_rose.name=Mana Rose
 cw:itemGroup.name.tank_template=Attachments
 cw.camera_registered=Registered camera coords: %s
 cw.camera_not_found=Saved camera not found.
@@ -674,3 +677,6 @@ cw.playermarket.lore=§fLore:
 cw.playermarket.tax_notice=§7* Consumption tax (%s%%) applied.
 cw.playermarket.discount=§4%s%% OFF
 cw.playermarket.price_up=§c%s%% UP
+
+item.cw:peace_switcher.name=Peace Pacifism Switcher
+item.cw:metal_detector.name=Metal Detector

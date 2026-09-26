@@ -577,6 +577,9 @@ tile.cw:platinum_iron_alloy.name=白金鉄合金
 tile.cw:timer_bomb.name=時限爆弾
 tile.cw:redstone_connector.name=レッドストーンコネクター
 tile.cw:redstone_antenna.name=レッドストーンアンテナ
+tile.cw:potion_crafter.name=ポーション錬成調合台
+tile.cw:mana_rose.name=マナローズ
+item.cw:mana_rose.name=マナローズ
 cw:itemGroup.name.tank_template=アタッチメント
 cw.camera_registered=カメラ座標を登録しました: %s
 cw.camera_not_found=保存されていたカメラが見つかりません
@@ -678,3 +681,6 @@ cw.playermarket.lore=§fアイテムのロア:
 cw.playermarket.tax_notice=§7※あなたの国の消費税(%s%%)が適用されています。
 cw.playermarket.discount=§4%s％OFF
 cw.playermarket.price_up=§c%s％UP
+
+item.cw:peace_switcher.name=平和主義切り替えスイッチ
+item.cw:metal_detector.name=金属探知機
