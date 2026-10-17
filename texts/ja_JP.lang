@@ -646,6 +646,7 @@ entity.cw:dice.name=サイコロ
 entity.cw:core.name=コア
 
 ##グループ
+cw:itemGroup.name.playerdolls=プレイヤー像
 itemGroup.playerdolls=プレイヤー像
 
 action.hint.exit.cw:airboard=スニークでエアボードから降りる

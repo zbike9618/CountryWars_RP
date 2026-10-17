@@ -639,6 +639,7 @@ entity.cw:dice.name=Dice
 entity.cw:core.name=Core
 
 ## Groups
+cw:itemGroup.name.playerdolls=Player Dolls
 itemGroup.playerdolls=Player Dolls
 
 action.hint.exit.cw:airboard=Sneak to dismount airboard
