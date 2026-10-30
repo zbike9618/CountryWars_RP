@@ -572,6 +572,7 @@ tile.cw:redstone_connector.name=Redstone Connector
 tile.cw:redstone_antenna.name=Redstone Antenna
 tile.cw:potion_crafter.name=Potion Crafter
 tile.cw:mana_rose.name=Mana Rose
+tile.cw:pumpkin_doll.name=Pumpkin Doll
 item.cw:mana_rose.name=Mana Rose
 cw:itemGroup.name.tank_template=Attachments
 cw.camera_registered=Registered camera coords: %s

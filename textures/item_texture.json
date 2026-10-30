@@ -211,6 +211,21 @@
         },
         "mana_rose": {
             "textures": "textures/items/mana_rose"
+        },
+        "candy_sword": {
+            "textures": "textures/items/candy_sword"
+        },
+        "ghost_pickaxe": {
+            "textures": "textures/items/ghost_pickaxe"
+        },
+        "phantom_boots": {
+            "textures": "textures/items/phantom_boots"
+        },
+        "halloween_candy": {
+            "textures": "textures/items/halloween_candy"
+        },
+        "black_scythe": {
+            "textures": "textures/items/black_scythe"
         }
     }
 }

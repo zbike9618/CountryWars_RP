@@ -425,11 +425,16 @@ cw.bankform.frombank=銀行から引き落とす
 cw.bankform.exchange=両替
 
 ##secondname
-cw.secondnameform.title=二つ名
+cw.secondnameform.title=ユーザーメニュー
 cw.secondnameform.before=二つ名[前] %s
 cw.secondnameform.after=二つ名[後] %s
 cw.secondnameform.beforechanged=二つ名[前]を「 %s 」に変更しました\n現在： %s
 cw.secondnameform.afterchanged=二つ名[後]を「 %s 」に変更しました\n現在： %s
+cw.usermenu.title=ユーザーメニュー
+cw.usermenu.settings=設定
+cw.usermenu.settings.combat=Combat表示 (アクションバー)
+cw.usermenu.settings.saved=§a設定を保存しました§r
+
 
 ##listcoutnry
 cw.countrylist.title=国家一覧
@@ -558,6 +563,12 @@ item.cw:cannon=砲台
 item.cw:tank_item=戦車
 item.cw:mob_bottle=モブボトル
 item.cw:money_up=MoneyUp
+item.cw:candy_sword=キャンディソード
+item.cw:ghost_pickaxe=ゴーストツルハシ
+item.cw:phantom_boots=ファントムブーツ
+item.cw:black_scythe=黒い鎌
+item.cw:shogo_ticket=称号チケット
+item.cw:halloween_candy=ハロウィンキャンディ
 
 item.cw:tank_template=戦車アタッチメント
 item.cw:fast_tank_template=戦車アタッチメント(移動)
@@ -579,6 +590,7 @@ tile.cw:redstone_connector.name=レッドストーンコネクター
 tile.cw:redstone_antenna.name=レッドストーンアンテナ
 tile.cw:potion_crafter.name=ポーション錬成調合台
 tile.cw:mana_rose.name=マナローズ
+tile.cw:pumpkin_doll.name=パンプキンドール
 item.cw:mana_rose.name=マナローズ
 cw:itemGroup.name.tank_template=アタッチメント
 cw.camera_registered=カメラ座標を登録しました: %s

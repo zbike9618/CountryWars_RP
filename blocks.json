@@ -33,5 +33,8 @@
     },
     "cw:mana_rose": {
         "sound": "grass"
+    },
+    "cw:pumpkin_doll": {
+        "sound": "wood"
     }
 }
