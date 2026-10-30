@@ -226,6 +226,9 @@
         },
         "black_scythe": {
             "textures": "textures/items/black_scythe"
+        },
+        "candy": {
+            "textures": "textures/items/candy"
         }
     }
 }
