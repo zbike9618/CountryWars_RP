@@ -18,32 +18,20 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      # OAuth client が登録されていれば、そちらを使う（auth key と違って期限切れにならない）
-      HAS_TS_OAUTH: ${{ secrets.TS_OAUTH_CLIENT_ID != '' && secrets.TS_OAUTH_SECRET != '' }}
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
       # OAuth client（Auth Keys: Write, tag:ci）で毎回使い捨ての鍵を作る。BP の deploy.yml と同じ。
+      # auth key と違って期限切れにならない（以前の TAILSCALE_AUTHKEY は 2026-08-29 作成で、最長90日で切れる）
       # 192.168.11.0/24 へは CT107 の subnet router 経由で届く（v4 は --accept-routes を自分で付けるので args には書かない）
       - name: Connect to the production network
-        if: env.HAS_TS_OAUTH == 'true'
         uses: tailscale/github-action@v4
         with:
           oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:ci
-
-      # TS_OAUTH_CLIENT_ID / TS_OAUTH_SECRET が無いときだけ、前の auth key を使う。
-      # auth key は作ってから最長90日で切れる（2026-08-29 作成）。OAuth を登録したら、このステップと TAILSCALE_AUTHKEY は消す
-      - name: Connect to the production network (auth key)
-        if: env.HAS_TS_OAUTH != 'true'
-        uses: tailscale/github-action@v2
-        with:
-          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
-          args: --accept-routes
 
       # Tailscale が up になっても、すぐには宅内に届かないことがある。SSH のポートに届くまで最大3分待つ
       - name: Wait until the server is reachable
