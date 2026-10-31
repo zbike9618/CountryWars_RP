@@ -23,7 +23,7 @@
 # 中身が同じなら何も入れ替えない（版も上げない）。比べるときは manifest.json の header.version を除く。
 #
 # 環境変数（どれも省略できる）:
-#   ARCHIVE       stage: Actions が送ってきた tar.gz（既定 /tmp/CountryWars_RP.tar.gz）
+#   ARCHIVE       stage: Actions が送ってきた tar.gz（既定 $DEPLOY_ROOT/upload/CountryWars_RP.tar.gz）
 #   RELEASE_ID    stage: コミットの sha（控えのフォルダ名と deploy.log に使う）
 #   SERVER_DIR    BDS のフォルダ（既定 /home/minecraft/S3/server。staging の VM117 は /home/minecraft/server）
 #   DISCORD_LANG  stage: texts/ja_JP.lang のコピー先（Discord bot 用。既定は本番の discord_chat。空にするとコピーしない）
@@ -40,11 +40,11 @@ case "$MODE" in
     ;;
 esac
 
-ARCHIVE="${ARCHIVE:-/tmp/CountryWars_RP.tar.gz}"
 RELEASE_ID="${RELEASE_ID:-manual}"
 SERVER_DIR="${SERVER_DIR:-/home/minecraft/S3/server}"
 DISCORD_LANG="${DISCORD_LANG-/home/minecraft/S3/discord_chat/ja_JP.lang}"
 DEPLOY_ROOT="${DEPLOY_ROOT:-/home/minecraft/.deploy/countrywars-rp}"
+ARCHIVE="${ARCHIVE:-$DEPLOY_ROOT/upload/CountryWars_RP.tar.gz}"
 DRY_RUN="${DRY_RUN:-0}"
 BDS_PROCESS="${BDS_PROCESS:-bedrock_server}"
 readonly EXPECTED_PACK_UUID="d23a70f8-df54-4aa5-9b7e-166e5d17e6d2"
