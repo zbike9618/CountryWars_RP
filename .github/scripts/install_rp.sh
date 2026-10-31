@@ -155,9 +155,11 @@ decide_version() {
   MAX_KNOWN="$(printf '%s\n' "${known[@]}" | jq -sc 'map(select(. != null)) | max')"
 
   # 中身が変わったか（manifest.json は header.version を除いて比べる）
+  # diff の出力は英語で受け取る。本番は LANG=ja_JP.UTF-8 で、日本語の出力だと下の grep で manifest の行を外せず、
+  # 版だけ違うときも「変わった」になっていた（2026-10-31）
   CHANGED=1
   if [ "$DEPLOYED_VERSION" != null ]; then
-    other_diffs="$(diff -rq "$src" "$RP_DIR" \
+    other_diffs="$(LC_ALL=C diff -rq "$src" "$RP_DIR" \
       | grep -vxF "Files $src/manifest.json and $RP_DIR/manifest.json differ" || true)"
     if [ -z "$other_diffs" ] \
       && cmp -s <(jq -S 'del(.header.version)' "$src/manifest.json") \
