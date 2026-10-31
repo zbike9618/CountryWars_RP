@@ -1,6 +1,7 @@
 name: Deploy CountryWars RP to Production
 
-# main に push すると本番（VM100）に入る。プレイヤーに届くのは次のサーバーの再起動（4時・12時・18時）から。
+# main に push すると、本番（VM100）の「待ち」に置かれる。配っている RP は、次のサーバーの起動（4時・12時・18時の
+# 再起動など）の直前に、本番の sh/run.sh が入れ替える。動いている間に入れ替えると人によって届いたり届かなかったりするため。
 # 中身が変わっていれば、manifest.json の版は .github/scripts/install_rp.sh が自動で上げる（手で上げなくてよい）
 on:
   push:
@@ -79,8 +80,8 @@ jobs:
           target: /tmp/
           overwrite: true
 
-      # 版の決め方と入れ方は .github/scripts/install_rp.sh の先頭に書いてある
-      - name: Install RP and update discord_chat language
+      # 待ちへの置き方・版の決め方・入れ替え方は .github/scripts/install_rp.sh の先頭に書いてある
+      - name: Stage RP for the next server start and update discord_chat language
         uses: appleboy/ssh-action@v1.0.3
         env:
           RELEASE_ID: ${{ github.sha }}
@@ -92,4 +93,4 @@ jobs:
           envs: RELEASE_ID
           command_timeout: 15m
           script: |
-            RELEASE_ID="$RELEASE_ID" ARCHIVE=/tmp/CountryWars_RP.tar.gz bash /tmp/countrywars_rp_install.sh
+            RELEASE_ID="$RELEASE_ID" ARCHIVE=/tmp/CountryWars_RP.tar.gz bash /tmp/countrywars_rp_install.sh stage
