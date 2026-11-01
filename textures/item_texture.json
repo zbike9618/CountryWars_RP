@@ -229,6 +229,12 @@
         },
         "candy": {
             "textures": "textures/items/candy"
+        },
+        "blood_axe": {
+            "textures": "textures/items/blood_axe"
+        },
+        "cursed_sword": {
+            "textures": "textures/items/cursed_sword"
         }
     }
 }

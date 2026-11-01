@@ -427,6 +427,10 @@ cw.secondnameform.before=Prefix: %s
 cw.secondnameform.after=Suffix: %s
 cw.secondnameform.beforechanged=Updated prefix to "%s". Current: %s
 cw.secondnameform.afterchanged=Updated suffix to "%s". Current: %s
+cw.usermenu.title=User Menu
+cw.usermenu.settings=Settings
+cw.usermenu.settings.combat=Combat Display (Action Bar)
+cw.usermenu.settings.saved=§aSettings saved§r
 
 ##listcoutnry
 cw.countrylist.title=Country List
@@ -551,6 +555,10 @@ item.cw:wheel=Wheel
 item.cw:caterpillar=Caterpillar Track
 item.cw:cannon=Cannon
 item.cw:tank_item=Tank
+item.cw:candy=Candy
+item.cw:halloween_candy=Halloween Candy
+item.cw:blood_axe=Blood Axe
+item.cw:cursed_sword=Cursed Sword
 
 item.cw:tank_template=Tank Attachment
 item.cw:fast_tank_template=Tank Attachment (Speed)
@@ -684,3 +692,5 @@ item.cw:peace_switcher.name=Peace Pacifism Switcher
 item.cw:metal_detector.name=Metal Detector
 item.cw:candy.name=Candy
 item.cw:halloween_candy.name=Halloween Candy
+item.cw:blood_axe.name=Blood Axe
+item.cw:cursed_sword.name=Cursed Sword

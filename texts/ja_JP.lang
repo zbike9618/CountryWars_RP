@@ -570,6 +570,8 @@ item.cw:black_scythe=黒い鎌
 item.cw:shogo_ticket=称号チケット
 item.cw:halloween_candy=ハロウィンキャンディ
 item.cw:candy=キャンディ
+item.cw:blood_axe=ブラッドアックス
+item.cw:cursed_sword=呪われた剣
 
 item.cw:tank_template=戦車アタッチメント
 item.cw:fast_tank_template=戦車アタッチメント(移動)
@@ -700,3 +702,5 @@ item.cw:peace_switcher.name=平和主義切り替えスイッチ
 item.cw:metal_detector.name=金属探知機
 item.cw:candy.name=キャンディ
 item.cw:halloween_candy.name=ハロウィンキャンディ
+item.cw:blood_axe.name=ブラッドアックス
+item.cw:cursed_sword.name=呪われた剣
